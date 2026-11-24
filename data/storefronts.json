@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Optional extra public open storefronts (Shopify / WooCommerce / Magento 2 read-only endpoints) scanned alongside built-in sources.",
+  "stores": []
+}

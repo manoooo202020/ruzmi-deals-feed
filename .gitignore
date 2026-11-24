@@ -1,0 +1,8 @@
+# Generated static Pages output (rebuilt fresh on every workflow run)
+public/
+
+# OS and local artifacts
+.DS_Store
+Thumbs.db
+*.log
+node_modules/

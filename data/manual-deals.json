@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "description": "Manual curated hot deals (hypermarkets, restaurants, flash offers) merged automatically with zero app updates. Add objects inside the deals array.",
+  "supportedRegions": [
+    "EG",
+    "SA",
+    "AE",
+    "KW",
+    "QA",
+    "JO",
+    "MA",
+    "US",
+    "GB",
+    "DE",
+    "FR",
+    "ES",
+    "IT",
+    "TR",
+    "IN",
+    "BR",
+    "JP",
+    "RU",
+    "GLOBAL"
+  ],
+  "supportedCategories": [
+    "grocery",
+    "dining",
+    "electronics",
+    "fashion",
+    "home",
+    "beauty",
+    "digital",
+    "other"
+  ],
+  "deals": []
+}

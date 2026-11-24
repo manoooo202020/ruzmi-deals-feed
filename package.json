@@ -1,0 +1,13 @@
+{
+  "name": "ruzmi-deals-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-cost static hot deals aggregator for RUZMI powered by GitHub Actions and GitHub Pages",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "collect": "node scripts/collect-deals.mjs"
+  }
+}
