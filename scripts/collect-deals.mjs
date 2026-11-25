@@ -143,9 +143,18 @@ const COMMUNITY_RSS_FEEDS = [
   },
 ];
 
-const CHEAPSHARK_DEALS_URL =
-  'https://www.cheapshark.com/api/1.0/deals?pageSize=60&onSale=1&lowerPrice=1&sortBy=Deal%20Rating';
+const CHEAPSHARK_DEALS_URLS = [
+  'https://www.cheapshark.com/api/1.0/deals?pageSize=60&onSale=1&lowerPrice=1.5&sortBy=Savings',
+  'https://www.cheapshark.com/api/1.0/deals?pageSize=60&onSale=1&lowerPrice=1&sortBy=Deal%20Rating',
+];
 const CHEAPSHARK_STORES_URL = 'https://www.cheapshark.com/api/1.0/stores';
+
+export function computeDealTier(discountPercent) {
+  if (typeof discountPercent !== 'number' || !Number.isFinite(discountPercent)) return 'regular';
+  if (discountPercent >= 70) return 'mega';
+  if (discountPercent >= 50) return 'hot';
+  return 'regular';
+}
 
 // ---------------- URL, Text & Policy Hygiene ----------------
 
@@ -520,7 +529,7 @@ export function parseRssFeedXml(xml, spec, now) {
   const blocks = [];
   const itemRe = /<(item|entry)\b[^>]*>([\s\S]*?)<\/\1>/gi;
   let match;
-  while ((match = itemRe.exec(xml)) !== null && blocks.length < 32) {
+  while ((match = itemRe.exec(xml)) !== null && blocks.length < 48) {
     blocks.push(match[2]);
   }
   const deals = [];
@@ -580,9 +589,11 @@ export function parseRssFeedXml(xml, spec, now) {
         ? extractPriceAndDiscountFromTitle(desc, spec.defaultCurrency)
         : {};
     const discountPercent = extracted.discountPercent ?? descExtracted.discountPercent;
-    const price = merchantExtracted.price ?? extracted.price;
-    const originalPrice = extracted.originalPrice;
-    const currency = merchantExtracted.currency ?? extracted.currency;
+    const price = merchantExtracted.price ?? extracted.price ?? descExtracted.price;
+    const originalPrice = extracted.originalPrice ?? descExtracted.originalPrice;
+    const currency = merchantExtracted.currency ?? extracted.currency ?? descExtracted.currency;
+    const mathCheck = price !== undefined && originalPrice !== undefined ? computeMathDiscount(price, originalPrice) : {verified: false};
+    const finalPct = mathCheck.percent ?? discountPercent;
     const couponCode = extractPublicCoupon(`${title} ${desc}`);
     const category = detectCategory(`${rssCategoryText} ${title} ${storeName}`, 'other');
 
@@ -593,8 +604,8 @@ export function parseRssFeedXml(xml, spec, now) {
       price,
       originalPrice,
       currency,
-      discountPercent,
-      verifiedDiscount: false,
+      discountPercent: finalPct,
+      verifiedDiscount: Boolean(mathCheck.verified),
       category,
       region: spec.region,
       source: 'community_rss',
@@ -622,9 +633,9 @@ async function collectStorefrontDeals(store, now) {
 
   let endpoint = '';
   if (store.platform === 'shopify') {
-    endpoint = new URL('/products.json?limit=40', origin).href;
+    endpoint = new URL('/products.json?limit=80', origin).href;
   } else if (store.platform === 'woocommerce') {
-    endpoint = new URL('/wp-json/wc/store/v1/products?per_page=24&on_sale=true&stock_status=instock', origin).href;
+    endpoint = new URL('/wp-json/wc/store/v1/products?per_page=40&on_sale=true&stock_status=instock', origin).href;
   } else if (store.platform === 'magento2') {
     endpoint = buildMagentoGraphqlUrl(origin);
   } else {
@@ -655,14 +666,17 @@ async function collectStorefrontDeals(store, now) {
       const variants = Array.isArray(row.variants) ? row.variants : [];
       let bestPrice = null;
       let bestCompare = null;
+      let bestPct = -1;
       for (const v of variants) {
         if (!v || typeof v !== 'object' || v.available === false) continue;
         const p = parseNumberPrice(v.price, currency);
         const cmp = parseNumberPrice(v.compare_at_price, currency);
         if (p !== null && cmp !== null && cmp > p) {
-          if (bestPrice === null || p < bestPrice) {
+          const mCheck = computeMathDiscount(p, cmp);
+          if (mCheck.verified && (mCheck.percent > bestPct || (mCheck.percent === bestPct && (bestPrice === null || p < bestPrice)))) {
             bestPrice = p;
             bestCompare = cmp;
+            bestPct = mCheck.percent;
           }
         }
       }
@@ -772,11 +786,11 @@ async function collectStorefrontDeals(store, now) {
 }
 
 async function collectCheapSharkDeals(now) {
-  const [dealsRes, storesRes] = await Promise.all([
-    fetchText(CHEAPSHARK_DEALS_URL, 'application/json'),
+  const [dealsResponses, storesRes] = await Promise.all([
+    Promise.all(CHEAPSHARK_DEALS_URLS.map(u => fetchText(u, 'application/json'))),
     fetchText(CHEAPSHARK_STORES_URL, 'application/json'),
   ]);
-  if (!dealsRes.ok) return {ok: false, deals: []};
+  if (!dealsResponses.some(r => r.ok)) return {ok: false, deals: []};
 
   const storeNames = new Map();
   if (storesRes.ok) {
@@ -794,24 +808,29 @@ async function collectCheapSharkDeals(now) {
     }
   }
 
-  let rows;
-  try {
-    rows = JSON.parse(dealsRes.body);
-  } catch {
-    return {ok: false, deals: []};
+  const combinedRows = [];
+  for (const dRes of dealsResponses) {
+    if (!dRes.ok) continue;
+    try {
+      const parsed = JSON.parse(dRes.body);
+      if (Array.isArray(parsed)) combinedRows.push(...parsed);
+    } catch {}
   }
-  if (!Array.isArray(rows)) return {ok: false, deals: []};
 
+  const seenDealIds = new Set();
   const out = [];
-  for (const row of rows) {
+  for (const row of combinedRows) {
     if (!row || typeof row !== 'object') continue;
     const title = cleanText(row.title, 200);
     const dealID = typeof row.dealID === 'string' ? row.dealID.trim() : '';
+    if (!dealID || seenDealIds.has(dealID)) continue;
+    seenDealIds.add(dealID);
+
     const sale = parseNumberPrice(row.salePrice, 'USD');
     const normal = parseNumberPrice(row.normalPrice, 'USD');
-    if (!title || !dealID || sale === null || normal === null) continue;
+    if (!title || sale === null || normal === null) continue;
     const math = computeMathDiscount(sale, normal);
-    if (!math.verified || math.percent < 30 || math.percent > 90) continue;
+    if (!math.verified || math.percent < 30 || math.percent > 95) continue;
     const url = safeHttpsUrl(`https://www.cheapshark.com/redirect?dealID=${encodeURIComponent(dealID)}`);
     if (!url) continue;
 
@@ -1018,16 +1037,16 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
       }
     }
 
-    // Quality filter for hot deals feed:
+    // Quality filter for hot deals feed (math ceiling up to 95%, prioritizing 70%–90% mega deals):
     // - Manual deals: always keep (already validated & non-expired)
-    // - Digital API & Storefront deals: keep verified 20%–90% (prioritizing 30%–90%)
-    // - Community RSS deals: keep when discount is 30%–90% OR verified price/discount exists
+    // - Digital API & Storefront deals: keep verified 20%–95% (prioritizing 50%–90% & mega 70%–90%)
+    // - Community RSS deals: keep when discount is 30%–95% OR verified price/discount exists
     if (deal.source === 'digital_api') {
-      if (!verifiedDiscount || !discountPercent || discountPercent < 30 || discountPercent > 90) continue;
+      if (!verifiedDiscount || !discountPercent || discountPercent < 30 || discountPercent > 95) continue;
     } else if (deal.source === 'storefront_sale') {
-      if (!verifiedDiscount || !discountPercent || discountPercent < 20 || discountPercent > 90) continue;
+      if (!verifiedDiscount || !discountPercent || discountPercent < 20 || discountPercent > 95) continue;
     } else if (deal.source === 'community_rss') {
-      const hasHotPct = discountPercent !== undefined && discountPercent >= 30 && discountPercent <= 90;
+      const hasHotPct = discountPercent !== undefined && discountPercent >= 30 && discountPercent <= 95;
       const hasValidPrice = deal.price !== undefined && deal.currency !== undefined;
       if (!hasHotPct && !hasValidPrice) continue;
       if (discountPercent !== undefined && (discountPercent < 5 || discountPercent > 95)) {
@@ -1035,9 +1054,10 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
       }
     }
 
+    const dealTier = computeDealTier(discountPercent);
     const idHash = crypto.createHash('sha1').update(`${deal.region}|${key}`).digest('hex').slice(0, 12);
     accepted.push({
-      id: `feed-${deal.region.toLowerCase()}-${idHash}`,
+      id: deal.id || `feed-${deal.region.toLowerCase()}-${idHash}`,
       title: deal.title,
       url: deal.url,
       storeName: deal.storeName,
@@ -1046,9 +1066,11 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
       ...(deal.currency && deal.price !== undefined ? {currency: deal.currency} : {}),
       ...(discountPercent !== undefined ? {discountPercent} : {}),
       verifiedDiscount,
+      dealTier,
       category: deal.category,
       region: deal.region,
       source: deal.source,
+      ...(deal.isManual ? {isManual: true} : {}),
       ...(deal.couponCode ? {couponCode: deal.couponCode} : {}),
       ...(deal.expiresAt !== undefined ? {expiresAt: deal.expiresAt} : {}),
       ...(deal.imageUrl ? {imageUrl: deal.imageUrl} : {}),
@@ -1097,19 +1119,25 @@ function deduplicateDeals(deals) {
   return out;
 }
 
+function dealPriorityBand(d, region) {
+  const pct = d.discountPercent ?? 0;
+  const isLocal = d.region === region;
+  if ((d.source === 'manual' || d.isManual) && (isLocal || d.region === 'GLOBAL')) return 0;
+  if (isLocal && pct >= 70 && pct <= 90) return 1;
+  if (isLocal && pct >= 50) return 2;
+  if (d.verifiedDiscount && pct >= 70 && pct <= 90) return 3;
+  if (isLocal && pct >= 30) return 4;
+  if (pct >= 70) return 5;
+  if (pct >= 50) return 6;
+  if (isLocal) return 7;
+  return 8;
+}
+
 function rankDealsForRegion(deals, region) {
   return [...deals].sort((a, b) => {
-    const aManual = a.source === 'manual' ? 0 : 1;
-    const bManual = b.source === 'manual' ? 0 : 1;
-    if (aManual !== bManual) return aManual - bManual;
-
-    const aLocal = a.region === region ? 0 : 1;
-    const bLocal = b.region === region ? 0 : 1;
-    if (aLocal !== bLocal) return aLocal - bLocal;
-
-    const aHot = (a.discountPercent ?? 0) >= 30 && (a.discountPercent ?? 0) <= 90 ? 0 : 1;
-    const bHot = (b.discountPercent ?? 0) >= 30 && (b.discountPercent ?? 0) <= 90 ? 0 : 1;
-    if (aHot !== bHot) return aHot - bHot;
+    const bandA = dealPriorityBand(a, region);
+    const bandB = dealPriorityBand(b, region);
+    if (bandA !== bandB) return bandA - bandB;
 
     const aVer = a.verifiedDiscount ? 0 : 1;
     const bVer = b.verifiedDiscount ? 0 : 1;
@@ -1120,6 +1148,257 @@ function rankDealsForRegion(deals, region) {
 
     return (b.observedAt || 0) - (a.observedAt || 0);
   });
+}
+
+// ---------------- Bidirectional Supabase Sync ($0 Free Tier) ----------------
+
+function parseSupabaseManualRow(row, now) {
+  if (!row || typeof row !== 'object') return null;
+  const title = cleanText(String(row.title || ''), 200);
+  const url = safeHttpsUrl(String(row.url || ''));
+  if (!title || !url) return null;
+  const expiresAt =
+    row.expires_at !== null && row.expires_at !== undefined && Number.isFinite(Number(row.expires_at))
+      ? Number(row.expires_at)
+      : undefined;
+  if (expiresAt !== undefined && expiresAt <= now) return null;
+
+  const region = typeof row.region === 'string' && REGION_SET.has(row.region.toUpperCase())
+    ? row.region.toUpperCase()
+    : 'GLOBAL';
+  const currency = inferCurrency('', String(row.currency || 'USD')) || 'USD';
+  const price = parseNumberPrice(row.price, currency) ?? undefined;
+  const originalPrice = parseNumberPrice(row.original_price, currency) ?? undefined;
+  const math = computeMathDiscount(price, originalPrice);
+  const rawPct = Number(row.discount_percent);
+  const discountPercent = math.percent ?? (Number.isFinite(rawPct) && rawPct >= 5 && rawPct <= 95 ? Math.round(rawPct) : undefined);
+  const storeName = cleanText(String(row.merchant || new URL(url).hostname.replace(/^www\./, '')), 80);
+  const category =
+    typeof row.category === 'string' && VALID_CATEGORIES.has(row.category.toLowerCase())
+      ? row.category.toLowerCase()
+      : detectCategory(`${title} ${storeName}`, 'other');
+  const couponCode =
+    typeof row.coupon_code === 'string' && row.coupon_code.trim().length >= 3
+      ? row.coupon_code.trim().slice(0, 24).toUpperCase()
+      : undefined;
+  const imageUrl = safeProductImageUrl(row.image_url, url);
+
+  return {
+    id: typeof row.id === 'string' && row.id ? row.id : undefined,
+    title,
+    url,
+    storeName,
+    ...(price !== undefined ? {price: roundMoney(price, currency)} : {}),
+    ...(originalPrice !== undefined && price !== undefined && originalPrice > price
+      ? {originalPrice: roundMoney(originalPrice, currency)}
+      : {}),
+    ...(price !== undefined ? {currency} : {}),
+    ...(discountPercent !== undefined ? {discountPercent} : {}),
+    verifiedDiscount: math.verified || Boolean(row.verified_discount),
+    dealTier: computeDealTier(discountPercent),
+    category,
+    region,
+    source: 'manual',
+    isManual: true,
+    ...(couponCode ? {couponCode} : {}),
+    ...(expiresAt !== undefined ? {expiresAt} : {}),
+    ...(imageUrl ? {imageUrl} : {}),
+    observedAt: Number.isFinite(Number(row.observed_at)) ? Number(row.observed_at) : now,
+  };
+}
+
+function mergeRemoteLedgerIntoLocal(ledger, remoteRows, now) {
+  if (!Array.isArray(remoteRows) || !remoteRows.length) return;
+  if (!ledger.items || typeof ledger.items !== 'object') ledger.items = {};
+  for (const r of remoteRows) {
+    if (!r || typeof r !== 'object') continue;
+    const key = canonicalDealKey(String(r.url || ''));
+    const cur = inferCurrency('', String(r.currency || ''));
+    const minP = Number(r.min_price);
+    const lastP = Number(r.last_price);
+    if (!key || !cur || !Number.isFinite(minP) || minP <= 0 || !Number.isFinite(lastP) || lastP <= 0) continue;
+    const existing = ledger.items[key];
+    if (!existing) {
+      ledger.items[key] = {
+        currency: cur,
+        lastPrice: lastP,
+        minPrice: minP,
+        maxPrice: Math.max(minP, lastP),
+        medianPrice: lastP,
+        samples: minP !== lastP ? [minP, lastP] : [lastP],
+        firstSeenAt: Number(r.first_seen_at) || now,
+        lastSeenAt: Number(r.last_seen_at) || now,
+      };
+    } else if (existing.currency === cur) {
+      existing.minPrice = Math.min(existing.minPrice ?? minP, minP);
+      existing.firstSeenAt = Math.min(existing.firstSeenAt ?? now, Number(r.first_seen_at) || now);
+    }
+  }
+}
+
+async function pullSupabaseBaseline(now) {
+  const supabaseUrl = safeHttpsUrl(process.env.SUPABASE_URL || '');
+  const syncToken = (process.env.SUPABASE_SYNC_TOKEN || '').trim();
+  const serviceKey = (process.env.SUPABASE_SERVICE_ROLE_KEY || '').trim();
+  if (!supabaseUrl || (!syncToken && !serviceKey)) {
+    return {enabled: false, manualDeals: [], ledgerBaseline: []};
+  }
+
+  try {
+    if (syncToken) {
+      const endpoint = new URL('/functions/v1/sync-deals', supabaseUrl).href;
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        signal: AbortSignal.timeout(15000),
+        headers: {
+          'Content-Type': 'application/json',
+          'x-ruzmi-sync-token': syncToken,
+        },
+        body: JSON.stringify({includeLedger: true}),
+      });
+      if (!res.ok) return {enabled: true, ok: false, manualDeals: [], ledgerBaseline: []};
+      const json = await res.json();
+      const manualDeals = Array.isArray(json.manualDeals)
+        ? json.manualDeals.map(r => parseSupabaseManualRow(r, now)).filter(Boolean)
+        : [];
+      return {
+        enabled: true,
+        ok: true,
+        manualDeals,
+        ledgerBaseline: Array.isArray(json.ledgerBaseline) ? json.ledgerBaseline : [],
+      };
+    }
+
+    // Direct REST mode with SUPABASE_SERVICE_ROLE_KEY
+    const headers = {apikey: serviceKey, Authorization: `Bearer ${serviceKey}`};
+    const [mRes, lRes] = await Promise.all([
+      fetch(new URL('/rest/v1/hot_deals?is_manual=eq.true&select=*', supabaseUrl).href, {
+        headers,
+        signal: AbortSignal.timeout(12000),
+      }),
+      fetch(
+        new URL(
+          '/rest/v1/deal_price_ledger?select=url_hash,url,min_price,last_price,currency,first_seen_at,last_seen_at&order=last_seen_at.desc&limit=3000',
+          supabaseUrl,
+        ).href,
+        {headers, signal: AbortSignal.timeout(12000)},
+      ),
+    ]);
+    const rawManual = mRes.ok ? await mRes.json() : [];
+    const ledgerBaseline = lRes.ok ? await lRes.json() : [];
+    const manualDeals = Array.isArray(rawManual)
+      ? rawManual.map(r => parseSupabaseManualRow(r, now)).filter(Boolean)
+      : [];
+    return {enabled: true, ok: true, manualDeals, ledgerBaseline: Array.isArray(ledgerBaseline) ? ledgerBaseline : []};
+  } catch {
+    return {enabled: true, ok: false, manualDeals: [], ledgerBaseline: []};
+  }
+}
+
+async function syncDealsToSupabase(uniqueDeals, ledger, now) {
+  const supabaseUrl = safeHttpsUrl(process.env.SUPABASE_URL || '');
+  const syncToken = (process.env.SUPABASE_SYNC_TOKEN || '').trim();
+  const serviceKey = (process.env.SUPABASE_SERVICE_ROLE_KEY || '').trim();
+  if (!supabaseUrl || (!syncToken && !serviceKey)) {
+    return {enabled: false, ok: false, upsertedDeals: 0, ledgerUpserted: 0};
+  }
+
+  const dealRows = uniqueDeals
+    .filter(d => !d.isManual && d.price !== undefined && d.price > 0 && d.currency)
+    .map(d => ({
+      id: d.id,
+      region: d.region,
+      category: d.category || 'other',
+      title: d.title,
+      merchant: d.storeName,
+      url: d.url,
+      image_url: d.imageUrl || null,
+      price: d.price,
+      original_price: d.originalPrice ?? null,
+      currency: d.currency,
+      discount_percent: d.discountPercent ?? 0,
+      verified_discount: Boolean(d.verifiedDiscount),
+      deal_tier: d.dealTier || computeDealTier(d.discountPercent),
+      coupon_code: d.couponCode || null,
+      source: d.source,
+      is_manual: false,
+      observed_at: d.observedAt || now,
+      expires_at: d.expiresAt ?? null,
+    }));
+
+  const ledgerEntries = Object.entries(ledger.items || {}).map(([url, v]) => ({
+    url_hash: crypto.createHash('sha256').update(url).digest('hex'),
+    url,
+    min_price: v.minPrice ?? v.lastPrice,
+    last_price: v.lastPrice,
+    currency: v.currency || 'USD',
+    first_seen_at: v.firstSeenAt || v.lastSeenAt || now,
+    last_seen_at: v.lastSeenAt || now,
+  }));
+
+  try {
+    if (syncToken) {
+      const endpoint = new URL('/functions/v1/sync-deals', supabaseUrl).href;
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        signal: AbortSignal.timeout(25000),
+        headers: {
+          'Content-Type': 'application/json',
+          'x-ruzmi-sync-token': syncToken,
+        },
+        body: JSON.stringify({deals: dealRows, ledger: ledgerEntries}),
+      });
+      if (!res.ok) {
+        return {enabled: true, ok: false, status: res.status, upsertedDeals: 0, ledgerUpserted: 0};
+      }
+      const out = await res.json();
+      return {
+        enabled: true,
+        ok: Boolean(out.ok),
+        upsertedDeals: Number(out.upsertedDeals || 0),
+        ledgerUpserted: Number(out.ledgerUpserted || 0),
+      };
+    }
+
+    // Direct REST mode with SUPABASE_SERVICE_ROLE_KEY
+    const headers = {
+      apikey: serviceKey,
+      Authorization: `Bearer ${serviceKey}`,
+      'Content-Type': 'application/json',
+      Prefer: 'resolution=merge-duplicates,return=minimal',
+    };
+    const cutoffIso = new Date(now - 5 * 60 * 1000).toISOString();
+    const syncIso = new Date(now).toISOString();
+    let upsertedDeals = 0;
+    for (let i = 0; i < dealRows.length; i += 200) {
+      const chunk = dealRows.slice(i, i + 200).map(r => ({...r, updated_at: syncIso}));
+      const r = await fetch(new URL('/rest/v1/hot_deals?on_conflict=id', supabaseUrl).href, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify(chunk),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (r.ok) upsertedDeals += chunk.length;
+    }
+    await fetch(
+      new URL(`/rest/v1/hot_deals?is_manual=eq.false&updated_at=lt.${encodeURIComponent(cutoffIso)}`, supabaseUrl).href,
+      {method: 'DELETE', headers: {apikey: serviceKey, Authorization: `Bearer ${serviceKey}`}},
+    );
+    let ledgerUpserted = 0;
+    for (let i = 0; i < ledgerEntries.length; i += 250) {
+      const chunk = ledgerEntries.slice(i, i + 250);
+      const r = await fetch(new URL('/rest/v1/deal_price_ledger?on_conflict=url_hash', supabaseUrl).href, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify(chunk),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (r.ok) ledgerUpserted += chunk.length;
+    }
+    return {enabled: true, ok: true, upsertedDeals, ledgerUpserted};
+  } catch {
+    return {enabled: true, ok: false, upsertedDeals: 0, ledgerUpserted: 0};
+  }
 }
 
 function buildLandingHtml(indexDoc) {
@@ -1156,12 +1435,17 @@ export async function runCollector() {
   const now = Date.now();
   const generatedAtIso = new Date(now).toISOString();
 
-  // 1. Load optional extra storefronts & manual deals & historical price ledger
+  // 1. Load optional extra storefronts, local manual deals, local price ledger & remote Supabase baseline
   const extraStoresDoc = loadJsonFile(EXTRA_STORES_PATH, {stores: []});
   const extraStores = Array.isArray(extraStoresDoc?.stores) ? extraStoresDoc.stores : [];
   const allStorefronts = [...BUILTIN_STOREFRONTS, ...extraStores];
-  const manualDeals = loadManualDeals(now);
+  const fileManualDeals = loadManualDeals(now);
   const ledger = loadJsonFile(LEDGER_PATH, {schemaVersion: 1, updatedAt: 0, items: {}});
+  const remotePre = await pullSupabaseBaseline(now);
+  if (remotePre.ledgerBaseline?.length) {
+    mergeRemoteLedgerIntoLocal(ledger, remotePre.ledgerBaseline, now);
+  }
+  const manualDeals = [...remotePre.manualDeals, ...fileManualDeals];
 
   // 2. Collect from all open sources in bounded parallel pool
   const tasks = [
@@ -1201,14 +1485,19 @@ export async function runCollector() {
   // 3. Anti-Fake-Discount verification & deduplication
   const guarded = applyAntiFakeDiscountGuard(rawDeals, ledger, now);
   const uniqueDeals = deduplicateDeals(guarded.deals);
+  const megaDealsCount = uniqueDeals.filter(d => d.dealTier === 'mega').length;
+  const hotDealsCount = uniqueDeals.filter(d => d.dealTier === 'hot').length;
 
-  // 4. Write updated price-ledger.json only when changed
+  // 4. Sync verified deals & historical price ledger to Supabase (if configured)
+  const supabaseSync = await syncDealsToSupabase(uniqueDeals, guarded.ledger, now);
+
+  // 5. Write updated price-ledger.json only when changed
   fs.mkdirSync(DATA_DIR, {recursive: true});
   if (guarded.ledgerChanged || !fs.existsSync(LEDGER_PATH)) {
     fs.writeFileSync(LEDGER_PATH, `${JSON.stringify(guarded.ledger, null, 2)}\n`, 'utf8');
   }
 
-  // 5. Generate compact static JSON feeds for all 19 regions + index.json + .nojekyll
+  // 6. Generate compact static JSON feeds for all 19 regions + index.json + .nojekyll
   fs.mkdirSync(DEALS_OUT_DIR, {recursive: true});
   fs.writeFileSync(path.join(PUBLIC_DIR, '.nojekyll'), '', 'utf8');
 
@@ -1264,9 +1553,18 @@ export async function runCollector() {
     updatedAt: now,
     generatedAtIso,
     totalUniqueDeals: uniqueDeals.length,
+    megaDealsCount,
+    hotDealsCount,
     manualDealsCount: manualDeals.length,
     sourcesChecked: tasks.length,
     sourcesSucceeded,
+    supabaseSync: {
+      enabled: supabaseSync.enabled,
+      ok: supabaseSync.ok,
+      upsertedDeals: supabaseSync.upsertedDeals,
+      ledgerUpserted: supabaseSync.ledgerUpserted,
+      manualFromDb: remotePre.manualDeals?.length || 0,
+    },
     antiFakeGuard: {
       trackedUrls: Object.keys(guarded.ledger.items).length,
       rejectedFakeInflation: guarded.stats.rejectedFakeInflation,
@@ -1289,7 +1587,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
     sourcesChecked: indexDoc.sourcesChecked,
     sourcesSucceeded: indexDoc.sourcesSucceeded,
     totalUniqueDeals: indexDoc.totalUniqueDeals,
+    megaDealsCount: indexDoc.megaDealsCount,
+    hotDealsCount: indexDoc.hotDealsCount,
     manualDealsCount: indexDoc.manualDealsCount,
+    supabaseSync: indexDoc.supabaseSync,
     antiFakeGuard: indexDoc.antiFakeGuard,
     categories: indexDoc.categories,
     sourceBreakdown: taskResults.map(r => ({label: r.label, kind: r.kind, ok: r.ok, count: r.count})),
