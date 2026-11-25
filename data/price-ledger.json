@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": 1795602159666,
+  "updatedAt": 1795603038176,
   "items": {
     "https://free-electronic.com/product/wifi-obd2": {
       "currency": "EGP",
@@ -631,7 +631,8 @@
         55,
         55
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Vivian-Seven-Womens-Striped-Hooded-Down-Feather-Midi-Puffer-Coat-for-408-free-shipping/22425006.html?iref=rss": {
       "currency": "USD",
@@ -1103,7 +1104,8 @@
         335.98,
         335.98
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/lego-art-31218-japanese-cherry-blossom-landscape-building-set-5045402": {
       "currency": "GBP",
@@ -4584,10 +4586,10 @@
       "maxPrice": 17,
       "medianPrice": 17,
       "samples": [
+        17,
         17
       ],
-      "lastSeenAt": 1795549223802,
-      "firstSeenAt": 1795549223802
+      "lastSeenAt": 1795603038176
     },
     "https://dealnews.com/Aero-Press-Original-Coffee-Press-for-30-free-shipping-w-Prime/22428419.html?iref=rss": {
       "currency": "USD",
@@ -11016,15 +11018,16 @@
     },
     "https://ozbargain.com.au/node/985493": {
       "currency": "USD",
-      "lastPrice": 23.8,
+      "lastPrice": 25.8,
       "minPrice": 23.8,
-      "maxPrice": 23.8,
-      "medianPrice": 23.8,
+      "maxPrice": 25.8,
+      "medianPrice": 24.8,
+      "regularMax": 38.8,
       "samples": [
-        23.8
+        23.8,
+        25.8
       ],
-      "lastSeenAt": 1795599211690,
-      "firstSeenAt": 1795599211690
+      "lastSeenAt": 1795603038176
     },
     "https://ozbargain.com.au/node/985491": {
       "currency": "USD",
@@ -11992,7 +11995,8 @@
       "samples": [
         369.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/halwani-plain-beef-luncheon-by-weight.html": {
       "currency": "EGP",
@@ -12004,7 +12008,8 @@
       "samples": [
         349.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/362900.html": {
       "currency": "EGP",
@@ -12016,7 +12021,8 @@
       "samples": [
         229.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/rehana-corn-oil-2-35-l.html": {
       "currency": "EGP",
@@ -12028,7 +12034,8 @@
       "samples": [
         239.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/ariel-washing-gel-lavender-freshness-2-5l.html": {
       "currency": "EGP",
@@ -12040,7 +12047,8 @@
       "samples": [
         229.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/rehana-fine-flour-1-kg-1kg.html": {
       "currency": "EGP",
@@ -12052,7 +12060,8 @@
       "samples": [
         36.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/spinneys-automatic-washing-powder-8-kg.html": {
       "currency": "EGP",
@@ -12064,7 +12073,8 @@
       "samples": [
         339.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/persil-power-gel-automatic-lavender-freshness-detergent-2-65-kg.html": {
       "currency": "EGP",
@@ -12076,7 +12086,8 @@
       "samples": [
         214.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/halwani-dry-salami-by-weight.html": {
       "currency": "EGP",
@@ -12088,7 +12099,8 @@
       "samples": [
         449.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/fine-toilet-tissues-deluxe-3-ply-12-rolls.html": {
       "currency": "EGP",
@@ -12100,7 +12112,8 @@
       "samples": [
         109.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/rehana-golden-rice-thailand-1-kg-spinneys.html": {
       "currency": "EGP",
@@ -12112,7 +12125,8 @@
       "samples": [
         93.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/feba-all-purpose-cleaner-with-lemon-3-kg.html": {
       "currency": "EGP",
@@ -12124,7 +12138,8 @@
       "samples": [
         129.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/341635.html": {
       "currency": "EGP",
@@ -12136,7 +12151,8 @@
       "samples": [
         214.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/halwani-beef-luncheon-with-olive-by-weight.html": {
       "currency": "EGP",
@@ -12148,7 +12164,8 @@
       "samples": [
         349.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/halwani-beef-burger-1-kg.html": {
       "currency": "EGP",
@@ -12160,7 +12177,8 @@
       "samples": [
         337.25
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/386789.html": {
       "currency": "EGP",
@@ -12172,7 +12190,8 @@
       "samples": [
         214.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/362898.html": {
       "currency": "EGP",
@@ -12184,7 +12203,8 @@
       "samples": [
         229.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/halwani-bros-chicken-luncheon-1-kg.html": {
       "currency": "EGP",
@@ -12196,7 +12216,8 @@
       "samples": [
         339.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/413269.html": {
       "currency": "EGP",
@@ -12208,7 +12229,8 @@
       "samples": [
         164.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/milk-chocolate-filled-w-caramel-peanut-pack-of-5-1pc.html": {
       "currency": "EGP",
@@ -12220,7 +12242,8 @@
       "samples": [
         167.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/al-zaeem-white-sugar.html": {
       "currency": "EGP",
@@ -12232,7 +12255,8 @@
       "samples": [
         33.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/318516.html": {
       "currency": "EGP",
@@ -12244,7 +12268,8 @@
       "samples": [
         109.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-pasta-penne-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12256,7 +12281,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-vermicelli-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12268,7 +12294,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-pasta-small-rings-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12280,7 +12307,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/tide-wash-powder-lavender-lotus-2-5kg.html": {
       "currency": "EGP",
@@ -12292,7 +12320,8 @@
       "samples": [
         219.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/elmatbakh-pasta-rings-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12304,7 +12333,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/405986.html": {
       "currency": "EGP",
@@ -12316,7 +12346,8 @@
       "samples": [
         99.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/almarai-5-plain-yoghurt-bundle-light-and-1-free-6-105-gm.html": {
       "currency": "EGP",
@@ -12328,7 +12359,8 @@
       "samples": [
         51.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/tide-gel-washing-automatic-new-formula-2-5kg.html": {
       "currency": "EGP",
@@ -12340,7 +12372,8 @@
       "samples": [
         219.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/tide-power-gel-automatic-20-off-2-5kg.html": {
       "currency": "EGP",
@@ -12352,7 +12385,8 @@
       "samples": [
         219.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/almarai-5-plain-yoghurt-bundle-plain-and-1-free-6-105-gm.html": {
       "currency": "EGP",
@@ -12364,7 +12398,8 @@
       "samples": [
         51.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-pasta-spaghetti-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12376,7 +12411,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/hanady-mixed-oil-s-price-spinneys.html": {
       "currency": "EGP",
@@ -12388,7 +12424,8 @@
       "samples": [
         69.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/shahd-pane-original-20pc.html": {
       "currency": "EGP",
@@ -12400,7 +12437,8 @@
       "samples": [
         269
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-pasta-elbow-400-gm-spinneys.html": {
       "currency": "EGP",
@@ -12412,7 +12450,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/el-matbakh-pasta-rice-400-gm.html": {
       "currency": "EGP",
@@ -12424,7 +12463,8 @@
       "samples": [
         15.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/shahd-pane-spicy-20pc.html": {
       "currency": "EGP",
@@ -12436,7 +12476,8 @@
       "samples": [
         269
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://spinneys-egypt.com/zeina-3-aroma-facial-tissues-with-oud-3-500p.html": {
       "currency": "EGP",
@@ -12448,7 +12489,8 @@
       "samples": [
         99.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/fresh-strawberry-pico": {
       "currency": "EGP",
@@ -12460,7 +12502,8 @@
       "samples": [
         120
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/fresh-strawberries-pico": {
       "currency": "EGP",
@@ -12472,7 +12515,8 @@
       "samples": [
         59
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/poseidon-black-tiger-xl-shrimp-head-on-shell-on": {
       "currency": "EGP",
@@ -12484,7 +12528,8 @@
       "samples": [
         1573
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/poseidon-black-tiger-small-shrimp-peeled-deveined-tail-off": {
       "currency": "EGP",
@@ -12496,7 +12541,8 @@
       "samples": [
         587
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/graviera-cow-cheese": {
       "currency": "EGP",
@@ -12508,7 +12554,8 @@
       "samples": [
         186.8
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/basiron-truffle-cheese": {
       "currency": "EGP",
@@ -12520,7 +12567,8 @@
       "samples": [
         350
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/beemster-royaal-gouda-cheese": {
       "currency": "EGP",
@@ -12532,7 +12580,8 @@
       "samples": [
         238
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/dutch-smoked-cheese": {
       "currency": "EGP",
@@ -12544,7 +12593,8 @@
       "samples": [
         135.8
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/gourmet-shelal-cheese": {
       "currency": "EGP",
@@ -12556,7 +12606,8 @@
       "samples": [
         132
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/low-salt-white-cheese-domty": {
       "currency": "EGP",
@@ -12568,7 +12619,8 @@
       "samples": [
         94.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/italian-picante-provolone-cheese": {
       "currency": "EGP",
@@ -12580,7 +12632,8 @@
       "samples": [
         231.6
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/italian-caciocavallo-cheese": {
       "currency": "EGP",
@@ -12592,7 +12645,8 @@
       "samples": [
         208
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/pickled-green-olives-stuffed-with-carrot": {
       "currency": "EGP",
@@ -12604,7 +12658,8 @@
       "samples": [
         49.25
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/red-grapefruits-gourmet-fresh": {
       "currency": "EGP",
@@ -12616,7 +12671,8 @@
       "samples": [
         22.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/local-banana-gourmet-fresh": {
       "currency": "EGP",
@@ -12628,7 +12684,8 @@
       "samples": [
         32.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/bananas-imported": {
       "currency": "EGP",
@@ -12640,7 +12697,8 @@
       "samples": [
         57.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/red-plums-gourmet-fresh": {
       "currency": "EGP",
@@ -12652,7 +12710,8 @@
       "samples": [
         74.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/green-apples-imported": {
       "currency": "EGP",
@@ -12664,7 +12723,8 @@
       "samples": [
         78.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/kashta-abdelrazek-gourmet-fresh": {
       "currency": "EGP",
@@ -12676,7 +12736,8 @@
       "samples": [
         114.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/blueberries-imported": {
       "currency": "EGP",
@@ -12688,7 +12749,8 @@
       "samples": [
         169
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/fuerte-avocados-gourmet-fresh": {
       "currency": "EGP",
@@ -12700,7 +12762,8 @@
       "samples": [
         48.75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/pak-chou-gourmet-fresh": {
       "currency": "EGP",
@@ -12712,7 +12775,8 @@
       "samples": [
         77
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/gourmet-fresh-broccoli": {
       "currency": "EGP",
@@ -12724,7 +12788,8 @@
       "samples": [
         39.5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/lettuce-balady": {
       "currency": "EGP",
@@ -12736,7 +12801,8 @@
       "samples": [
         22
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/green-onion-gourmet-fresh": {
       "currency": "EGP",
@@ -12748,7 +12814,8 @@
       "samples": [
         34
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/green-beans-gourmet-fresh": {
       "currency": "EGP",
@@ -12760,7 +12827,8 @@
       "samples": [
         49
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/green-balady-pepper-gourmet-fresh": {
       "currency": "EGP",
@@ -12772,7 +12840,8 @@
       "samples": [
         25
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/gourmet-beef-spicy-shamy-kofta": {
       "currency": "EGP",
@@ -12784,7 +12853,8 @@
       "samples": [
         369
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/gourmet-beef-dawood-pasha-meatballs": {
       "currency": "EGP",
@@ -12796,7 +12866,8 @@
       "samples": [
         369
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/gourmet-beef-egyptian-sausage": {
       "currency": "EGP",
@@ -12808,7 +12879,8 @@
       "samples": [
         332.1
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/egyptian-baladi-beef-mince": {
       "currency": "EGP",
@@ -12820,7 +12892,8 @@
       "samples": [
         374
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/frozen-aussie-beef-liver-strips": {
       "currency": "EGP",
@@ -12832,7 +12905,8 @@
       "samples": [
         231
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/basiron-pepper-cheese": {
       "currency": "EGP",
@@ -12844,7 +12918,8 @@
       "samples": [
         209
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/basiron-jalapeno-cheese": {
       "currency": "EGP",
@@ -12856,7 +12931,8 @@
       "samples": [
         259
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/italian-dolce-provolone": {
       "currency": "EGP",
@@ -12868,7 +12944,8 @@
       "samples": [
         256
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/grana-padano-cheese": {
       "currency": "EGP",
@@ -12880,7 +12957,8 @@
       "samples": [
         275
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/mammen-danish-blue-cheese": {
       "currency": "EGP",
@@ -12892,7 +12970,8 @@
       "samples": [
         189
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/plain-halawa-reduced-sugar": {
       "currency": "EGP",
@@ -12904,7 +12983,8 @@
       "samples": [
         105
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://gourmetegypt.com/boulos-green-olive": {
       "currency": "EGP",
@@ -12916,7 +12996,8 @@
       "samples": [
         105
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/bundle-abu-auf-x-halo": {
       "currency": "EGP",
@@ -12928,7 +13009,8 @@
       "samples": [
         285
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/medjool-dates-dark-chocolate-21-freeee": {
       "currency": "EGP",
@@ -12940,7 +13022,8 @@
       "samples": [
         265
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/abu-auf-sahlab-bundle-180-gm": {
       "currency": "EGP",
@@ -12952,7 +13035,8 @@
       "samples": [
         220
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/cocoa-powder-bundle-100-gm": {
       "currency": "EGP",
@@ -12964,7 +13048,8 @@
       "samples": [
         425
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/hot-chocolate-bundle-150-gm": {
       "currency": "EGP",
@@ -12976,7 +13061,8 @@
       "samples": [
         275
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/maamoul-offer-2-cinnamon-1-white-chocolate-1-chocolate": {
       "currency": "EGP",
@@ -12988,7 +13074,8 @@
       "samples": [
         330
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/maamoul-offer-1-plain-1-cinnamon-1-chocolate-1-strawberry": {
       "currency": "EGP",
@@ -13000,7 +13087,8 @@
       "samples": [
         330
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/maamoul-offer-1-plain-1-cinnamon-1-dark-chocolate-1-white-chocolate": {
       "currency": "EGP",
@@ -13012,7 +13100,8 @@
       "samples": [
         330
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/maamoul-offer-2-plain-1-cinnamon-1-dark-chocolate": {
       "currency": "EGP",
@@ -13024,7 +13113,8 @@
       "samples": [
         330
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/protein-snacks-peanut-butter-35-gm-offer-31-free": {
       "currency": "EGP",
@@ -13036,7 +13126,8 @@
       "samples": [
         45
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/3-jars-of-peanut-butter-2-chocolate-1-plain": {
       "currency": "EGP",
@@ -13048,7 +13139,8 @@
       "samples": [
         545
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/3-jars-of-peanut-butter-2-plain-1-chocolate": {
       "currency": "EGP",
@@ -13060,7 +13152,8 @@
       "samples": [
         535
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://backend.abuauf.com/product/3-jars-of-plain-peanut-butter": {
       "currency": "EGP",
@@ -13072,7 +13165,8 @@
       "samples": [
         535
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638554409": {
       "currency": "EGP",
@@ -13084,7 +13178,8 @@
       "samples": [
         249
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638462581": {
       "currency": "EGP",
@@ -13096,7 +13191,8 @@
       "samples": [
         499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638511071": {
       "currency": "EGP",
@@ -13108,7 +13204,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638847781": {
       "currency": "EGP",
@@ -13120,7 +13217,8 @@
       "samples": [
         499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638282034": {
       "currency": "EGP",
@@ -13132,7 +13230,8 @@
       "samples": [
         399
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639425793": {
       "currency": "EGP",
@@ -13144,7 +13243,8 @@
       "samples": [
         2249
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639314508": {
       "currency": "EGP",
@@ -13156,7 +13256,8 @@
       "samples": [
         2499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639473446": {
       "currency": "EGP",
@@ -13168,7 +13269,8 @@
       "samples": [
         2499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639558468": {
       "currency": "EGP",
@@ -13180,7 +13282,8 @@
       "samples": [
         2249
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639308186": {
       "currency": "EGP",
@@ -13192,7 +13295,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639613241": {
       "currency": "EGP",
@@ -13204,7 +13308,8 @@
       "samples": [
         1599
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639308316": {
       "currency": "EGP",
@@ -13216,7 +13321,8 @@
       "samples": [
         1499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639714395": {
       "currency": "EGP",
@@ -13228,7 +13334,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639611946": {
       "currency": "EGP",
@@ -13240,7 +13347,8 @@
       "samples": [
         1399
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639715871": {
       "currency": "EGP",
@@ -13252,7 +13360,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639715921": {
       "currency": "EGP",
@@ -13264,7 +13373,8 @@
       "samples": [
         599
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639290646": {
       "currency": "EGP",
@@ -13276,7 +13386,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639424934": {
       "currency": "EGP",
@@ -13288,7 +13399,8 @@
       "samples": [
         1299
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639574272": {
       "currency": "EGP",
@@ -13300,7 +13412,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639265423": {
       "currency": "EGP",
@@ -13312,7 +13425,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639474612": {
       "currency": "EGP",
@@ -13324,7 +13438,8 @@
       "samples": [
         1299
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639291824": {
       "currency": "EGP",
@@ -13336,7 +13451,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639244376": {
       "currency": "EGP",
@@ -13348,7 +13464,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639437259": {
       "currency": "EGP",
@@ -13360,7 +13477,8 @@
       "samples": [
         899
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639424297": {
       "currency": "EGP",
@@ -13372,7 +13490,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639377621": {
       "currency": "EGP",
@@ -13384,7 +13503,8 @@
       "samples": [
         699
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639279395": {
       "currency": "EGP",
@@ -13396,7 +13516,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639350262": {
       "currency": "EGP",
@@ -13408,7 +13529,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639460156": {
       "currency": "EGP",
@@ -13420,7 +13542,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639584735": {
       "currency": "EGP",
@@ -13432,7 +13555,8 @@
       "samples": [
         1299
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639473775": {
       "currency": "EGP",
@@ -13444,7 +13568,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639220113": {
       "currency": "EGP",
@@ -13456,7 +13581,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639592947": {
       "currency": "EGP",
@@ -13468,7 +13594,8 @@
       "samples": [
         899
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639715859": {
       "currency": "EGP",
@@ -13480,7 +13607,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639169840": {
       "currency": "EGP",
@@ -13492,7 +13620,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639473100": {
       "currency": "EGP",
@@ -13504,7 +13633,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639455141": {
       "currency": "EGP",
@@ -13516,7 +13646,8 @@
       "samples": [
         1499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639180620": {
       "currency": "EGP",
@@ -13528,7 +13659,8 @@
       "samples": [
         899
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639134616": {
       "currency": "EGP",
@@ -13540,7 +13672,8 @@
       "samples": [
         1599
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5638849011": {
       "currency": "EGP",
@@ -13552,7 +13685,8 @@
       "samples": [
         1099
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639097435": {
       "currency": "EGP",
@@ -13564,7 +13698,8 @@
       "samples": [
         1299
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639133196": {
       "currency": "EGP",
@@ -13576,7 +13711,8 @@
       "samples": [
         539
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639134134": {
       "currency": "EGP",
@@ -13588,7 +13724,8 @@
       "samples": [
         839
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639206052": {
       "currency": "EGP",
@@ -13600,7 +13737,8 @@
       "samples": [
         1599
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639246228": {
       "currency": "EGP",
@@ -13612,7 +13750,8 @@
       "samples": [
         2499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639265642": {
       "currency": "EGP",
@@ -13624,7 +13763,8 @@
       "samples": [
         1699
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639297237": {
       "currency": "EGP",
@@ -13636,7 +13776,8 @@
       "samples": [
         1399
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639298093": {
       "currency": "EGP",
@@ -13648,7 +13789,8 @@
       "samples": [
         1499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639304204": {
       "currency": "EGP",
@@ -13660,7 +13802,8 @@
       "samples": [
         1499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639310239": {
       "currency": "EGP",
@@ -13672,7 +13815,8 @@
       "samples": [
         1599
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639343093": {
       "currency": "EGP",
@@ -13684,7 +13828,8 @@
       "samples": [
         2999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639343111": {
       "currency": "EGP",
@@ -13696,7 +13841,8 @@
       "samples": [
         3499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639390029": {
       "currency": "EGP",
@@ -13708,7 +13854,8 @@
       "samples": [
         2499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639393147": {
       "currency": "EGP",
@@ -13720,7 +13867,8 @@
       "samples": [
         1499
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639436504": {
       "currency": "EGP",
@@ -13732,7 +13880,8 @@
       "samples": [
         1199
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639445139": {
       "currency": "EGP",
@@ -13744,7 +13893,8 @@
       "samples": [
         2999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639455929": {
       "currency": "EGP",
@@ -13756,7 +13906,8 @@
       "samples": [
         1299
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://townteam.com/products/5639464831": {
       "currency": "EGP",
@@ -13768,7 +13919,8 @@
       "samples": [
         1399
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw35010499-009": {
       "currency": "EGP",
@@ -13780,7 +13932,8 @@
       "samples": [
         3250
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm31006269-1250": {
       "currency": "EGP",
@@ -13792,7 +13945,8 @@
       "samples": [
         1750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drw70004550-032": {
       "currency": "EGP",
@@ -13804,7 +13958,8 @@
       "samples": [
         1950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw70010366-038": {
       "currency": "EGP",
@@ -13816,7 +13971,8 @@
       "samples": [
         1250
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw70010346-032": {
       "currency": "EGP",
@@ -13828,7 +13984,8 @@
       "samples": [
         1950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw28010228-3571": {
       "currency": "EGP",
@@ -13840,7 +13997,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw90009952-004": {
       "currency": "EGP",
@@ -13852,7 +14010,8 @@
       "samples": [
         475
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw36009751-3007": {
       "currency": "EGP",
@@ -13864,7 +14023,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw33009392-4138": {
       "currency": "EGP",
@@ -13876,7 +14036,8 @@
       "samples": [
         2750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm70005682-008": {
       "currency": "EGP",
@@ -13888,7 +14049,8 @@
       "samples": [
         1250
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw31009358-032": {
       "currency": "EGP",
@@ -13900,7 +14062,8 @@
       "samples": [
         2500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm29006231-100": {
       "currency": "EGP",
@@ -13912,7 +14075,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm29006214-009": {
       "currency": "EGP",
@@ -13924,7 +14088,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drw32004580": {
       "currency": "EGP",
@@ -13936,7 +14101,8 @@
       "samples": [
         1500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drw32004489": {
       "currency": "EGP",
@@ -13948,7 +14114,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw32010480": {
       "currency": "EGP",
@@ -13960,7 +14127,8 @@
       "samples": [
         2750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw32010474": {
       "currency": "EGP",
@@ -13972,7 +14140,8 @@
       "samples": [
         1500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm19006203": {
       "currency": "EGP",
@@ -13984,7 +14153,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm19006191": {
       "currency": "EGP",
@@ -13996,7 +14166,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw34010550-018": {
       "currency": "EGP",
@@ -14008,7 +14179,8 @@
       "samples": [
         950
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm60006261-100": {
       "currency": "EGP",
@@ -14020,7 +14192,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm60006258-020": {
       "currency": "EGP",
@@ -14032,7 +14205,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm60006258-011": {
       "currency": "EGP",
@@ -14044,7 +14218,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm36006234-011": {
       "currency": "EGP",
@@ -14056,7 +14231,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm19006193-701": {
       "currency": "EGP",
@@ -14068,7 +14244,8 @@
       "samples": [
         750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drw34004586-032": {
       "currency": "EGP",
@@ -14080,7 +14257,8 @@
       "samples": [
         5500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw32010479-001": {
       "currency": "EGP",
@@ -14092,7 +14270,8 @@
       "samples": [
         2500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw31010448-032": {
       "currency": "EGP",
@@ -14104,7 +14283,8 @@
       "samples": [
         3750
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drm19002761-1139": {
       "currency": "EGP",
@@ -14116,7 +14296,8 @@
       "samples": [
         500
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw11010422-002": {
       "currency": "EGP",
@@ -14128,7 +14309,8 @@
       "samples": [
         2250
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/drw90004524-040": {
       "currency": "EGP",
@@ -14140,7 +14322,8 @@
       "samples": [
         150
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddw70010359-4277": {
       "currency": "EGP",
@@ -14152,7 +14335,8 @@
       "samples": [
         1250
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/ddm24005567-3201": {
       "currency": "EGP",
@@ -14164,7 +14348,8 @@
       "samples": [
         999
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dalydress.com/products/260-566-302-16-009": {
       "currency": "EGP",
@@ -14176,7 +14361,8 @@
       "samples": [
         75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Touch-3-Way-Dimmable-17-3-Bedside-Table-Lamp-for-22-free-shipping-w-Prime/22430605.html?iref=rss": {
       "currency": "USD",
@@ -14187,7 +14373,8 @@
       "samples": [
         22
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Vevor-54-x-27-Washer-Dryer-Countertop-w-2-Tier-Shelf-for-71-free-shipping/22430597.html?iref=rss": {
       "currency": "USD",
@@ -14198,7 +14385,8 @@
       "samples": [
         71
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Harry-Potter-Hogwarts-School-Trunk-Decorative-Storage-Chest-for-80-free-shipping/22430595.html?iref=rss": {
       "currency": "USD",
@@ -14209,7 +14397,8 @@
       "samples": [
         80
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Prime-Video-Black-Friday-Apple-TV-Subscription-Deal-for-6-99-mo-for-6-months/22430593.html?iref=rss": {
       "currency": "USD",
@@ -14221,7 +14410,8 @@
       "samples": [
         6.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/LEGO-Marvel-Doctor-Doom-Bust-Building-Set-for-50-free-shipping/22430592.html?iref=rss": {
       "currency": "USD",
@@ -14232,7 +14422,8 @@
       "samples": [
         50
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Renpho/Renpho-Back-Heating-Pad/563676.html?iref=rss": {
       "currency": "USD",
@@ -14244,7 +14435,8 @@
       "samples": [
         38
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/ZZA/ZZA-32-4-K-Gaming-Monitor/563675.html?iref=rss": {
       "currency": "USD",
@@ -14256,7 +14448,8 @@
       "samples": [
         127
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Tineco/Tineco-Floor-ONE-i5-Stretch-Wet-Dry-Vacuum-Cleaner/560620.html?iref=rss": {
       "currency": "USD",
@@ -14268,7 +14461,8 @@
       "samples": [
         149
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/eufy/eufy-Security-eufy-Cam-C37-2-K-Solar-Wireless-Outdoor-Security-Camera/535818.html?iref=rss": {
       "currency": "USD",
@@ -14279,7 +14473,8 @@
       "samples": [
         55
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Fairfield-Collectibles-Diecast-Collectibles-Black-Friday-Sale-for-Up-to-43-off-15-off-75-shipping-varies/22430571.html?iref=rss": {
       "currency": "USD",
@@ -14290,7 +14485,8 @@
       "samples": [
         75
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/LEGO-Botanicals-Mini-Bonsai-Trees-709-Piece-Building-Set-for-45-free-shipping/22430570.html?iref=rss": {
       "currency": "USD",
@@ -14301,7 +14497,8 @@
       "samples": [
         45
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Soundcore-Select-4-Go-Bluetooth-Shower-Speaker-for-20-free-shipping-w-Prime/22430568.html?iref=rss": {
       "currency": "USD",
@@ -14312,7 +14509,8 @@
       "samples": [
         20
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Kingbolen-K7-7-Bidirectional-OBD2-Scan-Tool-for-324-free-shipping/22430567.html?iref=rss": {
       "currency": "USD",
@@ -14323,7 +14521,8 @@
       "samples": [
         324
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Ulike/Ulike-Air-10-IPL-Hair-Removal-Device/518812.html?iref=rss": {
       "currency": "USD",
@@ -14335,7 +14534,8 @@
       "samples": [
         244
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/ASUS-TUF-Gaming-VG27-AQ3-A-27-1440-p-180-Hz-IPS-Gaming-Monitor-for-169-free-shipping-w-Prime/22430565.html?iref=rss": {
       "currency": "USD",
@@ -14346,7 +14546,8 @@
       "samples": [
         169
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Edishine/Edishine-60-Foot-RGB-IC-Permanent-Outdoor-String-Lights/563674.html?iref=rss": {
       "currency": "USD",
@@ -14358,7 +14559,8 @@
       "samples": [
         60
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Lenovo-Intel-N150-14-Touchscreen-2-in-1-Chromebook-for-330-free-shipping-w-Prime/22430563.html?iref=rss": {
       "currency": "USD",
@@ -14369,7 +14571,8 @@
       "samples": [
         330
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Songmics/Songmics-LED-Cabinet-Jewelry-Organizer/563280.html?iref=rss": {
       "currency": "USD",
@@ -14381,7 +14584,8 @@
       "samples": [
         81
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/LEGO-Pokemon-Iconic-Trainer-Moments-Poke-Ball-Building-Set-for-225-free-shipping/22430561.html?iref=rss": {
       "currency": "USD",
@@ -14393,7 +14597,8 @@
       "samples": [
         225
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Anker-Nano-100-W-4-in-1-Ga-N-USB-C-Universal-Travel-Charger-for-60-free-shipping-w-Prime/22430560.html?iref=rss": {
       "currency": "USD",
@@ -14404,7 +14609,8 @@
       "samples": [
         60
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Heritor-Automatic-Mens-Gregory-Semi-Skeleton-Leather-Band-Watch-for-120-free-shipping/22430559.html?iref=rss": {
       "currency": "USD",
@@ -14416,7 +14622,8 @@
       "samples": [
         120
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/11-th-Gen-Amazon-Kindle-Paperwhite-w-Lockscreen-Ads-2021-for-76-free-shipping-w-Prime/22430548.html?iref=rss": {
       "currency": "USD",
@@ -14427,7 +14634,8 @@
       "samples": [
         76
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Dalstrong-Game-of-Thrones-Nights-Watch-8-Chef-Knife-for-135-free-shipping/22430546.html?iref=rss": {
       "currency": "USD",
@@ -14438,7 +14646,8 @@
       "samples": [
         135
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Holdruby-Electric-Portable-Heated-Lunch-Box-for-19-w-Prime-free-shipping/22430545.html?iref=rss": {
       "currency": "USD",
@@ -14450,7 +14659,8 @@
       "samples": [
         19
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Edishine/Artinrack-7-Tier-84-Spool-3-D-Printer-Filament-Storage-Rack/563670.html?iref=rss": {
       "currency": "USD",
@@ -14462,7 +14672,8 @@
       "samples": [
         63
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/products/Hoto/Hoto-Swift-Easycare-Cordless-Electric-Spin-Scrubber/563669.html?iref=rss": {
       "currency": "USD",
@@ -14474,7 +14685,8 @@
       "samples": [
         50
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Bella-Fits-Anywhere-2-Slice-Slim-Toaster-for-15-free-shipping-w-Prime/22430540.html?iref=rss": {
       "currency": "USD",
@@ -14485,7 +14697,8 @@
       "samples": [
         15
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/INIU-10-000-m-Ah-45-W-Portable-Charger-for-20-free-shipping-w-Prime/22430539.html?iref=rss": {
       "currency": "USD",
@@ -14496,7 +14709,8 @@
       "samples": [
         20
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealnews.com/Amazon-Business-New-Account-Offer-40-off-up-to-120-free-shipping-w-Prime/22427852.html?iref=rss": {
       "currency": "USD",
@@ -14507,7 +14721,8 @@
       "samples": [
         120
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/milbona-cypriot-halloumi-cheese-225g-5037930": {
       "currency": "GBP",
@@ -14519,7 +14734,8 @@
       "samples": [
         1.69
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/dundalgan-irish-country-cream-liquer-70cl-abv-12-lidl-plus-5038162": {
       "currency": "GBP",
@@ -14530,7 +14746,8 @@
       "samples": [
         4.59
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/rubicon-still-mango-fruit-juice-drink-27-x-288ml-carton-rich-juicy-indian-alphonso-mango-puree-ps875-ss-5046199": {
       "currency": "GBP",
@@ -14541,7 +14758,8 @@
       "samples": [
         9.72
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/3-x-loreal-men-expert-hydra-energetic-pure-carbon-shower-gel-large-xxl-1l-nectar-price-5046109": {
       "currency": "GBP",
@@ -14552,7 +14770,8 @@
       "samples": [
         12
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/amazon-basics-fine-rollerball-gel-pens-ideal-for-school-office-fine-point-07mm-black-pack-of-12-5045203": {
       "currency": "GBP",
@@ -14563,7 +14782,8 @@
       "samples": [
         3.16
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/sony-refurbished-playstation-5-digital-edition-very-good-condition-5046341": {
       "currency": "GBP",
@@ -14574,7 +14794,8 @@
       "samples": [
         378.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/vouchers/ps7-off-ps70-on-home-and-furniture-via-blue-light-card-5044836": {
       "currency": "GBP",
@@ -14586,7 +14807,8 @@
       "samples": [
         7
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/rubicon-24-pack-sparkling-passion-made-with-real-passion-fruit-juice-24-x-330ml-5044939": {
       "currency": "GBP",
@@ -14597,7 +14819,8 @@
       "samples": [
         7.44
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/star-elite-high-back-padded-fabric-folding-chair-single-instore-5045836": {
       "currency": "GBP",
@@ -14608,7 +14831,8 @@
       "samples": [
         10.78
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/apple-watch-series-11-gps-46mm-smartwatch-with-silver-aluminium-case-with-purple-fog-sport-band-ml-5045988": {
       "currency": "GBP",
@@ -14619,7 +14843,8 @@
       "samples": [
         260.92
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/boss-bottled-aftershave-100ml-5046205": {
       "currency": "GBP",
@@ -14630,7 +14855,8 @@
       "samples": [
         27
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/lego-technic-custom-garage-ford-mustang-gt-car-model-42236-10-years-5046251": {
       "currency": "GBP",
@@ -14641,7 +14867,8 @@
       "samples": [
         49.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/fable-ps5-5046269": {
       "currency": "GBP",
@@ -14652,7 +14879,8 @@
       "samples": [
         49.49
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/waterproof-speaker-5045095": {
       "currency": "GBP",
@@ -14663,7 +14891,8 @@
       "samples": [
         19.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/adidas-mens-runfalcon-6-atr-trainers-sizes-7-12-with-code-5045172": {
       "currency": "GBP",
@@ -14675,7 +14904,8 @@
       "samples": [
         21
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/everbuild-stick2-superglue-high-viscosity-industrial-grade-high-strength-rapid-setting-clear-20g-5044205": {
       "currency": "GBP",
@@ -14686,7 +14916,8 @@
       "samples": [
         2.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/celebrations-tub-lidl-5043862": {
       "currency": "GBP",
@@ -14697,7 +14928,8 @@
       "samples": [
         3.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/themalright-aqua-elite-360-aio-ps3592-or-ps45-non-prime-5045487": {
       "currency": "GBP",
@@ -14708,7 +14940,8 @@
       "samples": [
         35.92
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/hisense-43-inch-qled-hd-smart-tv-2026-model-dolby-vision-atmos-iq-hdr10-hlg-freely-43a7stuk-5-year-warranty-5045312": {
       "currency": "GBP",
@@ -14719,7 +14952,8 @@
       "samples": [
         239.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/nintendo-switch-2-256gb-console-with-joy-con-2-the-legend-of-zelda-40th-anniversary-edition-user-replaceable-battery-2-year-warranty-5046357": {
       "currency": "GBP",
@@ -14730,7 +14964,8 @@
       "samples": [
         434.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/super-mario-yoshi-plush-toy-30cm-soft-toy-dinosaur-5046307": {
       "currency": "GBP",
@@ -14741,7 +14976,8 @@
       "samples": [
         5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/o2-50gb-100gb-wvolt-data-unlimited-mins-texts-eu-roaming-monthly-rolling-plan-ps28-topcashback-new-existing-see-op-5046210": {
       "currency": "GBP",
@@ -14753,7 +14989,8 @@
       "samples": [
         8
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://hotukdeals.com/deals/einhell-cordless-chainsaw-25cm-10-inch-18v-pxc-without-battery-up-to-15-ps11-kw-45-ms-chain-speed-electric-chainsaw-cordless-5045651": {
       "currency": "GBP",
@@ -14764,7 +15001,8 @@
       "samples": [
         64.98
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/cozze-17-pizzaofen-premium-gutscheinpayback-ggf-10eur-newsletter-2881220": {
       "currency": "EUR",
@@ -14775,7 +15013,8 @@
       "samples": [
         389.38
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/nike-manoa-herren-leder-winterstiefel-in-braun-oder-schwarz-gr-40-47-2881217": {
       "currency": "EUR",
@@ -14786,7 +15025,8 @@
       "samples": [
         55
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/zandiara-schneidebrett-jens-aus-bambus-3-teilig-fur-599eur-inkl-versand-momax-2881260": {
       "currency": "EUR",
@@ -14797,7 +15037,8 @@
       "samples": [
         5.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/jack-jones-herren-merino-strickpullover-schwarz-prime-2881218": {
       "currency": "EUR",
@@ -14808,7 +15049,8 @@
       "samples": [
         20.79
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/rennrad-scott-addict-rc-10-carbon-rahmenlrscockpitssultegra-di271kg-2026-xs-bis-xl-2881199": {
       "currency": "EUR",
@@ -14819,7 +15061,8 @@
       "samples": [
         3726.98
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/lisen-2er-pack-usb-c-kfz-ladegerat-mit-54w-metallgehause-pd-36w-qc-30-prime-2881181": {
       "currency": "EUR",
@@ -14830,7 +15073,8 @@
       "samples": [
         6.77
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/sunlu-pp20-gratis-bei-kauf-von-reduziertem-technischen-3d-druck-filament-effektiv-ab-14eurkg-fur-viele-3d-drucker-geeignet-amazon-prime-2881163": {
       "currency": "EUR",
@@ -14841,7 +15085,8 @@
       "samples": [
         33.38
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/telekom-netz-freenet-black-friday-monatlich-kundbar-200gb-freenet-telekom-tarif-inkl-allnet-fur-1699eur-mtl-lifetime-preis-1999eur-ag-2868829": {
       "currency": "EUR",
@@ -14852,7 +15097,8 @@
       "samples": [
         16.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/kids-1995-blu-ray-imdb-70-at-prime-2881104": {
       "currency": "EUR",
@@ -14863,7 +15109,8 @@
       "samples": [
         10.4
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/prime-jack-jones-jeans-alle-grossen-98-baumwolle-regular-fit-hose-clark-herren-male-2881196": {
       "currency": "EUR",
@@ -14874,7 +15121,8 @@
       "samples": [
         31.49
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/philips-oneblade-360-grad-ersatzklingen-4-stuck-fur-2398-eur-entspricht-599stk-inkl-versand-direkt-von-philips-philips-qp44050-2881188": {
       "currency": "EUR",
@@ -14885,7 +15133,8 @@
       "samples": [
         23.98
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/bis-zu-33-sparen-disneys-der-konig-der-lowen-musical-in-hamburg-an-der-elbe-stage-entertainment-2881189": {
       "currency": "EUR",
@@ -14896,7 +15145,8 @@
       "samples": [
         99.15
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/iiyama-prolite-xb2496hsc-b1-monitor-238-fhd-ips-300nits-144hz-2x-usb-c-pd-65w-hohenverstellbar-pivot-integr-speaker-3j-garantie-2881202": {
       "currency": "EUR",
@@ -14907,7 +15157,8 @@
       "samples": [
         86.89
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/hp-dock-usb-c-g5-docking-station-hsn-ix02-120w-netzteil-refurbished-2881219": {
       "currency": "EUR",
@@ -14918,7 +15169,8 @@
       "samples": [
         40.45
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/benefitbuddy-5eur-extra-guthaben-beim-kauf-eines-50eur-bestchoice-gutscheins-effektiv-9-rabatt-2881227": {
       "currency": "EUR",
@@ -14930,7 +15182,8 @@
       "samples": [
         5
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/joybuy-lattafa-khamrah-eau-de-parfum-100ml-fur-1506-eur-inkl-versand-als-app-neukunde-2881226": {
       "currency": "EUR",
@@ -14941,7 +15194,8 @@
       "samples": [
         15.06
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://mydealz.de/deals/animoon-bietet-aktuell-26-black-week-rabatt-anime-blu-ray-dvds-und-mehr-2873461": {
       "currency": "EUR",
@@ -14952,7 +15206,8 @@
       "samples": [
         59.19
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/tapis-de-souris-de-jeu-xxl-impactrion-90-x-40-cm-3468471": {
       "currency": "EUR",
@@ -14963,7 +15218,8 @@
       "samples": [
         13.93
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/olight-i3t-2-mini-lampe-de-poche-200-lumens-avec-pince-de-poche-reversible-3467943": {
       "currency": "EUR",
@@ -14974,7 +15230,8 @@
       "samples": [
         17.96
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/gants-de-moto-ete-homme-furygan-jet-d3o-evo-paume-100-cuir-coques-d3o-compatibles-ecrans-tactiles-3468237": {
       "currency": "EUR",
@@ -14985,7 +15242,8 @@
       "samples": [
         34.17
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/ecran-pc-gamer-27-msi-mag272qpqdoledx24-oled240hz003ms-3468668": {
       "currency": "EUR",
@@ -14996,7 +15254,8 @@
       "samples": [
         299.98
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/carte-graphique-soyo-geforce-rtx-3070-8-go-gddr6-expediee-depuis-la-france-a-26343eur-24343eur-via-paypal-sur-aliexpress-3468655": {
       "currency": "EUR",
@@ -15007,7 +15266,8 @@
       "samples": [
         263.43
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/paladone-bokoblin-lampe-de-poitrine-sous-licence-officielle-the-legend-of-zelda-veilleuse-avec-effets-sonores-3467924": {
       "currency": "EUR",
@@ -15018,7 +15278,8 @@
       "samples": [
         16.22
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/batman-la-serie-tv-animee-4-saisons-blu-ray-3467202": {
       "currency": "EUR",
@@ -15029,7 +15290,8 @@
       "samples": [
         29.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/pro-breeze-deshumidificateur-d-air-20ljour-3466856": {
       "currency": "EUR",
@@ -15040,7 +15302,8 @@
       "samples": [
         118.8
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/lego-42238-moto-ducati-desmo-450-mx-factory-via-20-eur-de-remise-au-panier-3467249": {
       "currency": "EUR",
@@ -15052,7 +15315,8 @@
       "samples": [
         29.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/somfy-pack-tahoma-switch-capteur-de-consommation-linky-3468492": {
       "currency": "EUR",
@@ -15063,7 +15327,8 @@
       "samples": [
         139
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/giant-tcr-advanced-0-pc-vert-alpin-3467834": {
       "currency": "EUR",
@@ -15074,7 +15339,8 @@
       "samples": [
         520
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://dealabs.com/bons-plans/aspirateur-balai-dyson-v15-detect-absolute-240-air-watts-40eur-offerts-en-cheque-cadeau-3468475": {
       "currency": "EUR",
@@ -15085,7 +15351,8 @@
       "samples": [
         469
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/squier-by-fender-debut-stratocaster-guitarra-electrica-principiantes-roja-2089277": {
       "currency": "EUR",
@@ -15096,7 +15363,8 @@
       "samples": [
         119.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/ciclocomputador-garmin-edge-840-solar-gps-pantalla-tactil-y-botones-carga-power-glass-gnss-multibanda-topo-2088919": {
       "currency": "EUR",
@@ -15107,7 +15375,8 @@
       "samples": [
         332.49
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/videojuego-motogp-26-para-nintendo-switch-2-cib-temporada-oficial-2026-todos-los-pilotos-y-circuitos-modo-trayectoria-online-2075311": {
       "currency": "EUR",
@@ -15118,7 +15387,8 @@
       "samples": [
         23.88
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/baraja-de-cartas-coco-inspirada-en-la-pelicula-2089303": {
       "currency": "EUR",
@@ -15129,7 +15399,8 @@
       "samples": [
         9.28
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/segunda-mano-aceptable-harry-potter-and-the-goblet-of-fire-a-sumptuously-illustrated-gift-book-with-magical-interactive-surprises-ingles-2089178": {
       "currency": "EUR",
@@ -15140,7 +15411,8 @@
       "samples": [
         10.38
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/httpswwwamazonesdpb0fgffv89lpsc1-2089310": {
       "currency": "EUR",
@@ -15151,7 +15423,8 @@
       "samples": [
         4.8
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/gafas-de-sol-deportivas-y-lifestyle-poc-aspire-mid-con-lente-clarity-en-4-colores-montura-grilamid-antideslizante-2087704": {
       "currency": "EUR",
@@ -15162,7 +15435,8 @@
       "samples": [
         99.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/nacon-greedfall-the-dying-world-videojuego-para-ps5-version-subtitulada-espanola-2071048": {
       "currency": "EUR",
@@ -15173,7 +15447,8 @@
       "samples": [
         29.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/juego-gran-turismo-7-para-ps4-edicion-fisica-2087668": {
       "currency": "EUR",
@@ -15184,7 +15459,8 @@
       "samples": [
         29.9
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/revolution-calendario-de-adviento-beauty-2026-set-regalo-maquillaje-2083819": {
       "currency": "EUR",
@@ -15195,7 +15471,8 @@
       "samples": [
         32.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/macna-riggor-chaqueta-textil-impermeable-para-motocicletas-grisnegroamarillo-y-negro-tallas-dentro9-2089150": {
       "currency": "EUR",
@@ -15206,7 +15483,8 @@
       "samples": [
         99.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/anker-nano-cargador-carga-rapida-45w-usb-c-plegable-gan-para-iphone-galaxy-macbook-ipad-pixel-9-2089188": {
       "currency": "EUR",
@@ -15217,7 +15495,8 @@
       "samples": [
         17.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/lavavajillas-aeg-14-servicios-bandeja-de-cubiertos-maxiflex-60-cm-ffb74917zm-inox-2085060": {
       "currency": "EUR",
@@ -15228,7 +15507,8 @@
       "samples": [
         449
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/bresser-1821051-condor-techo-prismaticos-10-x-50-impermeable-con-relleno-de-nitrogeno-y-ur-de-recubrimiento-multicapa-negro-2089221": {
       "currency": "EUR",
@@ -15239,7 +15519,8 @@
       "samples": [
         99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/grifo-de-lavabo-color-negro-2089044": {
       "currency": "EUR",
@@ -15250,7 +15531,8 @@
       "samples": [
         20.41
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/zapatillas-adidas-terrex-anylander-climawarm-tallas-40-a-48-2085188": {
       "currency": "EUR",
@@ -15261,7 +15543,8 @@
       "samples": [
         60.9
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/barra-de-sonido-lg-s60tr-bluetooth-440-w-51-canales-dolby-digital-y-dts-2085859": {
       "currency": "EUR",
@@ -15272,7 +15555,8 @@
       "samples": [
         179
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/cafetera-de-goteo-ok-ocm-7521-b-750-w-125-l-capacidad-10-tazas-funcion-mantenimiento-caliente-2085920": {
       "currency": "EUR",
@@ -15283,7 +15567,8 @@
       "samples": [
         9.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/neceser-rigido-de-viaje-adaptable-reebok-roxbury-con-bandolera-carcasa-abs-ligera-914l-02-kg-29x21x15-cm-2086048": {
       "currency": "EUR",
@@ -15294,7 +15579,8 @@
       "samples": [
         23.7
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/zapatillas-merrell-speed-strike-2-trek-tallas-40-a-49-excepto-48-2086153": {
       "currency": "EUR",
@@ -15305,7 +15591,8 @@
       "samples": [
         49.9
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/videojuego-the-witcher-3-wild-hunt-complete-edition-para-ps5-accion-rpg-mundo-abierto-2-expansiones-60-fps-2088924": {
       "currency": "EUR",
@@ -15316,7 +15603,8 @@
       "samples": [
         19.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/figura-funko-pop-disney-villains-maleficent-malefica-edicion-coleccionista-2076722": {
       "currency": "EUR",
@@ -15327,7 +15615,8 @@
       "samples": [
         9.48
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/zapatillas-nike-tiempo-streetgato-tallas-365-a-475-2087062": {
       "currency": "EUR",
@@ -15338,7 +15627,8 @@
       "samples": [
         42.49
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/cupones/10-extra-compra-min-40eur-2088821": {
       "currency": "EUR",
@@ -15349,7 +15639,8 @@
       "samples": [
         40
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/smart-tv-qled-85-2159-cm-hisense-85e7s-4k-uhd-descuento-club-15-2088911": {
       "currency": "EUR",
@@ -15360,7 +15651,8 @@
       "samples": [
         713.15
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://chollometro.com/ofertas/casco-de-moto-integral-scorpion-exo-391-ece2206-3-colores-blanco-6459eur-de-xs-a-2xl-negros-6602eur-de-xs-a-2xl-2089057": {
       "currency": "EUR",
@@ -15371,7 +15663,8 @@
       "samples": [
         64.59
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://nl.pepper.com/aanbiedingen/peugeot-paris-peper-en-zoutstel-hout-18-cm-zwart-at-ibood-429236": {
       "currency": "EUR",
@@ -15382,7 +15675,8 @@
       "samples": [
         29.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://nl.pepper.com/aanbiedingen/apple-macbook-pro-14-inch-2026-m5-pro-24-gb-ram-2-tb-ssd-spacezwart-429189": {
       "currency": "EUR",
@@ -15393,7 +15687,8 @@
       "samples": [
         2.699
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://nl.pepper.com/aanbiedingen/lego-bricktales-google-playstore-429227": {
       "currency": "EUR",
@@ -15404,7 +15699,8 @@
       "samples": [
         0.9
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://nl.pepper.com/aanbiedingen/brennenstuhl-ecolor-power-strip-with-3-sockets-blackwhite-nu-nog-goedkoper-en-60-cent-goedkoper-dan-de-rode-versie-429188": {
       "currency": "EUR",
@@ -15415,7 +15711,8 @@
       "samples": [
         5.4
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985506": {
       "currency": "USD",
@@ -15426,7 +15723,8 @@
       "samples": [
         100
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985504": {
       "currency": "USD",
@@ -15437,7 +15735,8 @@
       "samples": [
         799
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985502": {
       "currency": "USD",
@@ -15449,7 +15748,8 @@
       "samples": [
         249.95
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985501": {
       "currency": "USD",
@@ -15460,7 +15760,8 @@
       "samples": [
         671.4
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985500": {
       "currency": "USD",
@@ -15471,7 +15772,8 @@
       "samples": [
         429
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985499": {
       "currency": "USD",
@@ -15482,7 +15784,8 @@
       "samples": [
         48
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://ozbargain.com.au/node/985496": {
       "currency": "USD",
@@ -15494,7 +15797,8 @@
       "samples": [
         3.99
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
     },
     "https://forums.redflagdeals.com/viewtopic.php?p=41387352&t=2833868": {
       "currency": "USD",
@@ -15506,7 +15810,470 @@
       "samples": [
         679
       ],
-      "lastSeenAt": 1795602159666
+      "lastSeenAt": 1795602159666,
+      "firstSeenAt": 1795602159666
+    },
+    "https://townteam.com/products/5639475423": {
+      "currency": "EGP",
+      "lastPrice": 1599,
+      "minPrice": 1599,
+      "maxPrice": 1599,
+      "medianPrice": 1599,
+      "regularMax": 3199,
+      "samples": [
+        1599
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639474127": {
+      "currency": "EGP",
+      "lastPrice": 1299,
+      "minPrice": 1299,
+      "maxPrice": 1299,
+      "medianPrice": 1299,
+      "regularMax": 2599,
+      "samples": [
+        1299
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639505968": {
+      "currency": "EGP",
+      "lastPrice": 999,
+      "minPrice": 999,
+      "maxPrice": 999,
+      "medianPrice": 999,
+      "regularMax": 1999,
+      "samples": [
+        999
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639592898": {
+      "currency": "EGP",
+      "lastPrice": 1099,
+      "minPrice": 1099,
+      "maxPrice": 1099,
+      "medianPrice": 1099,
+      "regularMax": 2199,
+      "samples": [
+        1099
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639504448": {
+      "currency": "EGP",
+      "lastPrice": 1199,
+      "minPrice": 1199,
+      "maxPrice": 1199,
+      "medianPrice": 1199,
+      "regularMax": 2399,
+      "samples": [
+        1199
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639464580": {
+      "currency": "EGP",
+      "lastPrice": 899,
+      "minPrice": 899,
+      "maxPrice": 899,
+      "medianPrice": 899,
+      "regularMax": 1799,
+      "samples": [
+        899
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639558459": {
+      "currency": "EGP",
+      "lastPrice": 1099,
+      "minPrice": 1099,
+      "maxPrice": 1099,
+      "medianPrice": 1099,
+      "regularMax": 2199,
+      "samples": [
+        1099
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://townteam.com/products/5639417711": {
+      "currency": "EGP",
+      "lastPrice": 699,
+      "minPrice": 699,
+      "maxPrice": 699,
+      "medianPrice": 699,
+      "regularMax": 1399,
+      "samples": [
+        699
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20319588-playstation-store-black-friday-digital-sale-final-fantasy-vii-rebirth-digital-deluxe-edition-10-49-dead-space-hogwarts-legacy-6-99-kingdom-come-deliverance-4-49-more": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20392464-2-pk-64gb-amazon-basics-microsdxc-memory-card-with-full-size-adapter-18-free-s-h-w-prime-at-woot": {
+      "currency": "USD",
+      "lastPrice": 18,
+      "minPrice": 18,
+      "maxPrice": 18,
+      "medianPrice": 18,
+      "samples": [
+        18
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20390694-lego-worlds-on-nintendo-shop-2-99": {
+      "currency": "USD",
+      "lastPrice": 3,
+      "minPrice": 3,
+      "maxPrice": 3,
+      "medianPrice": 3,
+      "samples": [
+        3
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20391612-28-30-oz-owala-freesip-sway-insulated-stainless-steel-water-bottle-at-amazon": {
+      "currency": "USD",
+      "lastPrice": 28,
+      "minPrice": 28,
+      "maxPrice": 28,
+      "medianPrice": 28,
+      "regularMax": 35,
+      "samples": [
+        28
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20392425-thermaltake-lcgs-versa-i570s-i9-14900kf-rtx-5070-32gb-ddr5-1tb-ssd-1745-99": {
+      "currency": "USD",
+      "lastPrice": 5070,
+      "minPrice": 5070,
+      "maxPrice": 5070,
+      "medianPrice": 5070,
+      "samples": [
+        5070
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20377917-loaded-black-friday-pcdd-steam-sale-frostpunk-2-4-60-hogwarts-legacy-4-90-many-more": {
+      "currency": "USD",
+      "lastPrice": 2,
+      "minPrice": 2,
+      "maxPrice": 2,
+      "medianPrice": 2,
+      "regularMax": 4.9,
+      "samples": [
+        2
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20385462-ac-19-99-ring-indoor-cam-2k-plug-in-security-camera-10-back-w-prime-visa-card-at-amazon": {
+      "currency": "USD",
+      "lastPrice": 20,
+      "minPrice": 20,
+      "maxPrice": 20,
+      "medianPrice": 20,
+      "samples": [
+        20
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20385450-ac-19-54-carhartt-shock-absorbing-dog-leash-brown-at-amazon": {
+      "currency": "USD",
+      "lastPrice": 19.55,
+      "minPrice": 19.55,
+      "maxPrice": 19.55,
+      "medianPrice": 19.55,
+      "samples": [
+        19.55
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20379738-mad-max-pcdd-steam-key-1-30": {
+      "currency": "MAD",
+      "lastPrice": 1.3,
+      "minPrice": 1.3,
+      "maxPrice": 1.3,
+      "medianPrice": 1.3,
+      "samples": [
+        1.3
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://slickdeals.net/f/20386944-4-quart-ninja-air-fryer-w-air-fry-reheat-dehydrate-3-colors-59-free-shipping": {
+      "currency": "USD",
+      "lastPrice": 59,
+      "minPrice": 59,
+      "maxPrice": 59,
+      "medianPrice": 59,
+      "samples": [
+        59
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/Nostalgia-Electric-Fondue-Party-Set-for-18-free-shipping-w-Prime/22430629.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 18,
+      "minPrice": 18,
+      "maxPrice": 18,
+      "medianPrice": 18,
+      "samples": [
+        18
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/Dell-Core-7-15-3-16-GB-1-TB-Touchscreen-Laptop-for-800-free-shipping/22430628.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 800,
+      "minPrice": 800,
+      "maxPrice": 800,
+      "medianPrice": 800,
+      "samples": [
+        800
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/products/Lenovo/Lenovo-Idea-Pad-Slim-5-Core-7-150-U-16-Laptop/563682.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 595,
+      "minPrice": 595,
+      "maxPrice": 595,
+      "medianPrice": 595,
+      "samples": [
+        595
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/Universal-Black-Friday-Deals-at-Groupon-for-Tickets-from-45/22430608.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 45,
+      "minPrice": 45,
+      "maxPrice": 45,
+      "medianPrice": 45,
+      "samples": [
+        45
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/Costway-5-Foot-Pre-Lit-Artificial-Christmas-Tree-for-47-free-shipping/22430607.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 47,
+      "minPrice": 47,
+      "maxPrice": 47,
+      "medianPrice": 47,
+      "samples": [
+        47
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/Swarovski-Disney-The-Lion-King-Simba-Crystal-Figurine-for-109-free-shipping/22430606.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 109,
+      "minPrice": 109,
+      "maxPrice": 109,
+      "medianPrice": 109,
+      "samples": [
+        109
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 79,
+      "minPrice": 79,
+      "maxPrice": 79,
+      "medianPrice": 79,
+      "samples": [
+        79
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/google-pixel-11-pro-xl-256gb-pixel-case-buds-2a-id-500gb-data-eu-roaming-ps9-upfront-wcode-ps3099pm24m-ps24-topcashback-5046232": {
+      "currency": "GBP",
+      "lastPrice": 799.56,
+      "minPrice": 799.56,
+      "maxPrice": 799.56,
+      "medianPrice": 799.56,
+      "samples": [
+        799.56
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/lego-creator-3in1-space-shuttle-31134-5046342": {
+      "currency": "GBP",
+      "lastPrice": 5.99,
+      "minPrice": 5.99,
+      "maxPrice": 5.99,
+      "medianPrice": 5.99,
+      "samples": [
+        5.99
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/ghostbusters-the-video-game-remastered-pc-steam-steam-deck-5046111": {
+      "currency": "GBP",
+      "lastPrice": 0.99,
+      "minPrice": 0.99,
+      "maxPrice": 0.99,
+      "medianPrice": 0.99,
+      "samples": [
+        0.99
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/salomon-mens-examotion-gore-tex-hiking-shoes-size-8-sizes-9-11-ps63-wcode-5045860": {
+      "currency": "GBP",
+      "lastPrice": 47.25,
+      "minPrice": 47.25,
+      "maxPrice": 47.25,
+      "medianPrice": 47.25,
+      "samples": [
+        47.25
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/acer-aspire-16-ai-copilotpc-amd-ryzen-ai-7-16gb-ram-1tb-ssd-16-inch-oled-laptop-nxjp0ek005-claim-free-gifts-worth-upto-ps109-5046220": {
+      "currency": "GBP",
+      "lastPrice": 649.98,
+      "minPrice": 649.98,
+      "maxPrice": 649.98,
+      "medianPrice": 649.98,
+      "samples": [
+        649.98
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://hotukdeals.com/deals/george-home-9l-3000w-multi-basket-dual-air-fryer-black-free-collection-white-is-ps39-5046194": {
+      "currency": "GBP",
+      "lastPrice": 38,
+      "minPrice": 38,
+      "maxPrice": 38,
+      "medianPrice": 38,
+      "samples": [
+        38
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://mydealz.de/deals/itchio-final-witness-psx-horrorspiel-fur-windows-kostenlos-statt-499-2881174": {
+      "currency": "USD",
+      "lastPrice": 8.98,
+      "minPrice": 8.98,
+      "maxPrice": 8.98,
+      "medianPrice": 8.98,
+      "samples": [
+        8.98
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://mydealz.de/deals/xfx-mercury-amd-radeon-rx-9070xt-oc-gaming-edition-mit-rgb-16gb-gddr6-hdmi-3xdp-amd-rdna-2881309": {
+      "currency": "EUR",
+      "lastPrice": 869.99,
+      "minPrice": 869.99,
+      "maxPrice": 869.99,
+      "medianPrice": 869.99,
+      "samples": [
+        869.99
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealabs.com/bons-plans/via-paypal-processeur-amd-ryzen-7-9800x3d-8-coeurs-52-ghz-96-mo-l3-tdp-120-w-am5-3468717": {
+      "currency": "EUR",
+      "lastPrice": 268.9,
+      "minPrice": 268.9,
+      "maxPrice": 268.9,
+      "medianPrice": 268.9,
+      "samples": [
+        268.9
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://dealabs.com/bons-plans/via-paypal-processeur-amd-ryzen-7-7800x3d-8-coeurs-16-threads-jusqua-5-ghz-96-mo-cache-3d-v-cache-socket-am5-sans-ventilateur-3468702": {
+      "currency": "EUR",
+      "lastPrice": 181.41,
+      "minPrice": 181.41,
+      "maxPrice": 181.41,
+      "medianPrice": 181.41,
+      "samples": [
+        181.41
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://chollometro.com/ofertas/barra-de-sonido-s95ar-con-cashback-300eur-2089170": {
+      "currency": "EUR",
+      "lastPrice": 419.1,
+      "minPrice": 419.1,
+      "maxPrice": 419.1,
+      "medianPrice": 419.1,
+      "samples": [
+        419.1
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://chollometro.com/ofertas/chaqueta-de-moto-touring-rst-alpha-5-clase-aa-forro-termico-extraible-125gr-impermeable-2-colores-de-s-a-3xl-en-ambos-2089174": {
+      "currency": "EUR",
+      "lastPrice": 72.24,
+      "minPrice": 72.24,
+      "maxPrice": 72.24,
+      "medianPrice": 72.24,
+      "samples": [
+        72.24
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://chollometro.com/ofertas/jack-jones-wide-fit-jeans-jxtokyo-wide-hw-mr6002-dnm-noos-2088034": {
+      "currency": "EUR",
+      "lastPrice": 17.95,
+      "minPrice": 17.95,
+      "maxPrice": 17.95,
+      "medianPrice": 17.95,
+      "samples": [
+        17.95
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://chollometro.com/ofertas/funko-pop-football-bayern-munich-berni-the-bear-2089306": {
+      "currency": "EUR",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://nl.pepper.com/aanbiedingen/gta-san-andreas-definitive-google-play-store-429211": {
+      "currency": "EUR",
+      "lastPrice": 10,
+      "minPrice": 10,
+      "maxPrice": 10,
+      "medianPrice": 10,
+      "samples": [
+        10
+      ],
+      "lastSeenAt": 1795603038176
+    },
+    "https://ozbargain.com.au/node/985507": {
+      "currency": "USD",
+      "lastPrice": 10.5,
+      "minPrice": 10.5,
+      "maxPrice": 10.5,
+      "medianPrice": 10.5,
+      "regularMax": 59,
+      "samples": [
+        10.5
+      ],
+      "lastSeenAt": 1795603038176
     }
   }
 }
