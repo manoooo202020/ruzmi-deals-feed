@@ -1,5 +1,90 @@
 {
   "schemaVersion": 1,
-  "description": "Optional extra public open storefronts (Shopify / WooCommerce / Magento 2 read-only endpoints) scanned alongside built-in sources.",
-  "stores": []
+  "description": "Verified HTTP-200 public open storefronts (Shopify / WooCommerce / Magento 2 read-only APIs) scanned alongside built-in sources.",
+  "stores": [
+    {
+      "name": "Spinneys Egypt",
+      "origin": "https://spinneys-egypt.com",
+      "platform": "magento2",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "grocery",
+      "magentoCategoryIds": ["826", "829"]
+    },
+    {
+      "name": "Gourmet Egypt",
+      "origin": "https://gourmetegypt.com",
+      "platform": "magento2",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "grocery",
+      "magentoCategoryIds": ["472", "5109"]
+    },
+    {
+      "name": "Abu Auf Egypt",
+      "origin": "https://www.abuauf.com",
+      "platform": "woocommerce",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "grocery"
+    },
+    {
+      "name": "El Araby Egypt",
+      "origin": "https://www.elarabygroup.com",
+      "platform": "magento2",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "home",
+      "magentoCategoryIds": ["111", "1497"]
+    },
+    {
+      "name": "Mazaya Egypt",
+      "origin": "https://mazaya.eg",
+      "platform": "magento2",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "beauty",
+      "magentoCategoryIds": ["1030", "979"]
+    },
+    {
+      "name": "Mobaco Cottons",
+      "origin": "https://mobaco.com",
+      "platform": "magento2",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "fashion",
+      "magentoCategoryIds": ["5", "29", "48", "64"],
+      "magentoCategoryGenders": {
+        "5": "men",
+        "29": "women",
+        "48": "kids",
+        "64": "kids"
+      }
+    },
+    {
+      "name": "Town Team Egypt",
+      "origin": "https://townteam.com",
+      "platform": "shopify",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "fashion"
+    },
+    {
+      "name": "Activ Abou Alaa",
+      "origin": "https://activaboualaa.com",
+      "platform": "shopify",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "fashion"
+    },
+    {
+      "name": "DalyDress Egypt",
+      "origin": "https://dalydress.com",
+      "platform": "shopify",
+      "currency": "EGP",
+      "region": "EG",
+      "defaultCategory": "fashion",
+      "defaultGender": "women"
+    }
+  ]
 }

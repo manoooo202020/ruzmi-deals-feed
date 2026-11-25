@@ -72,8 +72,125 @@ const LEDGER_MIN_SAMPLE_INTERVAL_MS = 10 * 60 * 60 * 1000;
 const LEDGER_MAX_ENTRIES = 5000;
 const MAX_RESPONSE_BYTES = 2 * 1024 * 1024;
 const REQUEST_TIMEOUT_MS = 10000;
-const MAX_DEALS_PER_REGION = 40;
-const USER_AGENT = 'RUZMI-Deals-Feed/1.0 (+https://github.com/ruzmi-deals-feed)';
+const MAX_DEALS_PER_REGION = 50;
+const USER_AGENT =
+  'Mozilla/5.0 (compatible; RUZMI-Deals-Feed/1.1; +https://github.com/manoooo202020/ruzmi-deals-feed)';
+
+const CLOTHING_SIZES = new Set(['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', '2XL', '3XL', '4XL', '5XL', 'ONE SIZE']);
+const CANONICAL_COLORS = [
+  ['black', ['black', 'noir', 'schwarz', 'negro', 'nero', 'preto', 'siyah', 'اسود', 'أسود', 'obsidian', 'midnight', 'charcoal', 'jet']],
+  ['white', ['white', 'blanc', 'weiss', 'weiß', 'blanco', 'bianco', 'branco', 'beyaz', 'ابيض', 'أبيض', 'ivory', 'cream', 'off white', 'ecru']],
+  ['navy', ['navy', 'marine', 'كحلي', 'dark blue']],
+  ['blue', ['blue', 'bleu', 'blau', 'azul', 'blu', 'mavi', 'ازرق', 'أزرق', 'sky', 'cyan', 'cobalt', 'denim', 'indigo']],
+  ['red', ['red', 'rouge', 'rot', 'rojo', 'rosso', 'vermelho', 'kirmizi', 'احمر', 'أحمر', 'burgundy', 'crimson', 'maroon', 'wine']],
+  ['green', ['green', 'vert', 'grun', 'grün', 'verde', 'yesil', 'اخضر', 'أخضر', 'olive', 'emerald', 'mint', 'sage', 'khaki', 'forest']],
+  ['gray', ['gray', 'grey', 'gris', 'grau', 'grigio', 'cinza', 'gri', 'رمادي', 'رصاصي', 'graphite', 'slate', 'heather', 'ash']],
+  ['beige', ['beige', 'sand', 'tan', 'camel', 'taupe', 'بيج', 'رملي', 'جملي', 'oat', 'stone', 'khaki']],
+  ['brown', ['brown', 'marron', 'braun', 'castanho', 'kahverengi', 'بني', 'chocolate', 'espresso', 'coffee', 'cognac', 'chestnut']],
+  ['pink', ['pink', 'rose', 'rosa', 'pembe', 'وردي', 'بينك', 'blush', 'coral', 'fuchsia', 'magenta']],
+  ['purple', ['purple', 'violet', 'lila', 'morado', 'viola', 'roxo', 'mor', 'بنفسجي', 'lavender', 'plum']],
+  ['yellow', ['yellow', 'jaune', 'gelb', 'amarillo', 'giallo', 'amarelo', 'sari', 'اصفر', 'أصفر', 'mustard', 'gold']],
+  ['orange', ['orange', 'naranja', 'arancione', 'laranja', 'turuncu', 'برتقالي', 'rust', 'terracotta']],
+];
+
+function dedupeCapList(items, max = 10) {
+  const seen = new Set();
+  const out = [];
+  for (const raw of items) {
+    const clean = String(raw || '').trim();
+    if (!clean) continue;
+    const key = clean.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(clean);
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
+function canonicalizeColorToken(raw) {
+  const norm = cleanText(String(raw || ''), 48).toLowerCase();
+  if (!norm) return null;
+  const padded = ` ${norm.replace(/[^\p{L}\p{N}]+/gu, ' ')} `;
+  for (const [canonical, syns] of CANONICAL_COLORS) {
+    for (const s of syns) {
+      if (norm === s || padded.includes(` ${s} `)) return canonical;
+    }
+  }
+  return null;
+}
+
+export function extractFashionAttributes({title = '', tags = [], productType = '', optionValues = [], handle = '', defaultGender = null} = {}) {
+  const hay = cleanText([title, productType, handle, ...tags].join(' '), 500).toLowerCase();
+  const padded = ` ${hay.replace(/[^\p{L}\p{N}]+/gu, ' ')} `;
+
+  let gender = defaultGender || null;
+  if (!gender) {
+    if (/(?:^|\s)(?:unisex|all genders|للجنسين|جنسين)(?:\s|$)/i.test(padded)) {
+      gender = 'unisex';
+    } else if (/(?:^|\s)(?:kids|kid|boys|boy|girls|girl|youth|toddler|baby|infant|junior|children|child|اطفال|أطفال|اطفالي|أطفالي|اولاد|أولاد|بناتي|بنات|رضع)(?:\s|$)/i.test(padded)) {
+      gender = 'kids';
+    } else if (/(?:^|\s)(?:women|womens|woman|ladies|lady|female|femme|damen|mujer|donna|kadin|حريمي|نسائي|نساء|سيدات|للنساء|بنات)(?:\s|$)/i.test(padded)) {
+      gender = 'women';
+    } else if (/(?:^|\s)(?:men|mens|man|male|homme|herren|hombre|uomo|erkek|رجالي|رجال|للرجال)(?:\s|$)/i.test(padded)) {
+      gender = 'men';
+    }
+  }
+
+  const sizes = [];
+  const colors = [];
+
+  for (const rawOpt of optionValues) {
+    const parts = String(rawOpt || '')
+      .split(/\s*[\/|,]\s*/)
+      .map(p => p.trim())
+      .filter(Boolean);
+    for (const val of parts) {
+      if (val.length > 32) continue;
+      const upper = val.toUpperCase();
+      if (CLOTHING_SIZES.has(upper)) {
+        sizes.push(upper === '2XL' ? 'XXL' : upper);
+        continue;
+      }
+      if (/^(?:EU|US|UK)?\s*(?:3[5-9]|4[0-8])(?:\.5)?$/i.test(val)) {
+        sizes.push(val.toUpperCase().replace(/^(?:EU|US|UK)\s*/i, '').trim());
+        continue;
+      }
+      if (/^(?:2[6-9]|3[0-4])$/.test(val)) {
+        sizes.push(val);
+        continue;
+      }
+      const col = canonicalizeColorToken(val);
+      if (col) colors.push(col);
+    }
+  }
+
+  // Title fallback for explicit sizes
+  const sizeMatches = hay.matchAll(/(?:size|مقاس|taille|gr\.?)\s*[:\-]?\s*(xxs|xs|s|m|l|xl|xxl|2xl|3xl|4xl|3[5-9]|4[0-8])\b/gi);
+  for (const m of sizeMatches) {
+    if (m[1]) sizes.push(m[1].toUpperCase() === '2XL' ? 'XXL' : m[1].toUpperCase());
+  }
+  const shoeMatches = hay.matchAll(/\b(?:eu|uk|us)\s*(3[5-9]|4[0-8](?:\.5)?)\b/gi);
+  for (const m of shoeMatches) {
+    if (m[1]) sizes.push(m[1]);
+  }
+
+  // Title/tag fallback for colors
+  for (const [canonical, syns] of CANONICAL_COLORS) {
+    for (const s of syns) {
+      if (padded.includes(` ${s} `)) {
+        colors.push(canonical);
+        break;
+      }
+    }
+  }
+
+  return {
+    gender: gender && ['men', 'women', 'kids', 'unisex'].includes(gender) ? gender : null,
+    sizes: dedupeCapList(sizes, 10),
+    colors: dedupeCapList(colors, 8),
+  };
+}
 
 /** Built-in verified public open storefronts (read-only public APIs only). */
 const BUILTIN_STOREFRONTS = [
@@ -596,6 +713,7 @@ export function parseRssFeedXml(xml, spec, now) {
     const finalPct = mathCheck.percent ?? discountPercent;
     const couponCode = extractPublicCoupon(`${title} ${desc}`);
     const category = detectCategory(`${rssCategoryText} ${title} ${storeName}`, 'other');
+    const fashion = extractFashionAttributes({title, tags: [rssCategoryText, desc]});
 
     deals.push({
       title,
@@ -609,6 +727,9 @@ export function parseRssFeedXml(xml, spec, now) {
       category,
       region: spec.region,
       source: 'community_rss',
+      ...(fashion.gender ? {gender: fashion.gender} : {}),
+      ...(fashion.sizes.length ? {sizes: fashion.sizes} : {}),
+      ...(fashion.colors.length ? {colors: fashion.colors} : {}),
       ...(couponCode ? {couponCode} : {}),
       ...(imageUrl ? {imageUrl} : {}),
       observedAt: Number.isFinite(pubMs) ? pubMs : now,
@@ -617,8 +738,11 @@ export function parseRssFeedXml(xml, spec, now) {
   return deals;
 }
 
-function buildMagentoGraphqlUrl(origin) {
-  const gql = '{products(search:"sale",pageSize:24){items{name sku url_key url_suffix stock_status small_image{url} price_range{minimum_price{regular_price{value currency} final_price{value currency} discount{percent_off}}}}}}';
+function buildMagentoGraphqlUrl(origin, categoryId) {
+  const filterArg = categoryId
+    ? `filter:{category_id:{eq:"${String(categoryId).replace(/[^0-9A-Za-z_-]/g, '')}"}},pageSize:32`
+    : 'search:"sale",pageSize:24';
+  const gql = `{products(${filterArg}){items{name sku url_key url_suffix stock_status small_image{url} price_range{minimum_price{regular_price{value currency} final_price{value currency} discount{percent_off}}} ... on ConfigurableProduct{configurable_options{label values{label}}}}}}`;
   const u = new URL('/graphql', origin);
   u.searchParams.set('query', gql);
   return u.href;
@@ -631,13 +755,91 @@ async function collectStorefrontDeals(store, now) {
   const region = REGION_SET.has(store.region) ? store.region : 'GLOBAL';
   const defaultCat = VALID_CATEGORIES.has(store.defaultCategory) ? store.defaultCategory : 'other';
 
+  // Magento 2 can target multiple verified category IDs (e.g. Weekly Deals, Promotions, Men/Women/Kids)
+  if (store.platform === 'magento2') {
+    const catIds = Array.isArray(store.magentoCategoryIds) && store.magentoCategoryIds.length
+      ? store.magentoCategoryIds.map(String)
+      : [null];
+    const genderMap = store.magentoCategoryGenders && typeof store.magentoCategoryGenders === 'object'
+      ? store.magentoCategoryGenders
+      : {};
+    const out = [];
+    let anyOk = false;
+
+    for (const catId of catIds) {
+      const endpoint = buildMagentoGraphqlUrl(origin, catId);
+      const res = await fetchText(endpoint, 'application/json');
+      if (!res.ok) continue;
+      let payload;
+      try {
+        payload = JSON.parse(res.body);
+      } catch {
+        continue;
+      }
+      const items = payload?.data?.products?.items;
+      if (!Array.isArray(items)) continue;
+      anyOk = true;
+      for (const row of items) {
+        if (!row || typeof row !== 'object' || row.stock_status === 'OUT_OF_STOCK') continue;
+        const title = cleanText(row.name, 200);
+        const urlKey = typeof row.url_key === 'string' ? row.url_key.replace(/^\/+/, '') : '';
+        const suffix = typeof row.url_suffix === 'string' ? row.url_suffix : '.html';
+        const url = urlKey ? safeHttpsUrl(`/${urlKey}${urlKey.endsWith(suffix) ? '' : suffix}`, origin) : null;
+        const minP = row.price_range?.minimum_price;
+        const cur = inferCurrency('', minP?.final_price?.currency || store.currency);
+        const price = parseNumberPrice(minP?.final_price?.value, cur);
+        const originalPrice = parseNumberPrice(minP?.regular_price?.value, cur);
+        if (!title || !url || !cur || price === null || originalPrice === null) continue;
+        const math = computeMathDiscount(price, originalPrice);
+        if (!math.verified) continue;
+
+        const optionValues = [];
+        if (Array.isArray(row.configurable_options)) {
+          for (const opt of row.configurable_options) {
+            if (opt && Array.isArray(opt.values)) {
+              for (const val of opt.values) {
+                if (val && typeof val.label === 'string') optionValues.push(val.label);
+              }
+            }
+          }
+        }
+        const imageUrl = safeProductImageUrl(row.small_image?.url, origin);
+        const category = detectCategory(`${title} ${host}`, defaultCat);
+        const fashion = extractFashionAttributes({
+          title,
+          handle: urlKey,
+          optionValues,
+          defaultGender: catId ? (genderMap[catId] || store.defaultGender || null) : (store.defaultGender || null),
+        });
+
+        out.push({
+          title,
+          url,
+          storeName: cleanText(store.name || host, 80),
+          price: roundMoney(price, cur),
+          originalPrice: roundMoney(originalPrice, cur),
+          currency: cur,
+          discountPercent: math.percent,
+          verifiedDiscount: true,
+          category,
+          region,
+          source: 'storefront_sale',
+          ...(fashion.gender ? {gender: fashion.gender} : {}),
+          ...(fashion.sizes.length ? {sizes: fashion.sizes} : {}),
+          ...(fashion.colors.length ? {colors: fashion.colors} : {}),
+          ...(imageUrl ? {imageUrl} : {}),
+          observedAt: now,
+        });
+      }
+    }
+    return {ok: anyOk, deals: out};
+  }
+
   let endpoint = '';
   if (store.platform === 'shopify') {
     endpoint = new URL('/products.json?limit=80', origin).href;
   } else if (store.platform === 'woocommerce') {
     endpoint = new URL('/wp-json/wc/store/v1/products?per_page=40&on_sale=true&stock_status=instock', origin).href;
-  } else if (store.platform === 'magento2') {
-    endpoint = buildMagentoGraphqlUrl(origin);
   } else {
     return {ok: false, deals: []};
   }
@@ -664,11 +866,15 @@ async function collectStorefrontDeals(store, now) {
       if (!title || !url) continue;
 
       const variants = Array.isArray(row.variants) ? row.variants : [];
+      const optionValues = [];
       let bestPrice = null;
       let bestCompare = null;
       let bestPct = -1;
       for (const v of variants) {
         if (!v || typeof v !== 'object' || v.available === false) continue;
+        for (const k of ['option1', 'option2', 'option3', 'title']) {
+          if (typeof v[k] === 'string' && v[k] !== 'Default Title') optionValues.push(v[k]);
+        }
         const p = parseNumberPrice(v.price, currency);
         const cmp = parseNumberPrice(v.compare_at_price, currency);
         if (p !== null && cmp !== null && cmp > p) {
@@ -684,9 +890,31 @@ async function collectStorefrontDeals(store, now) {
       const math = computeMathDiscount(bestPrice, bestCompare);
       if (!math.verified) continue;
 
+      if (Array.isArray(row.options)) {
+        for (const opt of row.options) {
+          if (opt && Array.isArray(opt.values)) {
+            for (const val of opt.values) {
+              if (typeof val === 'string' && val !== 'Default Title') optionValues.push(val);
+            }
+          }
+        }
+      }
+      const tags = Array.isArray(row.tags)
+        ? row.tags.map(String)
+        : typeof row.tags === 'string'
+          ? row.tags.split(',').map(s => s.trim())
+          : [];
       const rawImg = Array.isArray(row.images) && row.images[0] ? row.images[0].src : undefined;
       const imageUrl = safeProductImageUrl(rawImg, origin);
       const category = detectCategory(`${title} ${row.product_type || ''} ${host}`, defaultCat);
+      const fashion = extractFashionAttributes({
+        title,
+        tags,
+        productType: String(row.product_type || ''),
+        handle,
+        optionValues,
+        defaultGender: store.defaultGender || null,
+      });
 
       out.push({
         title,
@@ -700,6 +928,9 @@ async function collectStorefrontDeals(store, now) {
         category,
         region,
         source: 'storefront_sale',
+        ...(fashion.gender ? {gender: fashion.gender} : {}),
+        ...(fashion.sizes.length ? {sizes: fashion.sizes} : {}),
+        ...(fashion.colors.length ? {colors: fashion.colors} : {}),
         ...(imageUrl ? {imageUrl} : {}),
         observedAt: now,
       });
@@ -726,9 +957,29 @@ async function collectStorefrontDeals(store, now) {
       const math = computeMathDiscount(price, originalPrice);
       if (!math.verified) continue;
 
+      const optionValues = [];
+      if (Array.isArray(row.attributes)) {
+        for (const attr of row.attributes) {
+          if (attr && Array.isArray(attr.terms)) {
+            for (const term of attr.terms) {
+              if (term && typeof term.name === 'string') optionValues.push(term.name);
+            }
+          }
+        }
+      }
+      const tags = [
+        ...(Array.isArray(row.categories) ? row.categories.map(c => String(c?.name || '')) : []),
+        ...(Array.isArray(row.tags) ? row.tags.map(t => String(t?.name || '')) : []),
+      ];
       const rawImg = Array.isArray(row.images) && row.images[0] ? row.images[0].src : undefined;
       const imageUrl = safeProductImageUrl(rawImg, origin);
-      const category = detectCategory(`${title} ${host}`, defaultCat);
+      const category = detectCategory(`${title} ${tags.join(' ')} ${host}`, defaultCat);
+      const fashion = extractFashionAttributes({
+        title,
+        tags,
+        optionValues,
+        defaultGender: store.defaultGender || null,
+      });
 
       out.push({
         title,
@@ -742,40 +993,9 @@ async function collectStorefrontDeals(store, now) {
         category,
         region,
         source: 'storefront_sale',
-        ...(imageUrl ? {imageUrl} : {}),
-        observedAt: now,
-      });
-    }
-  } else if (store.platform === 'magento2' && payload?.data?.products?.items && Array.isArray(payload.data.products.items)) {
-    for (const row of payload.data.products.items) {
-      if (!row || typeof row !== 'object' || row.stock_status === 'OUT_OF_STOCK') continue;
-      const title = cleanText(row.name, 200);
-      const urlKey = typeof row.url_key === 'string' ? row.url_key.replace(/^\/+/, '') : '';
-      const suffix = typeof row.url_suffix === 'string' ? row.url_suffix : '.html';
-      const url = urlKey ? safeHttpsUrl(`/${urlKey}${urlKey.endsWith(suffix) ? '' : suffix}`, origin) : null;
-      const minP = row.price_range?.minimum_price;
-      const cur = inferCurrency('', minP?.final_price?.currency || store.currency);
-      const price = parseNumberPrice(minP?.final_price?.value, cur);
-      const originalPrice = parseNumberPrice(minP?.regular_price?.value, cur);
-      if (!title || !url || !cur || price === null || originalPrice === null) continue;
-      const math = computeMathDiscount(price, originalPrice);
-      if (!math.verified) continue;
-
-      const imageUrl = safeProductImageUrl(row.small_image?.url, origin);
-      const category = detectCategory(`${title} ${host}`, defaultCat);
-
-      out.push({
-        title,
-        url,
-        storeName: cleanText(store.name || host, 80),
-        price: roundMoney(price, cur),
-        originalPrice: roundMoney(originalPrice, cur),
-        currency: cur,
-        discountPercent: math.percent,
-        verifiedDiscount: true,
-        category,
-        region,
-        source: 'storefront_sale',
+        ...(fashion.gender ? {gender: fashion.gender} : {}),
+        ...(fashion.sizes.length ? {sizes: fashion.sizes} : {}),
+        ...(fashion.colors.length ? {colors: fashion.colors} : {}),
         ...(imageUrl ? {imageUrl} : {}),
         observedAt: now,
       });
@@ -1039,12 +1259,14 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
 
     // Quality filter for hot deals feed (math ceiling up to 95%, prioritizing 70%–90% mega deals):
     // - Manual deals: always keep (already validated & non-expired)
-    // - Digital API & Storefront deals: keep verified 20%–95% (prioritizing 50%–90% & mega 70%–90%)
+    // - Digital API: keep verified 30%–95%
+    // - Storefront deals: keep verified 10%–95% for local grocery/dining/home/beauty/fashion & 15%–95% otherwise
     // - Community RSS deals: keep when discount is 30%–95% OR verified price/discount exists
     if (deal.source === 'digital_api') {
       if (!verifiedDiscount || !discountPercent || discountPercent < 30 || discountPercent > 95) continue;
     } else if (deal.source === 'storefront_sale') {
-      if (!verifiedDiscount || !discountPercent || discountPercent < 20 || discountPercent > 95) continue;
+      const minStorePct = ['grocery', 'dining', 'home', 'beauty', 'fashion'].includes(deal.category) ? 10 : 15;
+      if (!verifiedDiscount || !discountPercent || discountPercent < minStorePct || discountPercent > 95) continue;
     } else if (deal.source === 'community_rss') {
       const hasHotPct = discountPercent !== undefined && discountPercent >= 30 && discountPercent <= 95;
       const hasValidPrice = deal.price !== undefined && deal.currency !== undefined;
@@ -1056,6 +1278,10 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
 
     const dealTier = computeDealTier(discountPercent);
     const idHash = crypto.createHash('sha1').update(`${deal.region}|${key}`).digest('hex').slice(0, 12);
+    const genderVal = ['men', 'women', 'kids', 'unisex'].includes(deal.gender) ? deal.gender : undefined;
+    const sizesVal = Array.isArray(deal.sizes) && deal.sizes.length ? dedupeCapList(deal.sizes, 10) : undefined;
+    const colorsVal = Array.isArray(deal.colors) && deal.colors.length ? dedupeCapList(deal.colors, 8) : undefined;
+
     accepted.push({
       id: deal.id || `feed-${deal.region.toLowerCase()}-${idHash}`,
       title: deal.title,
@@ -1070,6 +1296,9 @@ export function applyAntiFakeDiscountGuard(deals, ledger, now) {
       category: deal.category,
       region: deal.region,
       source: deal.source,
+      ...(genderVal ? {gender: genderVal} : {}),
+      ...(sizesVal ? {sizes: sizesVal} : {}),
+      ...(colorsVal ? {colors: colorsVal} : {}),
       ...(deal.isManual ? {isManual: true} : {}),
       ...(deal.couponCode ? {couponCode: deal.couponCode} : {}),
       ...(deal.expiresAt !== undefined ? {expiresAt: deal.expiresAt} : {}),
@@ -1320,6 +1549,9 @@ async function syncDealsToSupabase(uniqueDeals, ledger, now) {
       verified_discount: Boolean(d.verifiedDiscount),
       deal_tier: d.dealTier || computeDealTier(d.discountPercent),
       coupon_code: d.couponCode || null,
+      gender: d.gender || null,
+      sizes: Array.isArray(d.sizes) ? d.sizes : [],
+      colors: Array.isArray(d.colors) ? d.colors : [],
       source: d.source,
       is_manual: false,
       observed_at: d.observedAt || now,
@@ -1399,6 +1631,41 @@ async function syncDealsToSupabase(uniqueDeals, ledger, now) {
   } catch {
     return {enabled: true, ok: false, upsertedDeals: 0, ledgerUpserted: 0};
   }
+}
+
+function selectBalancedRegionDeals(localDeals, globalDeals, region, maxCount = MAX_DEALS_PER_REGION) {
+  const picked = [];
+  const seen = new Set();
+  const addDeal = d => {
+    const k = canonicalDealKey(d.url) || d.id;
+    if (!k || seen.has(k)) return false;
+    seen.add(k);
+    picked.push(d);
+    return true;
+  };
+
+  // Reserve balanced slots per local category so local grocery/fashion/home/beauty/electronics are never drowned out
+  const localByCat = new Map();
+  for (const d of localDeals) {
+    const c = d.category || 'other';
+    if (!localByCat.has(c)) localByCat.set(c, []);
+    localByCat.get(c).push(d);
+  }
+  for (const [, list] of localByCat.entries()) {
+    let added = 0;
+    for (const d of list) {
+      if (added >= 6 || picked.length >= maxCount) break;
+      if (addDeal(d)) added++;
+    }
+  }
+
+  // Fill remaining slots with highest-ranked local + global 70%–90% mega deals
+  const combined = rankDealsForRegion(deduplicateDeals([...localDeals, ...globalDeals]), region);
+  for (const d of combined) {
+    if (picked.length >= maxCount) break;
+    addDeal(d);
+  }
+  return rankDealsForRegion(picked, region).slice(0, maxCount);
 }
 
 function buildLandingHtml(indexDoc) {
@@ -1526,8 +1793,7 @@ export async function runCollector() {
         region,
       );
       localCount = localDeals.length;
-      const combined = deduplicateDeals([...localDeals, ...globalPool]);
-      regionDeals = rankDealsForRegion(combined, region).slice(0, MAX_DEALS_PER_REGION);
+      regionDeals = selectBalancedRegionDeals(localDeals, globalPool, region, MAX_DEALS_PER_REGION);
     }
 
     const regionDoc = {
