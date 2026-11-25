@@ -507,13 +507,13 @@ export function extractPublicCoupon(text) {
 }
 
 const CATEGORY_RULES = [
-  ['grocery', /(?:supermarket|grocery|groceries|hypermarket|milk|cheese|rice|oil|sugar|coffee|tea|pasta|bread|water|snack|chocolate|detergent|diaper|pampers|chicken|meat|fruit|vegetable|سوبر\s*ماركت|هايبر|بقالة|حليب|لبن|جبن|أرز|ارز|زيت|سكر|قهوة|شاي|مكرونة|دجاج|فراخ|لحم|منظف|حفاضات|مقاضي|عروض\s*غذائية|lebensmittel|supermarch|supermercad)/i],
-  ['dining', /(?:restaurant|pizza|burger|meal|delivery|cafe|starbucks|mcdonald|kfc|subway|domino|talabat|ubereats|doordash|deliveroo|buffet|shawarma|مطعم|مطاعم|بيتزا|برجر|وجبة|وجبات|توصيل\s*طعام|كافيه|شاورما|طلبات|مشويات|comida|restaurante)/i],
-  ['digital', /(?:steam|playstation|ps5|ps4|xbox|nintendo|switch|epic\s*games|gog|humble|pc\s*game|dlc|software|vpn|antivirus|ebook|kindle|audible|subscription|udemy|coursera|game\s*pass|لعبة|ألعاب|اشتراك|برنامج|سوفتوير)/i],
-  ['electronics', /(?:iphone|ipad|samsung|galaxy|xiaomi|redmi|pixel|laptop|macbook|notebook|monitor|tv|oled|qled|ssd|nvme|ram|gpu|rtx|cpu|ryzen|intel|headphone|earbud|airpod|speaker|camera|router|charger|power\s*bank|smartwatch|printer|keyboard|mouse|usb|bluetooth|drone|tablet|موبايل|هاتف|ايفون|سامسونج|لابتوب|شاشة|سماعة|سماعات|تلفزيون|شاحن|باور\s*بانك|راوتر|كاميرا|ساعة\s*ذكية|تابلت|كمبيوتر|إلكترونيات)/i],
-  ['beauty', /(?:perfume|fragrance|eau\s*de|skincare|serum|sunscreen|shampoo|conditioner|makeup|lipstick|mascara|lotion|moisturizer|razor|grooming|deodorant|عطر|عطور|مكياج|بشرة|شامبو|سيروم|كريم|واقي\s*شمس|تجميل|عناية|parfum|kosmetik|belleza)/i],
-  ['fashion', /(?:shirt|t-shirt|tee|hoodie|jacket|coat|jeans|pants|trouser|shorts|dress|sneaker|shoe|boot|sandal|sock|underwear|sweater|jogger|legging|backpack|handbag|sunglass|watch|adidas|nike|puma|zara|hm|uniqlo|gymshark|allbirds|tentree|kotn|قميص|تيشيرت|هودي|جاكيت|بنطلون|جينز|فستان|حذاء|كوتشي|شنطة|حقيبة|نظارة|ملابس|أزياء|سويت\s*شيرت|شروال)/i],
-  ['home', /(?:air\s*fryer|blender|espresso|kettle|vacuum|dyson|roborock|microwave|fridge|washer|mattress|pillow|bedding|blanket|towel|chair|desk|sofa|lamp|cookware|pan|pot|knife|kitchen|garden|drill|tool|furniture|مقلاة|قلاية|خلاط|مكنسة|مطبخ|أثاث|كرسي|مكتب|مرتبة|مخدة|بطانية|مروحة|تكييف|ثلاجة|غسالة|ميكروويف|منزل|بيت)/i],
+  ['grocery', /(?:\bsupermarket\b|\bgrocery\b|\bgroceries\b|\bhypermarket\b|\bmilk\b|\bcheese\b|\brice\b|\boil\b|\bsugar\b|\bcoffee\b|\btea\b|\bpasta\b|\bbread\b|\bwater\b|\bsnack\b|\bchocolate\b|\bdetergent\b|\bdiaper\b|\bpampers\b|\bchicken\b|\bmeat\b|\bfruit\b|\bvegetable\b|\bshrimp\b|\bstrawberr|\bluncheon\b|سوبر\s*ماركت|هايبر|بقالة|حليب|لبن|جبن|أرز|ارز|زيت|سكر|قهوة|شاي|مكرونة|دجاج|فراخ|لحم|منظف|حفاضات|مقاضي|عروض\s*غذائية|lebensmittel|supermarch|supermercad)/i],
+  ['dining', /(?:\brestaurant\b|\bpizza\b|\bburger\b|\bmeal\b|\bdelivery\b|\bcafe\b|\bstarbucks\b|\bmcdonald|\bkfc\b|\bsubway\b|\bdomino|\btalabat\b|\bubereats\b|\bdoordash\b|\bdeliveroo\b|\bbuffet\b|\bshawarma\b|مطعم|مطاعم|بيتزا|برجر|وجبة|وجبات|توصيل\s*طعام|كافيه|شاورما|طلبات|مشويات|comida|restaurante)/i],
+  ['digital', /(?:\bsteam\b|\bplaystation\b|\bps5\b|\bps4\b|\bxbox\b|\bnintendo\b|\bswitch\b|epic\s*games|\bgog\b|\bhumble\b|pc\s*game|\bdlc\b|\bsoftware\b|\bvpn\b|\bantivirus\b|\bebook\b|\bkindle\b|\baudible\b|\bsubscription\b|\budemy\b|\bcoursera\b|game\s*pass|لعبة|ألعاب|اشتراك|برنامج|سوفتوير)/i],
+  ['electronics', /(?:\biphone\b|\bipad\b|\bsamsung\b|\bgalaxy\b|\bxiaomi\b|\bredmi\b|\bpixel\b|\blaptop\b|\bmacbook\b|\bnotebook\b|\bmonitor\b|\btv\b|\boled\b|\bqled\b|\bssd\b|\bnvme\b|\bram\b|\bgpu\b|\brtx\b|\bcpu\b|\bryzen\b|\bintel\b|\bheadphone|\bearbud|\bairpod|\bspeaker\b|\bcamera\b|\brouter\b|\bcharger\b|power\s*bank|\bsmartwatch\b|\bprinter\b|\bkeyboard\b|\bmouse\b|\busb\b|\bbluetooth\b|\bdrone\b|\btablet\b|موبايل|هاتف|ايفون|سامسونج|لابتوب|شاشة|سماعة|سماعات|تلفزيون|شاحن|باور\s*بانك|راوتر|كاميرا|ساعة\s*ذكية|تابلت|كمبيوتر|إلكترونيات)/i],
+  ['beauty', /(?:\bperfume\b|\bfragrance\b|eau\s*de|\bskincare\b|\bserum\b|\bsunscreen\b|\bshampoo\b|\bconditioner\b|\bmakeup\b|\blipstick\b|\bmascara\b|\blotion\b|\bmoisturizer\b|\brazor\b|\bgrooming\b|\bdeodorant\b|عطر|عطور|مكياج|بشرة|شامبو|سيروم|كريم|واقي\s*شمس|تجميل|عناية|parfum|kosmetik|belleza)/i],
+  ['fashion', /(?:\bshirt\b|\bt-shirt\b|\btee\b|\bhoodie\b|\bsweatshirt|\bpolo\b|\bjacket\b|\bcoat\b|\bjeans\b|\bpants\b|\btrouser|\bshorts\b|\bdress\b|\bsneaker|\bshoe|\bboot|\bsandal|\bsock|\bunderwear\b|\bsweater\b|\bjogger|\blegging|\bbackpack\b|\bhandbag\b|\bsunglass|\bwatch\b|\badidas\b|\bnike\b|\bpuma\b|\bzara\b|\buniqlo\b|\bgymshark\b|\ballbirds\b|\btentree\b|\bkotn\b|قميص|تيشيرت|هودي|جاكيت|بنطلون|جينز|فستان|حذاء|كوتشي|شنطة|حقيبة|نظارة|ملابس|أزياء|سويت\s*شيرت|شروال)/i],
+  ['home', /(?:air\s*fryer|\bblender\b|\bespresso\b|\bkettle\b|\bvacuum\b|\bdyson\b|\broborock\b|\bmicrowave\b|\bfridge\b|\bwasher\b|\bmattress\b|\bpillow\b|\bbedding\b|\bblanket\b|\btowel\b|\bchair\b|\bdesk\b|\bsofa\b|\blamp\b|\bcookware\b|\bpan\b|\bpot\b|\bknife\b|\bkitchen\b|\bgarden\b|\bdrill\b|\btool\b|\bfurniture\b|مقلاة|قلاية|خلاط|مكنسة|مطبخ|أثاث|كرسي|مكتب|مرتبة|مخدة|بطانية|مروحة|تكييف|ثلاجة|غسالة|ميكروويف|منزل|بيت)/i],
 ];
 
 export function detectCategory(text, fallback = 'other') {
@@ -804,13 +804,16 @@ async function collectStorefrontDeals(store, now) {
           }
         }
         const imageUrl = safeProductImageUrl(row.small_image?.url, origin);
-        const category = detectCategory(`${title} ${host}`, defaultCat);
-        const fashion = extractFashionAttributes({
-          title,
-          handle: urlKey,
-          optionValues,
-          defaultGender: catId ? (genderMap[catId] || store.defaultGender || null) : (store.defaultGender || null),
-        });
+        const category = defaultCat !== 'other' ? defaultCat : detectCategory(title, defaultCat);
+        const fashion =
+          category === 'fashion' || category === 'beauty'
+            ? extractFashionAttributes({
+                title,
+                handle: urlKey,
+                optionValues,
+                defaultGender: catId ? (genderMap[catId] || store.defaultGender || null) : (store.defaultGender || null),
+              })
+            : {gender: null, sizes: [], colors: []};
 
         out.push({
           title,
@@ -906,15 +909,18 @@ async function collectStorefrontDeals(store, now) {
           : [];
       const rawImg = Array.isArray(row.images) && row.images[0] ? row.images[0].src : undefined;
       const imageUrl = safeProductImageUrl(rawImg, origin);
-      const category = detectCategory(`${title} ${row.product_type || ''} ${host}`, defaultCat);
-      const fashion = extractFashionAttributes({
-        title,
-        tags,
-        productType: String(row.product_type || ''),
-        handle,
-        optionValues,
-        defaultGender: store.defaultGender || null,
-      });
+      const category = defaultCat !== 'other' ? defaultCat : detectCategory(`${title} ${row.product_type || ''}`, defaultCat);
+      const fashion =
+        category === 'fashion' || category === 'beauty'
+          ? extractFashionAttributes({
+              title,
+              tags,
+              productType: String(row.product_type || ''),
+              handle,
+              optionValues,
+              defaultGender: store.defaultGender || null,
+            })
+          : {gender: null, sizes: [], colors: []};
 
       out.push({
         title,
@@ -973,13 +979,16 @@ async function collectStorefrontDeals(store, now) {
       ];
       const rawImg = Array.isArray(row.images) && row.images[0] ? row.images[0].src : undefined;
       const imageUrl = safeProductImageUrl(rawImg, origin);
-      const category = detectCategory(`${title} ${tags.join(' ')} ${host}`, defaultCat);
-      const fashion = extractFashionAttributes({
-        title,
-        tags,
-        optionValues,
-        defaultGender: store.defaultGender || null,
-      });
+      const category = defaultCat !== 'other' ? defaultCat : detectCategory(`${title} ${tags.join(' ')}`, defaultCat);
+      const fashion =
+        category === 'fashion' || category === 'beauty'
+          ? extractFashionAttributes({
+              title,
+              tags,
+              optionValues,
+              defaultGender: store.defaultGender || null,
+            })
+          : {gender: null, sizes: [], colors: []};
 
       out.push({
         title,
