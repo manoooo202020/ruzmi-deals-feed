@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": 1795593863703,
+  "updatedAt": 1795599211690,
   "items": {
     "https://free-electronic.com/product/wifi-obd2": {
       "currency": "EGP",
@@ -4302,9 +4302,10 @@
       "maxPrice": 50,
       "medianPrice": 50,
       "samples": [
+        50,
         50
       ],
-      "lastSeenAt": 1795549223802
+      "lastSeenAt": 1795599211690
     },
     "https://hotukdeals.com/deals/puma-running-cap-various-colours-available-5045019": {
       "currency": "GBP",
@@ -7340,6 +7341,3686 @@
         14.18
       ],
       "lastSeenAt": 1795593863703
+    },
+    "https://thesherwal.com/products/mixie-skirt": {
+      "currency": "EGP",
+      "lastPrice": 1295,
+      "minPrice": 1295,
+      "maxPrice": 1295,
+      "medianPrice": 1295,
+      "regularMax": 1850,
+      "samples": [
+        1295
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/florina-pants-purple": {
+      "currency": "EGP",
+      "lastPrice": 1170,
+      "minPrice": 1170,
+      "maxPrice": 1170,
+      "medianPrice": 1170,
+      "regularMax": 2340,
+      "samples": [
+        1170
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/tuleen-dress-floral-print-maxi-dress-yellow-printed": {
+      "currency": "EGP",
+      "lastPrice": 1600,
+      "minPrice": 1600,
+      "maxPrice": 1600,
+      "medianPrice": 1600,
+      "regularMax": 1950,
+      "samples": [
+        1600
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/t4-tulle-dress-geometric-print-midi-dress-white": {
+      "currency": "EGP",
+      "lastPrice": 1760,
+      "minPrice": 1760,
+      "maxPrice": 1760,
+      "medianPrice": 1760,
+      "regularMax": 2200,
+      "samples": [
+        1760
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/lotus-dress-floral-print-cover-up-multicolor": {
+      "currency": "EGP",
+      "lastPrice": 2500,
+      "minPrice": 2500,
+      "maxPrice": 2500,
+      "medianPrice": 2500,
+      "regularMax": 3125,
+      "samples": [
+        2500
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/hanza-dress-textured-swiss-dot-cover-up-white": {
+      "currency": "EGP",
+      "lastPrice": 1875,
+      "minPrice": 1875,
+      "maxPrice": 1875,
+      "medianPrice": 1875,
+      "regularMax": 2340,
+      "samples": [
+        1875
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/thai-top-abstract-tropical-cover-up-yellow": {
+      "currency": "EGP",
+      "lastPrice": 2400,
+      "minPrice": 2400,
+      "maxPrice": 2400,
+      "medianPrice": 2400,
+      "regularMax": 2990,
+      "samples": [
+        2400
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/zoe-jumpsuit": {
+      "currency": "EGP",
+      "lastPrice": 720,
+      "minPrice": 720,
+      "maxPrice": 720,
+      "medianPrice": 720,
+      "regularMax": 1200,
+      "samples": [
+        720
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/lala-top-floral-print-blouse-white-olive": {
+      "currency": "EGP",
+      "lastPrice": 1720,
+      "minPrice": 1720,
+      "maxPrice": 1720,
+      "medianPrice": 1720,
+      "regularMax": 2150,
+      "samples": [
+        1720
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/samartan-dress-solid-midi-dress-yellow": {
+      "currency": "EGP",
+      "lastPrice": 2640,
+      "minPrice": 2640,
+      "maxPrice": 2640,
+      "medianPrice": 2640,
+      "regularMax": 3300,
+      "samples": [
+        2640
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/chacha-top": {
+      "currency": "EGP",
+      "lastPrice": 1750,
+      "minPrice": 1750,
+      "maxPrice": 1750,
+      "medianPrice": 1750,
+      "regularMax": 2500,
+      "samples": [
+        1750
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/bambina-sherwal-1": {
+      "currency": "EGP",
+      "lastPrice": 395,
+      "minPrice": 395,
+      "maxPrice": 395,
+      "medianPrice": 395,
+      "regularMax": 495,
+      "samples": [
+        395
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/paisley-kids-sherwal-copy": {
+      "currency": "EGP",
+      "lastPrice": 565,
+      "minPrice": 565,
+      "maxPrice": 565,
+      "medianPrice": 565,
+      "regularMax": 750,
+      "samples": [
+        565
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/jeans-kids-sherwal": {
+      "currency": "EGP",
+      "lastPrice": 620,
+      "minPrice": 620,
+      "maxPrice": 620,
+      "medianPrice": 620,
+      "regularMax": 825,
+      "samples": [
+        620
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/bubble-kids-skirt-copy": {
+      "currency": "EGP",
+      "lastPrice": 731.25,
+      "minPrice": 731.25,
+      "maxPrice": 731.25,
+      "medianPrice": 731.25,
+      "regularMax": 1125,
+      "samples": [
+        731.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/tasell-kids-top": {
+      "currency": "EGP",
+      "lastPrice": 330,
+      "minPrice": 330,
+      "maxPrice": 330,
+      "medianPrice": 330,
+      "regularMax": 550,
+      "samples": [
+        330
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/untitled-aug30_16-56": {
+      "currency": "EGP",
+      "lastPrice": 380.25,
+      "minPrice": 380.25,
+      "maxPrice": 380.25,
+      "medianPrice": 380.25,
+      "regularMax": 585,
+      "samples": [
+        380.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/oneee-shouler": {
+      "currency": "EGP",
+      "lastPrice": 330,
+      "minPrice": 330,
+      "maxPrice": 330,
+      "medianPrice": 330,
+      "regularMax": 550,
+      "samples": [
+        330
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/taleed-light-blue-skirt": {
+      "currency": "EGP",
+      "lastPrice": 1775,
+      "minPrice": 1775,
+      "maxPrice": 1775,
+      "medianPrice": 1775,
+      "regularMax": 2220,
+      "samples": [
+        1775
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/hoxa-25-fushia-pants": {
+      "currency": "EGP",
+      "lastPrice": 1496,
+      "minPrice": 1496,
+      "maxPrice": 1496,
+      "medianPrice": 1496,
+      "regularMax": 1870,
+      "samples": [
+        1496
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/hoxa-25-fushia-cardigan": {
+      "currency": "EGP",
+      "lastPrice": 1112,
+      "minPrice": 1112,
+      "maxPrice": 1112,
+      "medianPrice": 1112,
+      "regularMax": 1390,
+      "samples": [
+        1112
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/tida-white-beige-top": {
+      "currency": "EGP",
+      "lastPrice": 1100,
+      "minPrice": 1100,
+      "maxPrice": 1100,
+      "medianPrice": 1100,
+      "regularMax": 1470,
+      "samples": [
+        1100
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/tida-white-pink-top": {
+      "currency": "EGP",
+      "lastPrice": 1100,
+      "minPrice": 1100,
+      "maxPrice": 1100,
+      "medianPrice": 1100,
+      "regularMax": 1470,
+      "samples": [
+        1100
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/tida-white-black-top": {
+      "currency": "EGP",
+      "lastPrice": 1100,
+      "minPrice": 1100,
+      "maxPrice": 1100,
+      "medianPrice": 1100,
+      "regularMax": 1470,
+      "samples": [
+        1100
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/taleed-top-beige": {
+      "currency": "EGP",
+      "lastPrice": 1050,
+      "minPrice": 1050,
+      "maxPrice": 1050,
+      "medianPrice": 1050,
+      "regularMax": 1500,
+      "samples": [
+        1050
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/taleed-top": {
+      "currency": "EGP",
+      "lastPrice": 1050,
+      "minPrice": 1050,
+      "maxPrice": 1050,
+      "medianPrice": 1050,
+      "regularMax": 1500,
+      "samples": [
+        1050
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/shana-mint-top": {
+      "currency": "EGP",
+      "lastPrice": 1680,
+      "minPrice": 1680,
+      "maxPrice": 1680,
+      "medianPrice": 1680,
+      "regularMax": 2200,
+      "samples": [
+        1680
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/shana-top": {
+      "currency": "EGP",
+      "lastPrice": 1680,
+      "minPrice": 1680,
+      "maxPrice": 1680,
+      "medianPrice": 1680,
+      "regularMax": 2200,
+      "samples": [
+        1680
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/maribo-zeity-dress": {
+      "currency": "EGP",
+      "lastPrice": 3600,
+      "minPrice": 3600,
+      "maxPrice": 3600,
+      "medianPrice": 3600,
+      "regularMax": 4500,
+      "samples": [
+        3600
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://thesherwal.com/products/samartan-white-top": {
+      "currency": "EGP",
+      "lastPrice": 1050,
+      "minPrice": 1050,
+      "maxPrice": 1050,
+      "medianPrice": 1050,
+      "regularMax": 1500,
+      "samples": [
+        1050
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/juniper-t-shirt-cider-heather-white": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/juniper-altitude-hat-cider-white": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/sasquatch-sends-it-t-shirt-shadow-paloma-grey": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-lakeview-elevation-hat-ashwood-alpine-blue": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-lakeview-elevation-hat-cider-meteorite-black": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-lakeview-elevation-hat-meteorite-black-cider": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/snowy-views-peak-hat-shadow-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/snowy-views-peak-hat-meteorite-black-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-mountain-patch-t-shirt-midnight-blue-mountain-patch": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/winter-mountain-tops-t-shirt-midnight-blue-heather-cider": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/winter-mountain-tops-t-shirt-pacific-teal-heather-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-mountain-patch-t-shirt-cider-mountain-patch": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/winter-tracks-t-shirt-shadow-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/tentree-vintage-mountain-patch-t-shirt-meteorite-black-mountain-patch": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/winter-tracks-t-shirt-alpine-blue-midnight-blue": {
+      "currency": "USD",
+      "lastPrice": 31.5,
+      "minPrice": 31.5,
+      "maxPrice": 31.5,
+      "medianPrice": 31.5,
+      "regularMax": 45,
+      "samples": [
+        31.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/winter-tracks-t-shirt-meteorite-black-white-oak": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/mountainscape-hoodie-cider-white-oak": {
+      "currency": "USD",
+      "lastPrice": 61.6,
+      "minPrice": 61.6,
+      "maxPrice": 61.6,
+      "medianPrice": 61.6,
+      "regularMax": 88,
+      "samples": [
+        61.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/mountainscape-hoodie-meteorite-black-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 61.6,
+      "minPrice": 61.6,
+      "maxPrice": 61.6,
+      "medianPrice": 61.6,
+      "regularMax": 88,
+      "samples": [
+        61.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/banff-pom-beanie-light-grey-heather-geo-pom": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/banff-pom-beanie-pacific-teal-heather-geo-pom": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "regularMax": 45,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/summit-range-crew-meteorite-black-pale-oak": {
+      "currency": "USD",
+      "lastPrice": 58.5,
+      "minPrice": 58.5,
+      "maxPrice": 58.5,
+      "medianPrice": 58.5,
+      "regularMax": 78,
+      "samples": [
+        58.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/lawrence-sweater-harbour-grey-heather-fjord": {
+      "currency": "USD",
+      "lastPrice": 94.4,
+      "minPrice": 94.4,
+      "maxPrice": 94.4,
+      "medianPrice": 94.4,
+      "regularMax": 118,
+      "samples": [
+        94.4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/spokane-sweater-ashwood": {
+      "currency": "USD",
+      "lastPrice": 86.4,
+      "minPrice": 86.4,
+      "maxPrice": 86.4,
+      "medianPrice": 86.4,
+      "regularMax": 108,
+      "samples": [
+        86.4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/elm-zip-hoodie-pacific-teal": {
+      "currency": "USD",
+      "lastPrice": 78.4,
+      "minPrice": 78.4,
+      "maxPrice": 78.4,
+      "medianPrice": 78.4,
+      "regularMax": 98,
+      "samples": [
+        78.4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treefleece-bamone-sweatpant-shadow": {
+      "currency": "USD",
+      "lastPrice": 62.4,
+      "minPrice": 62.4,
+      "maxPrice": 62.4,
+      "medianPrice": 62.4,
+      "regularMax": 78,
+      "samples": [
+        62.4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-baker-henley-longsleeve-midnight-blue-heather-shadow-heather": {
+      "currency": "USD",
+      "lastPrice": 40,
+      "minPrice": 40,
+      "maxPrice": 40,
+      "medianPrice": 40,
+      "regularMax": 50,
+      "samples": [
+        40
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-baker-henley-longsleeve-pacific-teal-heather": {
+      "currency": "USD",
+      "lastPrice": 40,
+      "minPrice": 40,
+      "maxPrice": 40,
+      "medianPrice": 40,
+      "regularMax": 50,
+      "samples": [
+        40
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-winslow-t-shirt-pacific-teal-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-winslow-t-shirt-shadow-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-brackley-t-shirt-cider-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-brackley-t-shirt-shadow-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-baker-t-shirt-alpine-blue-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/treeblend-baker-t-shirt-cider-heather": {
+      "currency": "USD",
+      "lastPrice": 33.75,
+      "minPrice": 33.75,
+      "maxPrice": 33.75,
+      "medianPrice": 33.75,
+      "regularMax": 45,
+      "samples": [
+        33.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/reynard-zip-hoodie-cider": {
+      "currency": "USD",
+      "lastPrice": 68.6,
+      "minPrice": 68.6,
+      "maxPrice": 68.6,
+      "medianPrice": 68.6,
+      "regularMax": 98,
+      "samples": [
+        68.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://tentree.com/products/reynard-crew-cider": {
+      "currency": "USD",
+      "lastPrice": 58.5,
+      "minPrice": 58.5,
+      "maxPrice": 58.5,
+      "medianPrice": 58.5,
+      "regularMax": 78,
+      "samples": [
+        58.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-crew-sock-bark-grey": {
+      "currency": "USD",
+      "lastPrice": 9,
+      "minPrice": 9,
+      "maxPrice": 9,
+      "medianPrice": 9,
+      "regularMax": 18,
+      "samples": [
+        9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-ankle-sock-blizzard": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "regularMax": 16,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-ankle-sock-calm-teal": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "regularMax": 16,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-ankle-sock-sunny-marigold": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "regularMax": 16,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-ankle-sock": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "regularMax": 16,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-crew-sock-natural-black": {
+      "currency": "USD",
+      "lastPrice": 9,
+      "minPrice": 9,
+      "maxPrice": 9,
+      "medianPrice": 9,
+      "regularMax": 18,
+      "samples": [
+        9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-crew-sock-calm-teal": {
+      "currency": "USD",
+      "lastPrice": 9,
+      "minPrice": 9,
+      "maxPrice": 9,
+      "medianPrice": 9,
+      "regularMax": 18,
+      "samples": [
+        9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-crew-sock": {
+      "currency": "USD",
+      "lastPrice": 9,
+      "minPrice": 9,
+      "maxPrice": 9,
+      "medianPrice": 9,
+      "regularMax": 18,
+      "samples": [
+        9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-no-show-sock-blizzard": {
+      "currency": "USD",
+      "lastPrice": 7,
+      "minPrice": 7,
+      "maxPrice": 7,
+      "medianPrice": 7,
+      "regularMax": 14,
+      "samples": [
+        7
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/anytime-no-show-sock-natural-black": {
+      "currency": "USD",
+      "lastPrice": 7,
+      "minPrice": 7,
+      "maxPrice": 7,
+      "medianPrice": 7,
+      "regularMax": 14,
+      "samples": [
+        7
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-sprinters-low-buoyant-pink": {
+      "currency": "USD",
+      "lastPrice": 7.5,
+      "minPrice": 7.5,
+      "maxPrice": 7.5,
+      "medianPrice": 7.5,
+      "regularMax": 15,
+      "samples": [
+        7.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-sprinters-cushioned-onyx-new-edition": {
+      "currency": "USD",
+      "lastPrice": 7.5,
+      "minPrice": 7.5,
+      "maxPrice": 7.5,
+      "medianPrice": 7.5,
+      "regularMax": 15,
+      "samples": [
+        7.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-sprinters-no-show-lux-purple": {
+      "currency": "USD",
+      "lastPrice": 6,
+      "minPrice": 6,
+      "maxPrice": 6,
+      "medianPrice": 6,
+      "regularMax": 12,
+      "samples": [
+        6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-sprinters-no-show-summertime-white": {
+      "currency": "USD",
+      "lastPrice": 6,
+      "minPrice": 6,
+      "maxPrice": 6,
+      "medianPrice": 6,
+      "regularMax": 12,
+      "samples": [
+        6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-sprinters-low-navy-night": {
+      "currency": "USD",
+      "lastPrice": 7.5,
+      "minPrice": 7.5,
+      "maxPrice": 7.5,
+      "medianPrice": 7.5,
+      "regularMax": 15,
+      "samples": [
+        7.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-quarters-onyx": {
+      "currency": "USD",
+      "lastPrice": 7,
+      "minPrice": 7,
+      "maxPrice": 7,
+      "medianPrice": 7,
+      "regularMax": 14,
+      "samples": [
+        7
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://allbirds.com/products/trino-tubers-onyx": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "regularMax": 16,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://kotn.com/products/tefnut-beach-hoodie-in-black": {
+      "currency": "USD",
+      "lastPrice": 99,
+      "minPrice": 99,
+      "maxPrice": 99,
+      "medianPrice": 99,
+      "regularMax": 188,
+      "samples": [
+        99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://kotn.com/products/womens-off-shoulder-tee-in-azure": {
+      "currency": "USD",
+      "lastPrice": 39,
+      "minPrice": 39,
+      "maxPrice": 39,
+      "medianPrice": 39,
+      "regularMax": 48,
+      "samples": [
+        39
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://kotn.com/products/womens-micro-rib-tee-in-salsa": {
+      "currency": "USD",
+      "lastPrice": 29,
+      "minPrice": 29,
+      "maxPrice": 29,
+      "medianPrice": 29,
+      "regularMax": 45,
+      "samples": [
+        29
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://kotn.com/products/womens-boatneck-3-4-sleeve-top-in-sorbet": {
+      "currency": "USD",
+      "lastPrice": 39,
+      "minPrice": 39,
+      "maxPrice": 39,
+      "medianPrice": 39,
+      "regularMax": 52,
+      "samples": [
+        39
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20392389-2-pack-8-qt-miracle-gro-organic-indoor-potting-mix-5-free-store-pickup-at-lowe-s-or-free-shipping-on-35": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "regularMax": 35,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20392983-costco-members-128gb-8-5-apple-ipad-mini-wi-fi-tablet-w-a20-pro-1-year-applecare-included-599-99": {
+      "currency": "USD",
+      "lastPrice": 600,
+      "minPrice": 600,
+      "maxPrice": 600,
+      "medianPrice": 600,
+      "samples": [
+        600
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20388675-27-alienware-aw2725qf-4k-dual-resolution-ips-gaming-monitor-279-99-free-shipping": {
+      "currency": "USD",
+      "lastPrice": 280,
+      "minPrice": 280,
+      "maxPrice": 280,
+      "medianPrice": 280,
+      "samples": [
+        280
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20386962-sony-playstation-dualsense-wireless-controller-007-first-light-limited-edition-64-99": {
+      "currency": "USD",
+      "lastPrice": 65,
+      "minPrice": 65,
+      "maxPrice": 65,
+      "medianPrice": 65,
+      "samples": [
+        65
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20321988-new-balance-t500-athletic-shoe-2-colors-40-free-s-h": {
+      "currency": "USD",
+      "lastPrice": 40,
+      "minPrice": 40,
+      "maxPrice": 40,
+      "medianPrice": 40,
+      "samples": [
+        40
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20387187-25l-nike-sportswear-commute-backpack-pencil-point-26-23-free-shipping-on-49": {
+      "currency": "USD",
+      "lastPrice": 26.25,
+      "minPrice": 26.25,
+      "maxPrice": 26.25,
+      "medianPrice": 26.25,
+      "regularMax": 49,
+      "samples": [
+        26.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20379303-lego-star-wars-the-skywalker-saga-galactic-edition-digital-7-99": {
+      "currency": "USD",
+      "lastPrice": 8,
+      "minPrice": 8,
+      "maxPrice": 8,
+      "medianPrice": 8,
+      "samples": [
+        8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20373153-leatherman-free-k2x-8-in-1-folding-pocketknife-w-serrated-blade-44-98-k4x-9-in-1-49-98-free-shipping": {
+      "currency": "USD",
+      "lastPrice": 45,
+      "minPrice": 45,
+      "maxPrice": 45,
+      "medianPrice": 45,
+      "samples": [
+        45
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20390451-crocs-adult-classic-fleece-lined-clogs-5-colors-24-free-s-h": {
+      "currency": "USD",
+      "lastPrice": 24,
+      "minPrice": 24,
+      "maxPrice": 24,
+      "medianPrice": 24,
+      "samples": [
+        24
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20385471-sns-ac-15-35-or-12-79-3-count-philips-sonicare-genuine-c2-optimal-plaque-control-toothbrush-heads-at-amazon": {
+      "currency": "USD",
+      "lastPrice": 21,
+      "minPrice": 21,
+      "maxPrice": 21,
+      "medianPrice": 21,
+      "samples": [
+        21
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20387535-198-96-citizen-men-s-eco-drive-classic-peyton-watch-3-hand-date-sapphire-crystal-luminous-markers-silver-green-dial-at-amazon": {
+      "currency": "USD",
+      "lastPrice": 174.55,
+      "minPrice": 174.55,
+      "maxPrice": 174.55,
+      "medianPrice": 174.55,
+      "samples": [
+        174.55
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20387172-nike-one-backpack-lt-violet-ore-36-73-free-shipping-on-49": {
+      "currency": "USD",
+      "lastPrice": 36.75,
+      "minPrice": 36.75,
+      "maxPrice": 36.75,
+      "medianPrice": 36.75,
+      "regularMax": 49,
+      "samples": [
+        36.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20377878-disney-toddler-girls-soft-plush-quarter-zip-jacket-various-sizes-12m-5t-9-99-free-shipping-w-walmart-or-on-35": {
+      "currency": "USD",
+      "lastPrice": 9,
+      "minPrice": 9,
+      "maxPrice": 9,
+      "medianPrice": 9,
+      "samples": [
+        9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20339958-8-oz-yeti-rambler-travel-bottle-various-colors-15-free-shipping-w-prime-or-on-35": {
+      "currency": "USD",
+      "lastPrice": 15,
+      "minPrice": 15,
+      "maxPrice": 15,
+      "medianPrice": 15,
+      "regularMax": 35,
+      "samples": [
+        15
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20377794-dr-seuss-boys-the-grinch-allover-print-fleece-zip-up-jacket-5-colors-11-free-shipping-w-walmart-or-on-35": {
+      "currency": "USD",
+      "lastPrice": 11,
+      "minPrice": 11,
+      "maxPrice": 11,
+      "medianPrice": 11,
+      "samples": [
+        11
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20333973-1-oz-carolina-herrera-good-girl-hair-mist-25-free-pickup-at-macys-or-free-shipping-on-39": {
+      "currency": "USD",
+      "lastPrice": 25,
+      "minPrice": 25,
+      "maxPrice": 25,
+      "medianPrice": 25,
+      "regularMax": 39,
+      "samples": [
+        25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20368752-cyberpowerpc-gamer-xtreme-gaming-pc-i7-14700f-rtx-5060-ti-8gb-16gb-ddr5-1tb-pcie-4-0-ssd-1299-99": {
+      "currency": "USD",
+      "lastPrice": 1300,
+      "minPrice": 1300,
+      "maxPrice": 1300,
+      "medianPrice": 1300,
+      "samples": [
+        1300
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://slickdeals.net/f/20384238-select-locations-37-5-lbs-scotts-turf-builder-lawn-food-15000-sq-ft-36-free-s-h": {
+      "currency": "USD",
+      "lastPrice": 36,
+      "minPrice": 36,
+      "maxPrice": 36,
+      "medianPrice": 36,
+      "samples": [
+        36
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Mens-Outerwear-Black-Friday-Deals-Up-to-60-off-free-shipping-w-35/22430523.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Davids-Cookies-Butter-Pecan-Meltaways-32-oz-Tin-2-Pack-for-18-via-Sub-Save-free-shipping-w-Prime/22430522.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 18,
+      "minPrice": 18,
+      "maxPrice": 18,
+      "medianPrice": 18,
+      "samples": [
+        18
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-Sports-Fan-Shop-Deals-Up-to-50-off-free-shipping-w-35/22430521.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Nike-Mens-Air-Max-Alpha-Trainer-6-Premium-Shoes-for-55-free-shipping/22430503.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 55,
+      "minPrice": 55,
+      "maxPrice": 55,
+      "medianPrice": 55,
+      "samples": [
+        55
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/adidas-Mens-Galaxy-7-Running-Shoes-for-20-free-shipping/22414721.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 20,
+      "minPrice": 20,
+      "maxPrice": 20,
+      "medianPrice": 20,
+      "samples": [
+        20
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-Resold-Tech-More-Deals-Up-to-60-off-free-shipping-w-35/22430500.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/products/Grownsy/Grownsy-Cooling-Fan-Baby-Carrier/563665.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 43,
+      "minPrice": 43,
+      "maxPrice": 43,
+      "medianPrice": 43,
+      "regularMax": 100,
+      "samples": [
+        43
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/products/Garmin/Garmin-vvoactive-5-GPS-Smartwatch/460760.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 152,
+      "minPrice": 152,
+      "maxPrice": 152,
+      "medianPrice": 152,
+      "samples": [
+        152
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Camillus-Swedge-8-75-Cleaver-Fixed-Blade-Knife-for-15-free-shipping-w-Prime/22430478.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 15,
+      "minPrice": 15,
+      "maxPrice": 15,
+      "medianPrice": 15,
+      "samples": [
+        15
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Fitindex-Smart-Scale-for-70-w-Prime-free-shipping/22430477.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 70,
+      "minPrice": 70,
+      "maxPrice": 70,
+      "medianPrice": 70,
+      "regularMax": 90,
+      "samples": [
+        70
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-Movies-Music-Books-Deals-Up-to-60-off-free-shipping-w-35/22430440.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-PC-Gaming-Deals-Up-to-50-off-free-shipping-w-35/22430439.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-Headphones-and-Speakers-Deals-Up-to-90-off-free-shipping-w-35/22430426.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/11-Cordless-Snow-Shovel-Tool-only-for-93-free-shipping/22430419.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 93,
+      "minPrice": 93,
+      "maxPrice": 93,
+      "medianPrice": 93,
+      "samples": [
+        93
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Champion-Mens-Lightweight-Hooded-Puffer-Jacket-for-from-32-free-shipping/22430418.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 32,
+      "minPrice": 32,
+      "maxPrice": 32,
+      "medianPrice": 32,
+      "samples": [
+        32
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Lensmart-Affordable-Prescription-Glasses-Black-Friday-Sale-for-From-15-extra-20-off-BOGO-50-off-free-shipping-w-65/22427574.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 15,
+      "minPrice": 15,
+      "maxPrice": 15,
+      "medianPrice": 15,
+      "regularMax": 65,
+      "samples": [
+        15
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Walmart-Black-Friday-Video-Games-Deals-for-Up-to-50-off-free-shipping-w-35/22430417.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 35,
+      "minPrice": 35,
+      "maxPrice": 35,
+      "medianPrice": 35,
+      "samples": [
+        35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Shelly-Smart-Home-Black-Friday-Deals-Up-to-60-off-free-shipping-w-50/22428160.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 50,
+      "minPrice": 50,
+      "maxPrice": 50,
+      "medianPrice": 50,
+      "samples": [
+        50
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Microsoft-Office-2024-Professional-Plus-for-Windows-Lifetime-License-for-40-digital-download/22424427.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 40,
+      "minPrice": 40,
+      "maxPrice": 40,
+      "medianPrice": 40,
+      "samples": [
+        40
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealnews.com/Audible-Membership-Black-Friday-Offer-for-99-cents-mo-for-3-months-20-Credit/22427836.html?iref=rss": {
+      "currency": "USD",
+      "lastPrice": 20,
+      "minPrice": 20,
+      "maxPrice": 20,
+      "medianPrice": 20,
+      "samples": [
+        20
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/3-x-aquafresh-complete-care-original-toothpaste-75ml-nectar-price-5046108": {
+      "currency": "GBP",
+      "lastPrice": 2,
+      "minPrice": 2,
+      "maxPrice": 2,
+      "medianPrice": 2,
+      "samples": [
+        2
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/vasagle-shoe-bench-with-cushion-3-compartments-80-x-30-x-44-cm-5045047": {
+      "currency": "GBP",
+      "lastPrice": 26.64,
+      "minPrice": 26.64,
+      "maxPrice": 26.64,
+      "medianPrice": 26.64,
+      "samples": [
+        26.64
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/talk-talk-the-very-best-of-talk-talk-double-vinyl-album-5044173": {
+      "currency": "GBP",
+      "lastPrice": 23.25,
+      "minPrice": 23.25,
+      "maxPrice": 23.25,
+      "medianPrice": 23.25,
+      "regularMax": 29.72,
+      "samples": [
+        23.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/sony-whch730n-wireless-over-ear-headphones-discount-at-checkout-5045416": {
+      "currency": "GBP",
+      "lastPrice": 59.98,
+      "minPrice": 59.98,
+      "maxPrice": 59.98,
+      "medianPrice": 59.98,
+      "samples": [
+        59.98
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/playstation5-disc-console-1tb-marvels-wolverine-with-additional-dualsense-wireless-controller-5046217": {
+      "currency": "GBP",
+      "lastPrice": 643,
+      "minPrice": 643,
+      "maxPrice": 643,
+      "medianPrice": 643,
+      "samples": [
+        643
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/bose-quietcomfort-ultra-2nd-gen-wireless-bluetooth-noise-cancelling-headphones-white-5044592": {
+      "currency": "GBP",
+      "lastPrice": 269.99,
+      "minPrice": 269.99,
+      "maxPrice": 269.99,
+      "medianPrice": 269.99,
+      "samples": [
+        269.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/costway-dutch-velvet-upholstered-platform-bed-led-5043733": {
+      "currency": "GBP",
+      "lastPrice": 99.95,
+      "minPrice": 99.95,
+      "maxPrice": 99.95,
+      "medianPrice": 99.95,
+      "samples": [
+        99.95
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/bosch-43x-extra-hard-screwdriver-bit-set-43-pcs-5045770": {
+      "currency": "GBP",
+      "lastPrice": 17.95,
+      "minPrice": 17.95,
+      "maxPrice": 17.95,
+      "medianPrice": 17.95,
+      "samples": [
+        17.95
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/versace-eros-energy-50ml-versace-eros-flame-50ml-ps3728-5037094": {
+      "currency": "GBP",
+      "lastPrice": 36.08,
+      "minPrice": 36.08,
+      "maxPrice": 36.08,
+      "medianPrice": 36.08,
+      "samples": [
+        36.08
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/arc-raiders-standard-edition-xbox-series-xspc-uk-key-5046163": {
+      "currency": "GBP",
+      "lastPrice": 14.99,
+      "minPrice": 14.99,
+      "maxPrice": 14.99,
+      "medianPrice": 14.99,
+      "samples": [
+        14.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/adidas-unisex-cushioned-sportswear-crew-socks-3-pack-various-sizes-black-friday-deal-5046129": {
+      "currency": "GBP",
+      "lastPrice": 5.93,
+      "minPrice": 5.93,
+      "maxPrice": 5.93,
+      "medianPrice": 5.93,
+      "samples": [
+        5.93
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/resident-evil-3-nintendo-switch-2-preorder-auto-discounted-5046247": {
+      "currency": "GBP",
+      "lastPrice": 21.59,
+      "minPrice": 21.59,
+      "maxPrice": 21.59,
+      "medianPrice": 21.59,
+      "samples": [
+        21.59
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/top-trumps-bluey-specials-card-game-play-with-bluey-bingo-and-all-their-friends-and-family-5044947": {
+      "currency": "GBP",
+      "lastPrice": 4,
+      "minPrice": 4,
+      "maxPrice": 4,
+      "medianPrice": 4,
+      "samples": [
+        4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/currys-clearance-deals-tp-link-tapo-c200-full-hd-1080p-ps1797-my-arcade-pac-man-micro-player-pro-game-system-ps229-many-more-below-5045060": {
+      "currency": "GBP",
+      "lastPrice": 17.97,
+      "minPrice": 17.97,
+      "maxPrice": 17.97,
+      "medianPrice": 17.97,
+      "regularMax": 22.9,
+      "samples": [
+        17.97
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/stanley-road-paul-weller-vinyl-5045955": {
+      "currency": "GBP",
+      "lastPrice": 16.5,
+      "minPrice": 16.5,
+      "maxPrice": 16.5,
+      "medianPrice": 16.5,
+      "samples": [
+        16.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/pokemon-30th-anniversary-plush-8inch-20cm-pastel-pikachu-espeon-morpeko-vulpix-5045903": {
+      "currency": "GBP",
+      "lastPrice": 9.99,
+      "minPrice": 9.99,
+      "maxPrice": 9.99,
+      "medianPrice": 9.99,
+      "samples": [
+        9.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/call-of-duty-modern-warfare-4-code-in-box-nintendo-switch-2-5045995": {
+      "currency": "GBP",
+      "lastPrice": 47.99,
+      "minPrice": 47.99,
+      "maxPrice": 47.99,
+      "medianPrice": 47.99,
+      "samples": [
+        47.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/dyson-hotcool-hf1-pre-heat-heater-cooling-fan-refurbished-dyson-v11-cordless-vacuum-cleaner-refurbished-ps18360-wcode-5045796": {
+      "currency": "GBP",
+      "lastPrice": 183.6,
+      "minPrice": 183.6,
+      "maxPrice": 183.6,
+      "medianPrice": 183.6,
+      "samples": [
+        183.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/black-friday-deal-tcl-55v6c-direct-led-4k-hdr-smart-google-tv-55v6cdolby-atmos-aipq-processor-120hz-game-accelerator-5046096": {
+      "currency": "GBP",
+      "lastPrice": 159.99,
+      "minPrice": 159.99,
+      "maxPrice": 159.99,
+      "medianPrice": 159.99,
+      "samples": [
+        159.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/forza-horizon-6-playstation-5-pre-order-5046063": {
+      "currency": "GBP",
+      "lastPrice": 49.99,
+      "minPrice": 49.99,
+      "maxPrice": 49.99,
+      "medianPrice": 49.99,
+      "regularMax": 54.99,
+      "samples": [
+        49.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/metal-gear-solid-master-collection-volume-2-day-one-edition-nintendo-switch-2-5045983": {
+      "currency": "GBP",
+      "lastPrice": 36.85,
+      "minPrice": 36.85,
+      "maxPrice": 36.85,
+      "medianPrice": 36.85,
+      "samples": [
+        36.85
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/get-a-free-regular-mccafe-coffee-when-you-spend-ps1-on-any-food-drink-via-app-selected-accounts-5046206": {
+      "currency": "GBP",
+      "lastPrice": 1,
+      "minPrice": 1,
+      "maxPrice": 1,
+      "medianPrice": 1,
+      "samples": [
+        1
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/chens-dim-sum-seafood-prawn-hargow-40-pieces-1kg-instore-5045820": {
+      "currency": "GBP",
+      "lastPrice": 6.99,
+      "minPrice": 6.99,
+      "maxPrice": 6.99,
+      "medianPrice": 6.99,
+      "samples": [
+        6.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/leatherman-super-tool-300-silver-5046028": {
+      "currency": "GBP",
+      "lastPrice": 69.98,
+      "minPrice": 69.98,
+      "maxPrice": 69.98,
+      "medianPrice": 69.98,
+      "samples": [
+        69.98
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/thorntons-classic-christmas-chocolate-box-23-chocolates-262g-5045891": {
+      "currency": "GBP",
+      "lastPrice": 5.95,
+      "minPrice": 5.95,
+      "maxPrice": 5.95,
+      "medianPrice": 5.95,
+      "samples": [
+        5.95
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/ecoflow-stream-ultra-balcony-power-plant-2000w-pv-input-1920wh-plug-in-solar-battery-4-x-500w-solar-panels-with-code-5045214": {
+      "currency": "GBP",
+      "lastPrice": 1084.68,
+      "minPrice": 1084.68,
+      "maxPrice": 1084.68,
+      "medianPrice": 1084.68,
+      "samples": [
+        1084.68
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/stardew-valley-android-game-app-5046104": {
+      "currency": "GBP",
+      "lastPrice": 2.5,
+      "minPrice": 2.5,
+      "maxPrice": 2.5,
+      "medianPrice": 2.5,
+      "samples": [
+        2.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://hotukdeals.com/deals/asda-tender-lamb-leg-typically-215kg-instore-price-per-kg-5046189": {
+      "currency": "GBP",
+      "lastPrice": 5.92,
+      "minPrice": 5.92,
+      "maxPrice": 5.92,
+      "medianPrice": 5.92,
+      "samples": [
+        5.92
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/bosch-professional-kapp-und-gehrungssage-gcm-305-216-d-inklusive-gratis-untergestell-2881230": {
+      "currency": "EUR",
+      "lastPrice": 399,
+      "minPrice": 399,
+      "maxPrice": 399,
+      "medianPrice": 399,
+      "samples": [
+        399
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/go-shawty-its-your-birthday-prime-50-cent-get-rich-or-die-tryin-album-180g-auf-2-lps-2003-16-tracks-2881223": {
+      "currency": "EUR",
+      "lastPrice": 22.52,
+      "minPrice": 22.52,
+      "maxPrice": 22.52,
+      "medianPrice": 22.52,
+      "samples": [
+        22.52
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/vst-universal-audio-coupon-anmeldung-1-aus-10-plugins-fur-1-am-2611-2880915": {
+      "currency": "EUR",
+      "lastPrice": 1,
+      "minPrice": 1,
+      "maxPrice": 1,
+      "medianPrice": 1,
+      "samples": [
+        1
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/baseus-primetrip-dashcam-vd1-front-rear-3k-front-1080p-ruckaufnahmen-hd-nachtsicht-140-120-sichtwinkel-dual-gps-galileo-2854774": {
+      "currency": "EUR",
+      "lastPrice": 59.65,
+      "minPrice": 59.65,
+      "maxPrice": 59.65,
+      "medianPrice": 59.65,
+      "samples": [
+        59.65
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/dji-osmo-action-6-adventure-combo-action-cam-3-akkus-15m-verlangerungsstange-mehr-111-quadratsensor-variable-f20-f40-blende-2851610": {
+      "currency": "EUR",
+      "lastPrice": 359,
+      "minPrice": 359,
+      "maxPrice": 359,
+      "medianPrice": 359,
+      "samples": [
+        359
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/nigrin-scheiben-innenreiniger-mit-teleskop-griff-inklusive-waschbaren-und-wiederverwendbaren-mikrofaserpads-2878233": {
+      "currency": "EUR",
+      "lastPrice": 5.34,
+      "minPrice": 5.34,
+      "maxPrice": 5.34,
+      "medianPrice": 5.34,
+      "samples": [
+        5.34
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/happy-sim-5g-im-telefonica-netz-25-gb-fur-799-eur-50-gb-fur-899-eur-oder-100-gb-fur-999-eur-mtl-ohne-anschlussgebuhr-bei-24-monaten-2861771": {
+      "currency": "EUR",
+      "lastPrice": 7.99,
+      "minPrice": 7.99,
+      "maxPrice": 7.99,
+      "medianPrice": 7.99,
+      "regularMax": 8.99,
+      "samples": [
+        7.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/marvels-guardians-of-the-galaxy-steam-key-501eur-ps4-ps5-1049eur-xbox-891eur-is-playstation-4-5-xbox-pc-xbox-play-anywhere-2881212": {
+      "currency": "EUR",
+      "lastPrice": 5.01,
+      "minPrice": 5.01,
+      "maxPrice": 5.01,
+      "medianPrice": 5.01,
+      "regularMax": 10.49,
+      "samples": [
+        5.01
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/amazon-prime-rockbros-2in1-fahrradklingel-als-lenkerstopfen-endkappen-2881065": {
+      "currency": "EUR",
+      "lastPrice": 13.59,
+      "minPrice": 13.59,
+      "maxPrice": 13.59,
+      "medianPrice": 13.59,
+      "samples": [
+        13.59
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/sid-meiers-civilization-vi-209eur-sid-meiers-civilization-vi-anthology-810eur-pc-steam-key-metacritic-88-2881203": {
+      "currency": "EUR",
+      "lastPrice": 2.09,
+      "minPrice": 2.09,
+      "maxPrice": 2.09,
+      "medianPrice": 2.09,
+      "regularMax": 8.1,
+      "samples": [
+        2.09
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/itchio-family-manners-psychologisches-horrorspiel-fur-windows-macos-linux-kostenlos-statt-299-2881183": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/jack-jones-male-kapuzenpullover-logo-kapuzenpullover-2881001": {
+      "currency": "EUR",
+      "lastPrice": 16.79,
+      "minPrice": 16.79,
+      "maxPrice": 16.79,
+      "medianPrice": 16.79,
+      "samples": [
+        16.79
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/mattel-games-uno-adventskalender-otto-up-kostenloser-versand-2880932": {
+      "currency": "EUR",
+      "lastPrice": 9.89,
+      "minPrice": 9.89,
+      "maxPrice": 9.89,
+      "medianPrice": 9.89,
+      "samples": [
+        9.89
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/rennrad-radon-spire-80-carbon-rahmenss105-di282kg-2026-xs-bis-xl-2881187": {
+      "currency": "EUR",
+      "lastPrice": 2048.99,
+      "minPrice": 2048.99,
+      "maxPrice": 2048.99,
+      "medianPrice": 2048.99,
+      "samples": [
+        2048.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/amazon-prime-sparabo-mugler-amen-eau-de-toilette-100ml-herrenparfum-klassiker-kraftig-und-nachfullbar-amberartig-holziger-gourmand-2881142": {
+      "currency": "EUR",
+      "lastPrice": 37.48,
+      "minPrice": 37.48,
+      "maxPrice": 37.48,
+      "medianPrice": 37.48,
+      "samples": [
+        37.48
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/bike24-continental-grand-prix-5000-as-tr-faltreifen-rennrad-25-622-schwarz-fur-3499-eur-versand-2880747": {
+      "currency": "EUR",
+      "lastPrice": 39.98,
+      "minPrice": 39.98,
+      "maxPrice": 39.98,
+      "medianPrice": 39.98,
+      "samples": [
+        39.98
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/kryptonite-evolution-ls-bugelschloss-extra-lang-sicherheitslevel-810-prime-2880840": {
+      "currency": "EUR",
+      "lastPrice": 48.59,
+      "minPrice": 48.59,
+      "maxPrice": 48.59,
+      "medianPrice": 48.59,
+      "samples": [
+        48.59
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/lego-city-passagierflugzeug-60367-913-teile-fur-5999-eur-inkl-versand-at-otto-2880832": {
+      "currency": "EUR",
+      "lastPrice": 59.99,
+      "minPrice": 59.99,
+      "maxPrice": 59.99,
+      "medianPrice": 59.99,
+      "samples": [
+        59.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/prime-hailo-m80-alu-multifunktionsleiter-schiebeleiter-4-x-5-sprossen-belastbar-bis-150-kg-sicherheitsgelenke-und-rastgriffe-2881185": {
+      "currency": "EUR",
+      "lastPrice": 154.99,
+      "minPrice": 154.99,
+      "maxPrice": 154.99,
+      "medianPrice": 154.99,
+      "samples": [
+        154.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/1-monat-disney-standard-werbung-kostenlos-zu-adidas-disney-artikeln-zb-3-paar-adidas-disney-kindersocken-22-39-610eur-mit-cb-2881080": {
+      "currency": "EUR",
+      "lastPrice": 50,
+      "minPrice": 50,
+      "maxPrice": 50,
+      "medianPrice": 50,
+      "samples": [
+        50
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/familienurlaub-7-nachte-im-5-hotel-all-inclusive-side-turkei-2-erw-1-kind-inkl-flug-transfers-sehr-gut-bewertet-okt-2831353": {
+      "currency": "EUR",
+      "lastPrice": 1.101,
+      "minPrice": 1.101,
+      "maxPrice": 1.101,
+      "medianPrice": 1.101,
+      "samples": [
+        1.101
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/prime-ugreen-usb-c-ladegerat-65w-3-port-kompaktes-netzteil-charger-schnellladegerat-kompatibel-apple-samsung-pixel-2881136": {
+      "currency": "EUR",
+      "lastPrice": 15.15,
+      "minPrice": 15.15,
+      "maxPrice": 15.15,
+      "medianPrice": 15.15,
+      "samples": [
+        15.15
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/last-minute-sale-7-tage-kanarische-inseln-kreuzfahrt-ab-civitavecchiarom-bis-teneriffa-inkl-fluge-abbis-frankfurt-vp-ab-399eur-pp-2881154": {
+      "currency": "EUR",
+      "lastPrice": 798,
+      "minPrice": 798,
+      "maxPrice": 798,
+      "medianPrice": 798,
+      "samples": [
+        798
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/stardew-valley-google-playstore-2881138": {
+      "currency": "EUR",
+      "lastPrice": 2.35,
+      "minPrice": 2.35,
+      "maxPrice": 2.35,
+      "medianPrice": 2.35,
+      "samples": [
+        2.35
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/amazon-prime-buff-heavyweight-merino-wool-hat-100-merinowolle-2881134": {
+      "currency": "EUR",
+      "lastPrice": 15.85,
+      "minPrice": 15.85,
+      "maxPrice": 15.85,
+      "medianPrice": 15.85,
+      "samples": [
+        15.85
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://mydealz.de/deals/otto-plus-verfugbarkeitsdeal-tonies-milas-weihnachtsreise-oder-ein-knuspriges-weihnachtsfest-adventskalender-tonie-2881132": {
+      "currency": "EUR",
+      "lastPrice": 16.99,
+      "minPrice": 16.99,
+      "maxPrice": 16.99,
+      "medianPrice": 16.99,
+      "samples": [
+        16.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/dremel-2000-fers-a-souder-versatip-fer-a-souder-et-kit-de-soudure-3466979": {
+      "currency": "EUR",
+      "lastPrice": 30.98,
+      "minPrice": 30.98,
+      "maxPrice": 30.98,
+      "medianPrice": 30.98,
+      "samples": [
+        30.98
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/chaussures-de-running-trail-homme-kiprun-kipsummit-gris-orange-du-39-au-48-3468488": {
+      "currency": "EUR",
+      "lastPrice": 64.99,
+      "minPrice": 64.99,
+      "maxPrice": 64.99,
+      "medianPrice": 64.99,
+      "samples": [
+        64.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/chaussures-nike-air-max-alpha-trainer-6-premium-du-385-au-495-3467947": {
+      "currency": "EUR",
+      "lastPrice": 56.99,
+      "minPrice": 56.99,
+      "maxPrice": 56.99,
+      "medianPrice": 56.99,
+      "samples": [
+        56.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/kindle-paperwhite-signature-32go-3467972": {
+      "currency": "EUR",
+      "lastPrice": 159.99,
+      "minPrice": 159.99,
+      "maxPrice": 159.99,
+      "medianPrice": 159.99,
+      "samples": [
+        159.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/dyson-v8-origin-aspirateur-balai-sans-fill-3468195": {
+      "currency": "EUR",
+      "lastPrice": 229,
+      "minPrice": 229,
+      "maxPrice": 229,
+      "medianPrice": 229,
+      "samples": [
+        229
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/carte-mere-msi-b760m-gaming-plus-wifi-micro-atx-lga-1700-3468017": {
+      "currency": "EUR",
+      "lastPrice": 85.99,
+      "minPrice": 85.99,
+      "maxPrice": 85.99,
+      "medianPrice": 85.99,
+      "samples": [
+        85.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/tv-55-mini-led-hisense-55e8s-uhd-4k-144-hz-dolby-vision-atmos-hdmi-21-code-promo-carte-confo-gratuite-3466554": {
+      "currency": "EUR",
+      "lastPrice": 469.79,
+      "minPrice": 469.79,
+      "maxPrice": 469.79,
+      "medianPrice": 469.79,
+      "samples": [
+        469.79
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/ecran-pc-gamer-32-samsung-odyssey-g5-g50f-ls32fg506euxen-32-qhd-2560-x-1440-180hz-dalle-ips-ajustable-en-hauteur-3468206": {
+      "currency": "EUR",
+      "lastPrice": 184.99,
+      "minPrice": 184.99,
+      "maxPrice": 184.99,
+      "medianPrice": 184.99,
+      "samples": [
+        184.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/fouet-de-buyer-goma-fils-inox-30cm-3468339": {
+      "currency": "EUR",
+      "lastPrice": 13.85,
+      "minPrice": 13.85,
+      "maxPrice": 13.85,
+      "medianPrice": 13.85,
+      "regularMax": 17.76,
+      "samples": [
+        13.85
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/robot-tondeuse-dreame-a1-pro-lidar-3d-360-sans-cable-peripherique-jusqua-2000-m2-pentes-45-gestion-des-zones-via-app-3468599": {
+      "currency": "EUR",
+      "lastPrice": 467.9,
+      "minPrice": 467.9,
+      "maxPrice": 467.9,
+      "medianPrice": 467.9,
+      "samples": [
+        467.9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/billets-train-mobigo-aller-retour-vers-les-lumieres-de-noel-de-montbeliard-des-6eur-adulte-2eur-enfant-de-moins-de-12-ans-3467925": {
+      "currency": "EUR",
+      "lastPrice": 6,
+      "minPrice": 6,
+      "maxPrice": 6,
+      "medianPrice": 6,
+      "samples": [
+        6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/ecran-gaming-aoc-q27g4xfad-27-qhd-180-hz-fast-ips-3467087": {
+      "currency": "EUR",
+      "lastPrice": 139,
+      "minPrice": 139,
+      "maxPrice": 139,
+      "medianPrice": 139,
+      "samples": [
+        139
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/sonos-arc-ultra-3468513": {
+      "currency": "EUR",
+      "lastPrice": 780.49,
+      "minPrice": 780.49,
+      "maxPrice": 780.49,
+      "medianPrice": 780.49,
+      "samples": [
+        780.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/clavier-gamer-razer-huntsman-mini-compact-a-60-switches-opto-mecaniques-silencieux-et-lineaires-3466228": {
+      "currency": "EUR",
+      "lastPrice": 49.9,
+      "minPrice": 49.9,
+      "maxPrice": 49.9,
+      "medianPrice": 49.9,
+      "samples": [
+        49.9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/baskets-nike-air-jordan-1-mid-taille-du-35-au-525-3468025": {
+      "currency": "EUR",
+      "lastPrice": 69.99,
+      "minPrice": 69.99,
+      "maxPrice": 69.99,
+      "medianPrice": 69.99,
+      "samples": [
+        69.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/batterie-externe-magsafe-ugreen-zapix-10-000-mah-charge-sans-fil-qi-75w-usb-c-pd-20w-noir-vendeur-tier-3466752": {
+      "currency": "EUR",
+      "lastPrice": 24.69,
+      "minPrice": 24.69,
+      "maxPrice": 24.69,
+      "medianPrice": 24.69,
+      "samples": [
+        24.69
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/perceuse-visseuse-parkside-performance-sans-fil-20-v-pabsp-20-li-c4-avec-batterie-et-chargeur-3468150": {
+      "currency": "EUR",
+      "lastPrice": 47.99,
+      "minPrice": 47.99,
+      "maxPrice": 47.99,
+      "medianPrice": 47.99,
+      "samples": [
+        47.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/carte-mere-mini-itx-colorful-cvn-b850i-gaming-frozen-v14-3447724": {
+      "currency": "EUR",
+      "lastPrice": 85.3,
+      "minPrice": 85.3,
+      "maxPrice": 85.3,
+      "medianPrice": 85.3,
+      "regularMax": 104,
+      "samples": [
+        85.3
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/montre-casio-efk-110d-7aer-3466722": {
+      "currency": "EUR",
+      "lastPrice": 223.2,
+      "minPrice": 223.2,
+      "maxPrice": 223.2,
+      "medianPrice": 223.2,
+      "samples": [
+        223.2
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/multiprise-shelly-power-strip-4-gen4-compatible-zigbee-et-matter-3468449": {
+      "currency": "EUR",
+      "lastPrice": 35.94,
+      "minPrice": 35.94,
+      "maxPrice": 35.94,
+      "medianPrice": 35.94,
+      "samples": [
+        35.94
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/borne-darcade-pac-man-3467640": {
+      "currency": "EUR",
+      "lastPrice": 306.77,
+      "minPrice": 306.77,
+      "maxPrice": 306.77,
+      "medianPrice": 306.77,
+      "samples": [
+        306.77
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/huile-moteur-elf-evolution-900-5w-30-essence-5-litres-3467216": {
+      "currency": "EUR",
+      "lastPrice": 30.03,
+      "minPrice": 30.03,
+      "maxPrice": 30.03,
+      "medianPrice": 30.03,
+      "samples": [
+        30.03
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/videoprojecteur-ultra-courte-focale-4k-hisense-pt1-triple-laser-trichroma-3467671": {
+      "currency": "EUR",
+      "lastPrice": 309.92,
+      "minPrice": 309.92,
+      "maxPrice": 309.92,
+      "medianPrice": 309.92,
+      "samples": [
+        309.92
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/acer-predator-gm7-ssd-1-to-m2-2280-pcie-gen4-3467420": {
+      "currency": "EUR",
+      "lastPrice": 152.99,
+      "minPrice": 152.99,
+      "maxPrice": 152.99,
+      "medianPrice": 152.99,
+      "samples": [
+        152.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/four-a-pyrolyse-connecte-electrolux-eod6p56wh-72l-fonction-vapeur-steambake-rails-telescopiques-porte-froide-classe-a-3468463": {
+      "currency": "EUR",
+      "lastPrice": 449.99,
+      "minPrice": 449.99,
+      "maxPrice": 449.99,
+      "medianPrice": 449.99,
+      "samples": [
+        449.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/clarks-homme-tilden-cap-chaussures-3468269": {
+      "currency": "EUR",
+      "lastPrice": 35.61,
+      "minPrice": 35.61,
+      "maxPrice": 35.61,
+      "medianPrice": 35.61,
+      "samples": [
+        35.61
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/survetement-under-armour-rival-homme-a-30eur-via-unidays-plusieurs-tailles-3466865": {
+      "currency": "EUR",
+      "lastPrice": 30,
+      "minPrice": 30,
+      "maxPrice": 30,
+      "medianPrice": 30,
+      "samples": [
+        30
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/climatiseur-reversible-tcl-breezein-p5-sn18p5s0st18p0-18-000-btu-51-kw-inverter-wi-fi-r32-aa-caldaiemurali-3466586": {
+      "currency": "EUR",
+      "lastPrice": 496.62,
+      "minPrice": 496.62,
+      "maxPrice": 496.62,
+      "medianPrice": 496.62,
+      "samples": [
+        496.62
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://dealabs.com/bons-plans/tv-lg-oled-4k-77-b6-195-cm-via-360-euro-sur-la-carte-3467841": {
+      "currency": "EUR",
+      "lastPrice": 439.99,
+      "minPrice": 439.99,
+      "maxPrice": 439.99,
+      "medianPrice": 439.99,
+      "samples": [
+        439.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/timberland-botas-de-moda-hombre-botas-casualestallas-40-41-445-455-46-2089021": {
+      "currency": "EUR",
+      "lastPrice": 96.25,
+      "minPrice": 96.25,
+      "maxPrice": 96.25,
+      "medianPrice": 96.25,
+      "samples": [
+        96.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/casco-de-moto-integral-mt-helmets-stinger-2-ardent-ece2206-3-colores-verde-y-amarillo-de-2xs-a-xl-rojo-2xs-xs-s-l-y-xl-2089088": {
+      "currency": "EUR",
+      "lastPrice": 41.22,
+      "minPrice": 41.22,
+      "maxPrice": 41.22,
+      "medianPrice": 41.22,
+      "samples": [
+        41.22
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/audio-technica-at-lp60xbk-2088691": {
+      "currency": "EUR",
+      "lastPrice": 137.99,
+      "minPrice": 137.99,
+      "maxPrice": 137.99,
+      "medianPrice": 137.99,
+      "samples": [
+        137.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/eucerin-aquaphor-pomada-reparadora-45-ml-664-eur-con-compra-recurrente-2088990": {
+      "currency": "EUR",
+      "lastPrice": 6.99,
+      "minPrice": 6.99,
+      "maxPrice": 6.99,
+      "medianPrice": 6.99,
+      "regularMax": 11.6,
+      "samples": [
+        6.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/recopilacion-zapatillas-skechers-todas-por-menos-de-30eur-tallas-mujer-2088992": {
+      "currency": "EUR",
+      "lastPrice": 30,
+      "minPrice": 30,
+      "maxPrice": 30,
+      "medianPrice": 30,
+      "samples": [
+        30
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/davidoff-cool-water-eau-de-toilette-para-hombre-fragancia-aromatica-masculina-fresca-y-con-notas-de-cilantro-menta-y-lavanda-2089083": {
+      "currency": "EUR",
+      "lastPrice": 12.25,
+      "minPrice": 12.25,
+      "maxPrice": 12.25,
+      "medianPrice": 12.25,
+      "samples": [
+        12.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/rituals-the-ritual-of-sakura-cofre-de-regalo-flor-de-cerezo-grande-2088625": {
+      "currency": "EUR",
+      "lastPrice": 47.92,
+      "minPrice": 47.92,
+      "maxPrice": 47.92,
+      "medianPrice": 47.92,
+      "samples": [
+        47.92
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/hidrata-tus-ojos-para-black-friday-2089067": {
+      "currency": "EUR",
+      "lastPrice": 4.75,
+      "minPrice": 4.75,
+      "maxPrice": 4.75,
+      "medianPrice": 4.75,
+      "samples": [
+        4.75
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/timberland-zapatillas-de-media-cana-motion-access-para-hombre-en-negro-2088763": {
+      "currency": "EUR",
+      "lastPrice": 77,
+      "minPrice": 77,
+      "maxPrice": 77,
+      "medianPrice": 77,
+      "samples": [
+        77
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/zapatillas-puma-caven-20-tallas-40-405-43-445-y-45-2088915": {
+      "currency": "EUR",
+      "lastPrice": 24.49,
+      "minPrice": 24.49,
+      "maxPrice": 24.49,
+      "medianPrice": 24.49,
+      "samples": [
+        24.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/marvel-spider-man-2-game-spider-logo-camiseta-todas-las-tallas-y-muchos-colores-a-elegir-2089096": {
+      "currency": "EUR",
+      "lastPrice": 14.39,
+      "minPrice": 14.39,
+      "maxPrice": 14.39,
+      "medianPrice": 14.39,
+      "samples": [
+        14.39
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/bruno-mars-unorthodox-jukebox-vinilo-2088512": {
+      "currency": "EUR",
+      "lastPrice": 17.59,
+      "minPrice": 17.59,
+      "maxPrice": 17.59,
+      "medianPrice": 17.59,
+      "samples": [
+        17.59
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/bicicleta-de-paseo-vintage-capri-valentina-2089111": {
+      "currency": "EUR",
+      "lastPrice": 199,
+      "minPrice": 199,
+      "maxPrice": 199,
+      "medianPrice": 199,
+      "samples": [
+        199
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/xbox-series-x-ace-combat-8-wings-of-theve-2088783": {
+      "currency": "EUR",
+      "lastPrice": 48.6,
+      "minPrice": 48.6,
+      "maxPrice": 48.6,
+      "medianPrice": 48.6,
+      "samples": [
+        48.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/reloj-citizen-marine-1810-aw1816-89l-eco-drive-415-mm-con-esfera-turquesa-y-brazalete-de-acero-2089061": {
+      "currency": "EUR",
+      "lastPrice": 116.99,
+      "minPrice": 116.99,
+      "maxPrice": 116.99,
+      "medianPrice": 116.99,
+      "samples": [
+        116.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/smartwatch-apple-watch-series-11-gps-cellular-42-mm-aluminio-gris-espacial-correa-negra-sm-24h-bateria-sueno-2088653": {
+      "currency": "EUR",
+      "lastPrice": 415,
+      "minPrice": 415,
+      "maxPrice": 415,
+      "medianPrice": 415,
+      "samples": [
+        415
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/yoshi-interactivo-que-eclosiona-pelicula-super-mario-galaxy-2079673": {
+      "currency": "EUR",
+      "lastPrice": 24.99,
+      "minPrice": 24.99,
+      "maxPrice": 24.99,
+      "medianPrice": 24.99,
+      "samples": [
+        24.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/jardin-zen-tori-2089158": {
+      "currency": "EUR",
+      "lastPrice": 8.46,
+      "minPrice": 8.46,
+      "maxPrice": 8.46,
+      "medianPrice": 8.46,
+      "samples": [
+        8.46
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/fnirsi-lc1020e-medidor-lcr-y-esr-de-100-khz-para-condensadores-resistencias-e-inductores-precio-para-nuevos-usuarios-2088385": {
+      "currency": "EUR",
+      "lastPrice": 46.71,
+      "minPrice": 46.71,
+      "maxPrice": 46.71,
+      "medianPrice": 46.71,
+      "samples": [
+        46.71
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/sika-revestimiento-impermeable-sikafill-365-terrace-blanco-5kg-2089107": {
+      "currency": "EUR",
+      "lastPrice": 24.99,
+      "minPrice": 24.99,
+      "maxPrice": 24.99,
+      "medianPrice": 24.99,
+      "samples": [
+        24.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/ps5-saros-2088779": {
+      "currency": "EUR",
+      "lastPrice": 39.9,
+      "minPrice": 39.9,
+      "maxPrice": 39.9,
+      "medianPrice": 39.9,
+      "samples": [
+        39.9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/reebok-energen-lux-zapatillas-de-running-para-asfalto-en-color-negro-tallas-dentro-chjollo-2089033": {
+      "currency": "EUR",
+      "lastPrice": 21.9,
+      "minPrice": 21.9,
+      "maxPrice": 21.9,
+      "medianPrice": 21.9,
+      "samples": [
+        21.9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/dashcam-70mai-4k-a810-2088329": {
+      "currency": "EUR",
+      "lastPrice": 139.99,
+      "minPrice": 139.99,
+      "maxPrice": 139.99,
+      "medianPrice": 139.99,
+      "samples": [
+        139.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/lego-caminante-at-at-de-pan-de-jengibre-40806-2088910": {
+      "currency": "EUR",
+      "lastPrice": 41.99,
+      "minPrice": 41.99,
+      "maxPrice": 41.99,
+      "medianPrice": 41.99,
+      "samples": [
+        41.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/tv-rgb-mini-led-65-hisense-65ur8s-uhd-4k-hi-view-ai-engine-rgb-modo-juego-pantalla-antirreflejos-smart-tv-full-ia-gris-carbon-2088746": {
+      "currency": "EUR",
+      "lastPrice": 849.15,
+      "minPrice": 849.15,
+      "maxPrice": 849.15,
+      "medianPrice": 849.15,
+      "samples": [
+        849.15
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/lego-harry-potter-castillo-de-hogwarts-ala-de-enfermeria-juego-de-construccion-9-anos-76463-2060485": {
+      "currency": "EUR",
+      "lastPrice": 61.99,
+      "minPrice": 61.99,
+      "maxPrice": 61.99,
+      "medianPrice": 61.99,
+      "samples": [
+        61.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/tommy-hilfiger-bolso-tote-mujer-2088953": {
+      "currency": "EUR",
+      "lastPrice": 63.89,
+      "minPrice": 63.89,
+      "maxPrice": 63.89,
+      "medianPrice": 63.89,
+      "samples": [
+        63.89
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/the-alighieri-circle-dantes-bloodline-limited-edition-ps5-2088231": {
+      "currency": "EUR",
+      "lastPrice": 24.95,
+      "minPrice": 24.95,
+      "maxPrice": 24.95,
+      "medianPrice": 24.95,
+      "samples": [
+        24.95
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/3-claveles-tijera-8-2089046": {
+      "currency": "EUR",
+      "lastPrice": 4.45,
+      "minPrice": 4.45,
+      "maxPrice": 4.45,
+      "medianPrice": 4.45,
+      "samples": [
+        4.45
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://chollometro.com/ofertas/lego-minecraft-el-dragon-ender-21595-figura-articulada-con-alas-moviles-y-710-piezas-2088927": {
+      "currency": "EUR",
+      "lastPrice": 33.17,
+      "minPrice": 33.17,
+      "maxPrice": 33.17,
+      "medianPrice": 33.17,
+      "samples": [
+        33.17
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/gisada-ambassador-men-eau-de-parfum-100ml-429161": {
+      "currency": "EUR",
+      "lastPrice": 59.99,
+      "minPrice": 59.99,
+      "maxPrice": 59.99,
+      "medianPrice": 59.99,
+      "samples": [
+        59.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/magic-the-gathering-reality-fracture-bundle-429130": {
+      "currency": "EUR",
+      "lastPrice": 40.82,
+      "minPrice": 40.82,
+      "maxPrice": 40.82,
+      "medianPrice": 40.82,
+      "samples": [
+        40.82
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/8-daagse-nijlcruise-voor-2-personen-op-een-5-schip-met-volpension-gids-en-vlucht-vanaf-amsterdam-at-corendon-426905": {
+      "currency": "EUR",
+      "lastPrice": 810,
+      "minPrice": 810,
+      "maxPrice": 810,
+      "medianPrice": 810,
+      "samples": [
+        810
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/mcdonalds-save-the-date-25-november-big-mac-voor-maar-eur100-428061": {
+      "currency": "EUR",
+      "lastPrice": 1,
+      "minPrice": 1,
+      "maxPrice": 1,
+      "medianPrice": 1,
+      "samples": [
+        1
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/2-for-1-zuid-afrika-tweede-persoon-reist-gratis-roadtrip-kaapstad-tuinroute-en-addo-incl-vlucht-huurauto-en-hotels-at-journaway-426413": {
+      "currency": "EUR",
+      "lastPrice": 2.599,
+      "minPrice": 2.599,
+      "maxPrice": 2.599,
+      "medianPrice": 2.599,
+      "samples": [
+        2.599
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/ugreen-finetrack-slim-tracker-kaart-met-draadloos-opladen-ios-428748": {
+      "currency": "EUR",
+      "lastPrice": 18.04,
+      "minPrice": 18.04,
+      "maxPrice": 18.04,
+      "medianPrice": 18.04,
+      "samples": [
+        18.04
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://nl.pepper.com/aanbiedingen/stanley-stht0-70885-multipuntas-34-bits-428977": {
+      "currency": "EUR",
+      "lastPrice": 7.51,
+      "minPrice": 7.51,
+      "maxPrice": 7.51,
+      "medianPrice": 7.51,
+      "samples": [
+        7.51
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985493": {
+      "currency": "USD",
+      "lastPrice": 23.8,
+      "minPrice": 23.8,
+      "maxPrice": 23.8,
+      "medianPrice": 23.8,
+      "samples": [
+        23.8
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985491": {
+      "currency": "USD",
+      "lastPrice": 288,
+      "minPrice": 288,
+      "maxPrice": 288,
+      "medianPrice": 288,
+      "regularMax": 499,
+      "samples": [
+        288
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985490": {
+      "currency": "USD",
+      "lastPrice": 34,
+      "minPrice": 34,
+      "maxPrice": 34,
+      "medianPrice": 34,
+      "regularMax": 89.95,
+      "samples": [
+        34
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985488": {
+      "currency": "USD",
+      "lastPrice": 349.6,
+      "minPrice": 349.6,
+      "maxPrice": 349.6,
+      "medianPrice": 349.6,
+      "regularMax": 409,
+      "samples": [
+        349.6
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985487": {
+      "currency": "USD",
+      "lastPrice": 79,
+      "minPrice": 79,
+      "maxPrice": 79,
+      "medianPrice": 79,
+      "samples": [
+        79
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985486": {
+      "currency": "USD",
+      "lastPrice": 128,
+      "minPrice": 128,
+      "maxPrice": 128,
+      "medianPrice": 128,
+      "regularMax": 319.99,
+      "samples": [
+        128
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985484": {
+      "currency": "USD",
+      "lastPrice": 95,
+      "minPrice": 95,
+      "maxPrice": 95,
+      "medianPrice": 95,
+      "regularMax": 130,
+      "samples": [
+        95
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985482": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985480": {
+      "currency": "USD",
+      "lastPrice": 14.25,
+      "minPrice": 14.25,
+      "maxPrice": 14.25,
+      "medianPrice": 14.25,
+      "regularMax": 19,
+      "samples": [
+        14.25
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985477": {
+      "currency": "USD",
+      "lastPrice": 49.99,
+      "minPrice": 49.99,
+      "maxPrice": 49.99,
+      "medianPrice": 49.99,
+      "samples": [
+        49.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985473": {
+      "currency": "USD",
+      "lastPrice": 46.49,
+      "minPrice": 46.49,
+      "maxPrice": 46.49,
+      "medianPrice": 46.49,
+      "samples": [
+        46.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://ozbargain.com.au/node/985472": {
+      "currency": "USD",
+      "lastPrice": 973,
+      "minPrice": 973,
+      "maxPrice": 973,
+      "medianPrice": 973,
+      "regularMax": 1499,
+      "samples": [
+        973
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://forums.redflagdeals.com/viewtopic.php?p=41387327&t=2833865": {
+      "currency": "USD",
+      "lastPrice": 59.99,
+      "minPrice": 59.99,
+      "maxPrice": 59.99,
+      "medianPrice": 59.99,
+      "regularMax": 109.99,
+      "samples": [
+        59.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://forums.redflagdeals.com/viewtopic.php?p=41387308&t=2833862": {
+      "currency": "USD",
+      "lastPrice": 419,
+      "minPrice": 419,
+      "maxPrice": 419,
+      "medianPrice": 419,
+      "samples": [
+        419
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://forums.redflagdeals.com/viewtopic.php?p=41387306&t=2833861": {
+      "currency": "USD",
+      "lastPrice": 1.94,
+      "minPrice": 1.94,
+      "maxPrice": 1.94,
+      "medianPrice": 1.94,
+      "regularMax": 2.87,
+      "samples": [
+        1.94
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://forums.redflagdeals.com/viewtopic.php?p=41387303&t=2833860": {
+      "currency": "USD",
+      "lastPrice": 99,
+      "minPrice": 99,
+      "maxPrice": 99,
+      "medianPrice": 99,
+      "samples": [
+        99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=qABXj1mN4Hqv9P83I6qar1%252F0SUMV3%252FUrlFOLRRQ3tS0%253D": {
+      "currency": "USD",
+      "lastPrice": 4.85,
+      "minPrice": 4.85,
+      "maxPrice": 4.85,
+      "medianPrice": 4.85,
+      "regularMax": 99.99,
+      "samples": [
+        4.85
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=cefZQLjvGKTOXshTaqdtyKvglsechNWY4drsxnQSGDc%253D": {
+      "currency": "USD",
+      "lastPrice": 3.43,
+      "minPrice": 3.43,
+      "maxPrice": 3.43,
+      "medianPrice": 3.43,
+      "regularMax": 69.99,
+      "samples": [
+        3.43
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=c42dEU2heA4AThtMQajxPubBc%252BmGAf9%252BB53QG6rve7o%253D": {
+      "currency": "USD",
+      "lastPrice": 2.46,
+      "minPrice": 2.46,
+      "maxPrice": 2.46,
+      "medianPrice": 2.46,
+      "regularMax": 49.99,
+      "samples": [
+        2.46
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=uZopHvYiUN5ZCA3UoVTcCghGwBrud0iDc3bmmJTPzwk%253D": {
+      "currency": "USD",
+      "lastPrice": 2.46,
+      "minPrice": 2.46,
+      "maxPrice": 2.46,
+      "medianPrice": 2.46,
+      "regularMax": 49.99,
+      "samples": [
+        2.46
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=tKoeJQnnEjK%252BqposDOQJ8iEwKVQlMWFGf2oDtGYBggs%253D": {
+      "currency": "USD",
+      "lastPrice": 2.96,
+      "minPrice": 2.96,
+      "maxPrice": 2.96,
+      "medianPrice": 2.96,
+      "regularMax": 59.99,
+      "samples": [
+        2.96
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=MgekwO1hG%252BJ51WavvdykOtdxIzMNxakewg%252FHu1K9D8s%253D": {
+      "currency": "USD",
+      "lastPrice": 1.74,
+      "minPrice": 1.74,
+      "maxPrice": 1.74,
+      "medianPrice": 1.74,
+      "regularMax": 34.99,
+      "samples": [
+        1.74
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=iLyOOl%252FU2SSJX%252F6bQKO0yiED8bR4L0%252BLjxALyPvYb0A%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=ICV0L0NmwniVHpc4NjfQsDO5gRILOIkqPz05jfxFtCM%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=jorrBw%252B6tBsGXOvIN8XZmHUu3u3GwkMbrIugL3Qo4rE%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=FhBKK4XJ0dmqH9xN1YideiIrjTWPk6dXxgGVFlJzO7s%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=OsUSZuoIkuUAYaVA5nTsnE6DUo5kTEgIQKSyHDsINTA%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=ZRpXwBqOlnrJq2VLK2bkl0mSqWmqhrE5o1BanQrpBYo%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=MdNKCHJtNQx%252Bt3%252Fn6ApBQl%252BeQs39N7TymZj933ssCP0%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=tDR9WRCrua8gZv5ajVKHb%252B1KOFc5EUf%252Fqhxb4bXeCoI%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=xnchmvLvR6UgCB073IDgdTQxgy0yONcgFV%252Ftwe7iLX8%253D": {
+      "currency": "USD",
+      "lastPrice": 1.99,
+      "minPrice": 1.99,
+      "maxPrice": 1.99,
+      "medianPrice": 1.99,
+      "regularMax": 39.99,
+      "samples": [
+        1.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=O7Yl3vwvEd6Ol0inPOrUwMbigxJLR0xB%252BnoCjQcTCP8%253D": {
+      "currency": "USD",
+      "lastPrice": 2.49,
+      "minPrice": 2.49,
+      "maxPrice": 2.49,
+      "medianPrice": 2.49,
+      "regularMax": 49.99,
+      "samples": [
+        2.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=NxNkKIzOFpqjhVp4hsr3UzXQyJDCVn4HJm%252FqJOPAo1o%253D": {
+      "currency": "USD",
+      "lastPrice": 2.49,
+      "minPrice": 2.49,
+      "maxPrice": 2.49,
+      "medianPrice": 2.49,
+      "regularMax": 49.99,
+      "samples": [
+        2.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=j%252FU246DXHntGdAHE%252Bs7L9vf3eG5hSlaKgdTMffprrdE%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=7%252FHU1%252BWIamwNKZqg4KGB3HCPaoq%252BAHc12WX1QtYTLpM%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=3UVSSmrLVEnSi6jJtZ9RqvRehfbT8IYQ8nzBU7he9gs%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=W2rd9lEonIq42zDvHe5LrPMRFh8Z5M50GywvJvakUxc%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=iPxl%252BzZTHT2Wh5DyEcEmjPy8J1%252B5uJX7%252FazZN%252B6%252B1ig%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=tCnwlwDu4NxnbZupdm29oOj%252B%252B5MmTC5aJ0vQZiGPqTQ%253D": {
+      "currency": "USD",
+      "lastPrice": 2.99,
+      "minPrice": 2.99,
+      "maxPrice": 2.99,
+      "medianPrice": 2.99,
+      "regularMax": 59.99,
+      "samples": [
+        2.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=I%252BKyFHIkqTza%252FEM3EEeICP%252F0UyJGfB%252FXej9zQ%252BxEf6I%253D": {
+      "currency": "USD",
+      "lastPrice": 3.49,
+      "minPrice": 3.49,
+      "maxPrice": 3.49,
+      "medianPrice": 3.49,
+      "regularMax": 69.99,
+      "samples": [
+        3.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=vf0sKzOj0l0CO1%252FKMJQVcqannaMv13ODaHwAT2tqZAA%253D": {
+      "currency": "USD",
+      "lastPrice": 3.49,
+      "minPrice": 3.49,
+      "maxPrice": 3.49,
+      "medianPrice": 3.49,
+      "regularMax": 69.99,
+      "samples": [
+        3.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=3dl9bBL%252FTCGTKmcgIZK%252BoGiQwxhJnYZLOPbVtWzFy0U%253D": {
+      "currency": "USD",
+      "lastPrice": 3.49,
+      "minPrice": 3.49,
+      "maxPrice": 3.49,
+      "medianPrice": 3.49,
+      "regularMax": 69.99,
+      "samples": [
+        3.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=GQYhHzOtQcCuICwD5sXBHG91ZHdsyxYRQbVgR%252Bs4Kbc%253D": {
+      "currency": "USD",
+      "lastPrice": 3.49,
+      "minPrice": 3.49,
+      "maxPrice": 3.49,
+      "medianPrice": 3.49,
+      "regularMax": 69.99,
+      "samples": [
+        3.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=nmLs3gOcGvWP5JJ7uWcDB6MOiZdI0gE8tmDAcod6DiE%253D": {
+      "currency": "USD",
+      "lastPrice": 4.24,
+      "minPrice": 4.24,
+      "maxPrice": 4.24,
+      "medianPrice": 4.24,
+      "regularMax": 84.99,
+      "samples": [
+        4.24
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=R5%252BjR4JAIKfsladpdimmTohNsOEZvvqE%252Fd1PVTV6eUQ%253D": {
+      "currency": "USD",
+      "lastPrice": 4.49,
+      "minPrice": 4.49,
+      "maxPrice": 4.49,
+      "medianPrice": 4.49,
+      "regularMax": 89.99,
+      "samples": [
+        4.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=Sq38R25AnlmmDRXdmA%252BFMmLJ4crjxNxmlVFh5xXBMpE%253D": {
+      "currency": "USD",
+      "lastPrice": 4.99,
+      "minPrice": 4.99,
+      "maxPrice": 4.99,
+      "medianPrice": 4.99,
+      "regularMax": 99.99,
+      "samples": [
+        4.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=x9sPdlHkKso7HR7cc6%252Fo5AGZnAm5K7EAdnDknBAJoWY%253D": {
+      "currency": "USD",
+      "lastPrice": 4.99,
+      "minPrice": 4.99,
+      "maxPrice": 4.99,
+      "medianPrice": 4.99,
+      "regularMax": 99.99,
+      "samples": [
+        4.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=0FYcC7BTtTW3JgsIn9xI3iYIQj0xkWPg622AxkFvGlw%253D": {
+      "currency": "USD",
+      "lastPrice": 4.99,
+      "minPrice": 4.99,
+      "maxPrice": 4.99,
+      "medianPrice": 4.99,
+      "regularMax": 99.99,
+      "samples": [
+        4.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=UmG9SxcdeczsAFKDhB1t%252BEVJmTqpcGNM79I4%252FhDC9QA%253D": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "regularMax": 99.99,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=qETRLmcDGs5iw0saOodzvUuyiKmxl6aHHkmPnp7nOg8%253D": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "regularMax": 99.99,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=tgoizJLrmwbzR5Zj8j3F%252Fhc9TxYMIv7AtH31aRp6Li4%253D": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "regularMax": 99.99,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=iirL%252BohewxhLZZSW7iig94q3r286K4MCAiVCYnSS%252FZg%253D": {
+      "currency": "USD",
+      "lastPrice": 5,
+      "minPrice": 5,
+      "maxPrice": 5,
+      "medianPrice": 5,
+      "regularMax": 99.99,
+      "samples": [
+        5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=ER%252FfOp0PmIbG%252BkoMMkNkd8JljZgzqnQqdZLU%252Bz1MekQ%253D": {
+      "currency": "USD",
+      "lastPrice": 3.5,
+      "minPrice": 3.5,
+      "maxPrice": 3.5,
+      "medianPrice": 3.5,
+      "regularMax": 69.99,
+      "samples": [
+        3.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=nElHdz4mfGHOefEMRTpTnrjE5pvPoQzCxzW%252BG51Wd1s%253D": {
+      "currency": "USD",
+      "lastPrice": 3.5,
+      "minPrice": 3.5,
+      "maxPrice": 3.5,
+      "medianPrice": 3.5,
+      "regularMax": 69.99,
+      "samples": [
+        3.5
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=atVBzdCGbdc5VWjW6wtGCD%252Fa190qthDq45We4qtokmY%253D": {
+      "currency": "USD",
+      "lastPrice": 3.99,
+      "minPrice": 3.99,
+      "maxPrice": 3.99,
+      "medianPrice": 3.99,
+      "regularMax": 69.95,
+      "samples": [
+        3.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=Bq2LLzlAGJK5DYlt2NV7xu14hAR%252Fbw%252FkIiACu1nXROE%253D": {
+      "currency": "USD",
+      "lastPrice": 6.23,
+      "minPrice": 6.23,
+      "maxPrice": 6.23,
+      "medianPrice": 6.23,
+      "regularMax": 79.99,
+      "samples": [
+        6.23
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=IlslsB6jzX5j8mU8JSHse3u1e2o7lT378z2aA9nryMg%253D": {
+      "currency": "USD",
+      "lastPrice": 7.16,
+      "minPrice": 7.16,
+      "maxPrice": 7.16,
+      "medianPrice": 7.16,
+      "regularMax": 89.99,
+      "samples": [
+        7.16
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=TGM3P%252BJVNjWL9Uk3Ir11UutqCitIJxMa9X%252F2QSA827c%253D": {
+      "currency": "USD",
+      "lastPrice": 6.99,
+      "minPrice": 6.99,
+      "maxPrice": 6.99,
+      "medianPrice": 6.99,
+      "regularMax": 79.99,
+      "samples": [
+        6.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=FxJGIbeyeOrLnV9Y4R%252BZU4S2GRfQV8P2ZzUxekn7szM%253D": {
+      "currency": "USD",
+      "lastPrice": 6.99,
+      "minPrice": 6.99,
+      "maxPrice": 6.99,
+      "medianPrice": 6.99,
+      "regularMax": 79.99,
+      "samples": [
+        6.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=GNSJ6dbZbywWmATCo05yDhp1blGAr8g0CUAKcYgWnGA%253D": {
+      "currency": "USD",
+      "lastPrice": 7.83,
+      "minPrice": 7.83,
+      "maxPrice": 7.83,
+      "medianPrice": 7.83,
+      "regularMax": 89.99,
+      "samples": [
+        7.83
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=D%252Fvo4iP2dqX6%252Fm%252FuR7UIZEClDzwKKtL4d2%252FOekOD8rA%253D": {
+      "currency": "USD",
+      "lastPrice": 8.89,
+      "minPrice": 8.89,
+      "maxPrice": 8.89,
+      "medianPrice": 8.89,
+      "regularMax": 99.99,
+      "samples": [
+        8.89
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=0u0rE1jh3xf1ZWqOiUtoEHK13TJDDUW%252BheQieqn%252F4Yk%253D": {
+      "currency": "USD",
+      "lastPrice": 6.14,
+      "minPrice": 6.14,
+      "maxPrice": 6.14,
+      "medianPrice": 6.14,
+      "regularMax": 69.99,
+      "samples": [
+        6.14
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=4bi0xPGsE3hMrUaOxuqk%252FWLEm2McwYYd%252B2l2Wz4FRlw%253D": {
+      "currency": "USD",
+      "lastPrice": 8.68,
+      "minPrice": 8.68,
+      "maxPrice": 8.68,
+      "medianPrice": 8.68,
+      "regularMax": 99.99,
+      "samples": [
+        8.68
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=pL0ycMYPaE%252BwgqKKjSfUcEa3U1w8H9Zg6ao93asq7g0%253D": {
+      "currency": "USD",
+      "lastPrice": 3.48,
+      "minPrice": 3.48,
+      "maxPrice": 3.48,
+      "medianPrice": 3.48,
+      "regularMax": 69.51,
+      "samples": [
+        3.48
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=722MMT3nb71TKpZB4FJNgn4SRd6XWhEVmPvrM6H%252F5hU%253D": {
+      "currency": "USD",
+      "lastPrice": 1.39,
+      "minPrice": 1.39,
+      "maxPrice": 1.39,
+      "medianPrice": 1.39,
+      "regularMax": 19.99,
+      "samples": [
+        1.39
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=tbfhAnpKWgIw3AyPA%252BDmIaYpwSY8JzEReS2X69F3zo4%253D": {
+      "currency": "USD",
+      "lastPrice": 5.58,
+      "minPrice": 5.58,
+      "maxPrice": 5.58,
+      "medianPrice": 5.58,
+      "regularMax": 74.99,
+      "samples": [
+        5.58
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=OdCKe107lqKxgMVPq1CjObTbgF0lF3ewrwLsKibrAS8%253D": {
+      "currency": "USD",
+      "lastPrice": 5.9,
+      "minPrice": 5.9,
+      "maxPrice": 5.9,
+      "medianPrice": 5.9,
+      "regularMax": 69.99,
+      "samples": [
+        5.9
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=TuRQ6HOlQe%252FygkRY5JFvdCjk8RHc8Ey1S%252BhLLaylDQw%253D": {
+      "currency": "USD",
+      "lastPrice": 6.4,
+      "minPrice": 6.4,
+      "maxPrice": 6.4,
+      "medianPrice": 6.4,
+      "regularMax": 74.99,
+      "samples": [
+        6.4
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=OdeM7qNg%252BMU8PRSFbbLMRYEP33iCTpZ%252BoG1PLLyuG%252Bw%253D": {
+      "currency": "USD",
+      "lastPrice": 6.19,
+      "minPrice": 6.19,
+      "maxPrice": 6.19,
+      "medianPrice": 6.19,
+      "regularMax": 69.99,
+      "samples": [
+        6.19
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=ZLniwdY%252BXppO6gBCgyKEBZHHPbgDOGqeHSSJOzYSTbo%253D": {
+      "currency": "USD",
+      "lastPrice": 1.49,
+      "minPrice": 1.49,
+      "maxPrice": 1.49,
+      "medianPrice": 1.49,
+      "regularMax": 19.99,
+      "samples": [
+        1.49
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=QP6em8WtgtgOaxwGaGnzPv%252BQbXmJ1dYi9B%252B6ORb%252BuVk%253D": {
+      "currency": "USD",
+      "lastPrice": 7.99,
+      "minPrice": 7.99,
+      "maxPrice": 7.99,
+      "medianPrice": 7.99,
+      "regularMax": 89.99,
+      "samples": [
+        7.99
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=FSntRT8r4zzPEj51KfIIucloVbaMvIltw03ZFe79V2I%253D": {
+      "currency": "USD",
+      "lastPrice": 5.91,
+      "minPrice": 5.91,
+      "maxPrice": 5.91,
+      "medianPrice": 5.91,
+      "regularMax": 69.99,
+      "samples": [
+        5.91
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=o1xlhLpb3VyKF7qgLENW3eVPY0GWlZJTHsDUoEY%252FUvU%253D": {
+      "currency": "USD",
+      "lastPrice": 5.91,
+      "minPrice": 5.91,
+      "maxPrice": 5.91,
+      "medianPrice": 5.91,
+      "regularMax": 69.99,
+      "samples": [
+        5.91
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=0NreKZ%252BRouiLaNqOq%252BZa77aAXnwBJIOCyQ1leWqzSUA%253D": {
+      "currency": "USD",
+      "lastPrice": 5.91,
+      "minPrice": 5.91,
+      "maxPrice": 5.91,
+      "medianPrice": 5.91,
+      "regularMax": 69.99,
+      "samples": [
+        5.91
+      ],
+      "lastSeenAt": 1795599211690
+    },
+    "https://cheapshark.com/redirect?dealID=GbuwYYGcMsW8hFsmf9xqtSqxJDG2ePqShKtL%252B3hcgdM%253D": {
+      "currency": "USD",
+      "lastPrice": 5.91,
+      "minPrice": 5.91,
+      "maxPrice": 5.91,
+      "medianPrice": 5.91,
+      "regularMax": 69.99,
+      "samples": [
+        5.91
+      ],
+      "lastSeenAt": 1795599211690
     }
   }
 }
